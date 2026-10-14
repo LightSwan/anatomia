@@ -1,0 +1,284 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8"><title>Anatomía 3D</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700&display=swap">
+<style>
+:root{--bg:#07111f;--card2:#13243a;--ac:#4cc9f0;--ac2:#4895ef;--fg:#f1f5f9;--mu:#94a3b8;--bd:rgba(255,255,255,.09);--pn:rgba(16,29,46,.64);--ok:#34d399;--wa:#fbbf24;--bl:#60a5fa;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);--hh:150px}
+:root[data-theme="light"]{--bg:#f2f7f2;--card2:#eaf3ec;--ac:#3f8f6f;--ac2:#c98a4b;--fg:#2b3a32;--mu:#7f9188;--bd:rgba(43,58,50,.12);--pn:rgba(255,255,255,.72)}
+html{scroll-padding-top:env(safe-area-inset-top,0px);background:var(--bg)}
+html,body{height:100%;margin:0;background:transparent;color:var(--fg);font:14px 'Sora',system-ui,-apple-system,"Segoe UI",sans-serif;overflow:hidden;-webkit-user-select:none;user-select:none;-webkit-tap-highlight-color:transparent}
+html{background:var(--bg)}
+.bgw{position:fixed;inset:-60px;z-index:-1;pointer-events:none;background-size:600% 600%;animation:bgs 35s linear infinite;transition:opacity .7s ease;filter:blur(50px);transform:translateZ(0);will-change:transform,background-position}
+.bgd{background-image:linear-gradient(45deg,#03045e,#023e8a 50%,#7209b7);opacity:.5}.bgl{background-image:linear-gradient(45deg,#d9f2e1,#bfe3f5 50%,#e4d4f4);opacity:0}
+html[data-theme="light"] .bgd{opacity:0}html[data-theme="light"] .bgl{opacity:1}
+@keyframes bgs{0%{background-position:0% 50%}50%{background-position:100% 50%}100%{background-position:0% 50%}}
+canvas{position:fixed;inset:0;width:100%;height:100%;touch-action:none;display:block}
+.gl,#pn,#qz,#dn,.op,#st{background:var(--pn);-webkit-backdrop-filter:blur(18px) saturate(1.4);backdrop-filter:blur(18px) saturate(1.4);border:1px solid var(--bd);border-radius:18px}
+button,select,input{font:inherit;color:var(--fg)}
+button{background:var(--card2);border:1px solid var(--bd);border-radius:999px;padding:6px 13px;cursor:pointer;transition:.2s}
+button:active{transform:scale(.97)}
+.on{background:var(--ac)!important;border-color:var(--ac)!important;color:#07111f!important;font-weight:600}
+:root[data-theme="light"] .on{color:#fff!important}
+.row{display:flex;gap:6px;align-items:center}
+h1{font-size:17px;margin:0;font-weight:700;letter-spacing:.2px}.sub{font-size:11px;color:var(--mu);margin-top:1px}
+.seg{display:flex;border:1px solid var(--bd);border-radius:999px;overflow:hidden;background:var(--card2)}.seg button{border:0;border-radius:0;background:transparent;padding:5px 11px;font-size:12px}
+#top{position:fixed;top:0;left:0;right:0;padding:calc(env(safe-area-inset-top,0px) + 8px) 10px 0;pointer-events:none;z-index:3}
+#top>*{pointer-events:auto}.hd{padding:10px 12px;display:flex;flex-direction:column;gap:8px}
+.ic{padding:6px 10px}
+.tabs{display:flex;gap:6px}.tab{flex:1;padding:7px 6px;font-size:12.5px;font-weight:600;white-space:nowrap}
+#ctl{display:flex;flex-direction:column;gap:7px}#ctl.h{display:none}
+.sc{flex-wrap:wrap}.lbl{font-size:10.5px;letter-spacing:.8px;text-transform:uppercase;color:var(--mu);margin-bottom:-3px}
+#ly,#rg{display:flex;gap:6px;overflow-x:auto;scrollbar-width:none;padding-bottom:2px}#ly button,#rg button{white-space:nowrap;flex:none;font-size:12px;padding:5px 11px}
+#ly i{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:6px}
+#q{width:100%;box-sizing:border-box;padding:8px 12px;border-radius:12px;border:1px solid var(--bd);background:var(--card2);display:none}
+#rs{display:none;background:var(--card2);border:1px solid var(--bd);border-radius:12px;max-height:30vh;overflow:auto}#rs div{padding:8px 12px;border-bottom:1px solid var(--bd);cursor:pointer}#rs small{color:var(--mu)}
+#bt{position:fixed;left:0;right:0;bottom:0;padding:8px 10px calc(env(safe-area-inset-bottom,0px) + 6px);display:flex;flex-direction:column;gap:6px;pointer-events:none;z-index:2}#bt>*{pointer-events:auto}
+#pn,#qz{display:none;padding:12px 14px;max-height:44vh;overflow:auto}
+#pn h2{margin:0;font-size:16px}#pn em,#pn small{color:var(--mu)}#pn p,#qz p{margin:8px 0;white-space:pre-wrap;line-height:1.45;-webkit-user-select:text;user-select:text}
+.tg{display:flex;gap:6px;flex-wrap:wrap;margin:8px 0}.tg span,.tag{font-size:11px;border:1px solid var(--bd);background:rgba(255,255,255,.08);border-radius:999px;padding:2px 9px;white-space:nowrap}
+.op{display:flex;align-items:center;gap:8px;border-radius:999px;padding:4px 14px}.op input{flex:1;accent-color:var(--ac)}.op span{font-size:12px;color:var(--mu);min-width:92px;text-align:right}.op select{flex:1;background:var(--card2);border:1px solid var(--bd);border-radius:999px;padding:6px 10px}
+#dn{font-size:12px;color:var(--mu);padding:6px 12px;max-height:92px;overflow:auto;line-height:1.35}#dc{display:flex;align-items:center;margin-bottom:3px;color:var(--fg)}
+.sm{padding:2px 10px;font-size:12px;margin-left:10px}
+#cr{font-size:10px;color:var(--mu);text-align:center}
+#ld{position:fixed;top:50%;left:50%;transform:translate(-50%,-50%);background:var(--pn);padding:10px 18px;border-radius:999px;display:none;z-index:6}
+#qi,#mq,#sf{flex:1;min-width:0;box-sizing:border-box;padding:8px 12px;border-radius:12px;border:1px solid var(--bd);background:var(--card2);width:100%}
+#qz p#qf{margin:8px 0}
+#ml,#inf{display:none;position:fixed;inset:0;z-index:6;background:var(--bg);overflow:auto;padding:calc(env(safe-area-inset-top,0px) + 12px) 16px calc(env(safe-area-inset-bottom,0px) + 28px);line-height:1.5;-webkit-user-select:text;user-select:text}
+#ml h2,#inf h2{font-size:17px;margin:0}#inf h3{font-size:15px;margin:20px 0 6px;color:var(--ac)}#inf p,#inf li{font-size:13.5px;margin:6px 0}#inf ul{padding-left:18px;margin:6px 0}#inf a{color:var(--ac);word-break:break-all}
+#mq{margin:10px 0 4px}#mn{font-size:12px;color:var(--mu);margin:4px 0}#mr div{padding:9px 6px;border-bottom:1px solid var(--bd);cursor:pointer}#mr small{color:var(--mu)}
+#qd{display:none;position:fixed;inset:0;z-index:7;background:#0009;align-items:center;justify-content:center;padding:16px}#qd .card{background:var(--bg);color:var(--fg);border:1px solid var(--bd);border-radius:20px;padding:16px;max-width:420px;width:100%;box-sizing:border-box}#qd h2{font-size:18px;margin:0 0 6px}#qd p{margin:8px 0;line-height:1.4}#qd .mu{font-size:12px;color:var(--mu)}#qd .row{margin-top:10px}#qd .op{margin-top:8px}#qgo:disabled{opacity:.4}
+#st{display:none;position:fixed;left:10px;right:10px;top:calc(var(--hh) + 8px);bottom:calc(env(safe-area-inset-bottom,0px) + 10px);overflow:auto;padding:12px;z-index:2;-webkit-user-select:text;user-select:text}
+#sl{display:flex;gap:6px;overflow-x:auto;scrollbar-width:none;margin:10px 0}#sl button{white-space:nowrap;flex:none;font-size:12px;padding:5px 11px}
+.acc{margin:8px 0;border:1px solid var(--bd);border-radius:16px;overflow:hidden;background:rgba(255,255,255,.04)}
+.ah{display:flex;align-items:center;gap:10px;padding:13px 14px;cursor:pointer;background:var(--card2)}.ah b{flex:1;font-size:14px}.ct{font-size:11px;color:var(--mu)}.ar{font-size:11px;color:var(--ac);transition:transform .25s}
+.acc.open .ar{transform:rotate(180deg)}.ab{display:none}.acc.open .ab{display:block}
+.it{display:flex;align-items:center;gap:8px;flex-wrap:wrap;padding:10px 14px;border-top:1px solid var(--bd);cursor:pointer}.it:active{background:rgba(255,255,255,.06)}.it .nm{flex:1;min-width:150px;font-size:13px}
+.it .nm small{display:block;color:var(--mu);font-size:11px}.t1{background:rgba(52,211,153,.2)!important;color:var(--ok)}.t2{background:rgba(251,191,36,.2)!important;color:var(--wa)}.t3{background:rgba(96,165,250,.2)!important;color:var(--bl)}.nf{opacity:.55}
+body.study #ctl,body.study #bt{display:none!important}
+.q #dn,.q #dp,.q #cr,.q #pn{display:none!important}
+
+#top{padding:calc(env(safe-area-inset-top,0px) + 6px) 8px 0}.hd{padding:6px;gap:0;border-radius:16px}
+.tabs{gap:5px}.tab{flex:1 1 0;min-width:0;padding:8px 2px;font-size:12px;text-align:center}
+#t_a{flex:0 0 auto;padding:8px 12px}
+.ic{padding:5px 10px}
+#pn{max-height:none;overflow:visible;padding:10px 12px}#pn h2{font-size:15px;line-height:1.25;margin:0}#pn .ln{font-size:12px;margin-top:2px}
+#pn .pb{max-height:calc(34vh - 52px);overflow:auto;margin-top:6px}body.pc #pn .pb{display:none}
+#pn .tg{margin:6px 0}#pn p{margin:6px 0}
+#sp{position:fixed;left:8px;right:8px;top:calc(var(--hh) + 6px);z-index:3;pointer-events:none}#sp>*{pointer-events:auto}
+#q{margin:0;background:var(--pn);-webkit-backdrop-filter:blur(18px);backdrop-filter:blur(18px)}
+#rs{margin-top:6px;background:var(--pn);-webkit-backdrop-filter:blur(18px);backdrop-filter:blur(18px)}
+#mini{align-self:center;pointer-events:auto;font-size:11.5px;padding:5px 14px;background:var(--pn);-webkit-backdrop-filter:blur(14px);backdrop-filter:blur(14px)}
+#pn[style*="display: block"]~#mini{display:none}.q #mini,body.study #mini{display:none}
+#set{display:none;position:fixed;inset:0;z-index:8;background:#0006;align-items:flex-end;justify-content:center}#set.o{display:flex}
+.sheet{width:100%;max-width:560px;max-height:84vh;overflow:auto;border-radius:22px 22px 0 0;padding:14px 14px calc(env(safe-area-inset-bottom,0px) + 16px);background:var(--bg);border:1px solid var(--bd)}
+.sheet h2{font-size:16px;margin:0;flex:1}.sheet .sec{margin-top:14px}.sheet .lbl{margin:0 0 6px}
+.sheet #ly,.sheet #rg{flex-wrap:wrap;overflow:visible}
+.sheet .op,.sheet #dn{background:var(--card2);-webkit-backdrop-filter:none;backdrop-filter:none}.sheet #dn{margin-top:6px;border-radius:14px;max-height:120px}
+.sheet #cr{margin-top:16px;font-size:10.5px;line-height:1.4}
+.q #dn,.q #cr{display:block!important}.q #dp{display:flex!important}
+@media(min-width:700px){#set{align-items:center}.sheet{border-radius:22px}}
+</style></head><body>
+<div class="bgw bgd"></div><div class="bgw bgl"></div>
+<canvas id="c"></canvas>
+<div id="top"><div class="hd gl"><div class="tabs"><button id="t_m" class="tab on">Modelo</button><button id="t_s" class="tab">Estudio</button><button id="qb" class="tab">Quiz</button><button id="sb" class="tab">Buscar</button><button id="t_a" class="tab">⚙ Ajustes</button></div></div></div>
+<div id="sp"><input id="q" placeholder="Buscar estructura (bíceps, fémur, hígado…)" autocomplete="off"><div id="rs"></div></div>
+<section id="st"><input id="sf" placeholder="Filtrar por nombre…" autocomplete="off"><div id="sl"></div><div id="sa"></div></section>
+<div id="inf"><div class="row"><h2 style="flex:1">Información, limitaciones y fuentes</h2><button id="ix">✕</button></div>
+<h3>Por qué no hay un modelo de ambos sexos</h3>
+<p>Todo el modelo procede de Z-Anatomy, que se basa en BodyParts3D. Los dos representan a un varón adulto: la descripción de BodyParts3D habla de un modelo de cuerpo entero de un varón adulto, y el repositorio de Z-Anatomy lo indica como «Human male model».</p>
+<p>No he encontrado ningún atlas anatómico femenino completo con licencia abierta. Los modelos femeninos completos que aparecen son comerciales y su licencia no permite redistribuirlos dentro de una página web. Los abiertos son parciales, por ejemplo unos huesos del tren inferior de una mujer (BMFToolkit), que no encajan con el resto del modelo y no incluyen músculos ni órganos. No se ha inventado ni deformado anatomía para simular un cuerpo femenino.</p>
+<p>Para obtener una vista más neutra se ocultan 25 estructuras genitales masculinas: testículos, epidídimo, conductos deferentes, glándulas seminales, conductos eyaculadores, próstata, pene, uretra y sus vasos.</p>
+<h3>Limitaciones</h3>
+<ul>
+<li>Es la anatomía de un único varón adulto: huesos, músculos, pelvis y proporciones son masculinos. La vista neutra es solo parcial, y no hay variaciones por sexo, edad o individuo.</li>
+<li>Falta el aparato reproductor femenino (útero, ovarios, trompas y vagina).</li>
+<li>Todo el modelo usa la geometría original con su nivel de suavizado de acabado final. Las arterias, venas, nervios y conductos son curvas en el original y se han convertido a malla con su resolución original, sin simplificar.</li>
+<li>No se incluyen la piel, las regiones corporales, las inserciones musculares ni las etiquetas del modelo original.</li>
+<li>El modo Simple muestra una selección de estructuras principales. Huesos y articulaciones se muestran siempre completos.</li>
+<li>El slider de profundidad es un cálculo automático (distancia de cada estructura al exterior del conjunto de huesos, músculos y órganos), no una clasificación anatómica. Algún elemento puede quedar un paso más afuera o adentro de lo esperado.</li>
+<li>Los nombres en español proceden de la traducción de la Terminologia Anatomica incluida en Z-Anatomy. Cerca del 5 % de las estructuras no tiene traducción y aparece en inglés.</li>
+<li>Las fichas «Función y uso diario», cuando existen, están generadas por una IA (Claude). Son orientativas, pueden contener errores y no sustituyen a un libro de texto ni a un profesional sanitario.</li>
+<li>El riñón y el oído interno (por ejemplo cóclea y vestíbulo) proceden de fuentes con licencia no comercial (ver abajo). Por eso esta página es solo para uso educativo y no comercial.</li>
+<li>El modo «Low poly» carga versiones simplificadas de los modelos (unos 1,8 millones de triángulos en total, frente a unos 13 millones del modo Completa) y está pensado para móviles lentos. Pierde detalle fino, y los vasos y nervios se ven más burdos.</li>
+<li>Las lesiones y problemas frecuentes que aparecen en las fichas son información general y orientativa. No sustituyen el consejo de un profesional sanitario.</li>
+<li>La zona del cuerpo de cada estructura se toma de las colecciones del modelo y, si faltan, de su posición. Las estructuras largas (nervios, vasos, algunos músculos) pueden abarcar varias zonas y aquí figuran en una sola.</li>
+<li>No es una herramienta clínica ni de diagnóstico.</li>
+</ul>
+<h3>Fuentes y licencias</h3>
+<ul>
+<li><b>Z-Anatomy</b>: Gauthier Kervyn (diseño, 3D y anatomía) y Marcin Zielinski (script de Blender). Modelo 3D, estructuras y nomenclatura. Licencia CC BY-SA 4.0. <a href="https://github.com/Z-Anatomy/Models-of-human-anatomy" target="_blank" rel="noopener">github.com/Z-Anatomy/Models-of-human-anatomy</a></li>
+<li><b>BodyParts3D</b>: Database Center for Life Science (DBCLS), Kousaku Okubo. Modelo original en el que se basa Z-Anatomy. Licencia CC BY-SA 2.1 Japón, según la atribución de Z-Anatomy. Mitsuhashi N. et al., «BodyParts3D: 3D structure database for anatomical concepts», Nucleic Acids Research 37, D782–D785 (2009). <a href="https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html" target="_blank" rel="noopener">dbarchive.biosciencedbc.jp/en/bodyparts3d</a></li>
+<li><b>Traducción al español</b> de las estructuras anatómicas: Carlos Torres Villar, incluida en Z-Anatomy (nomenclatura Terminologia Anatomica).</li>
+<li><b>Materiales de terceros dentro de Z-Anatomy</b>: «Cranial Nerves and Foramina», University of Dundee (CAHID), CC BY 4.0. «Anatomy of the Inner Ear», University of Dundee School of Medicine, CC BY-NC-SA 4.0. «Kidney», Lissie Cowley, CC BY-NC 4.0.</li>
+<li><b>Cambios realizados</b> sobre el modelo original: conversión a formato web (glTF con compresión), aplicación del nivel de suavizado de acabado final, conversión de las curvas (arterias, venas, nervios y conductos) a malla con su resolución original, corrección de caras invertidas en las estructuras espejadas, y ocultación de las estructuras genitales masculinas. El conjunto se comparte bajo CC BY-SA 4.0, salvo las partes anteriores que conservan su licencia no comercial.</li>
+<li><b>Software</b>: three.js r128 (MIT); Blender 4.5 (GPL) para leer y convertir el modelo; meshoptimizer/gltfpack (MIT) para comprimirlo.</li>
+<li><b>Consultadas y no utilizadas</b>: BMFToolkit (Manish Sreenivasa y Daniel Gonzalez-Alvarado, Universidad de Heidelberg; huesos del tren inferior de una mujer, licencia zlib; <a href="https://github.com/manishsreenivasa/BMFToolkit" target="_blank" rel="noopener">github.com/manishsreenivasa/BMFToolkit</a>) por cubrir solo el tren inferior; PelvisAtlas (I-STAR Lab, Johns Hopkins University; <a href="https://github.com/I-STAR/PelvisAtlas" target="_blank" rel="noopener">github.com/I-STAR/PelvisAtlas</a>) por tener una licencia contradictoria y no garantizar que sea femenina; y un registro de Zenodo (21243923) que no se pudo verificar.</li>
+<li><b>Fichas de texto</b>: generadas por Claude (Anthropic).</li>
+</ul></div>
+
+<div id="ml"><div class="row"><h2 id="mh" style="flex:1"></h2><button id="mx">✕</button></div><input id="mq" placeholder="Filtrar la lista…" autocomplete="off"><p id="mn"></p><div id="mr"></div></div>
+<div id="qd"><div class="card"><h2>Quiz de músculos</h2><p>¿De qué músculos quieres que te pregunte? El modelo resaltará un músculo en naranja y tú escribes su nombre.</p>
+<div class="seg" style="display:inline-flex"><button id="q0">Simple</button><button id="q1">Avanzado</button></div><p class="mu">Simple: solo los músculos principales. Avanzado: todos los músculos del modelo.</p>
+<div class="op">Profundidad <input id="qdv" type="range" min="1" max="8" step="1"><span id="qdl"></span></div><p class="mu">Al bajar el paso se quitan capas desde fuera, y solo te preguntaré por los músculos que sigan visibles.</p>
+<div class="op">Zona <select id="qrg"></select></div><p id="qcn"></p><div class="row"><button id="qgo" class="on">Empezar</button><button id="qcl">Cancelar</button></div></div></div>
+<div id="ld">Cargando…</div>
+<div id="bt">
+ <div id="qz"><div class="row"><b id="qs" style="flex:1">Quiz · aciertos 0/0</b><button id="qset" class="sm" style="margin:0">Ajustes</button><button id="qx">✕</button></div>
+  <p id="qq"></p><div class="row"><input id="qi" placeholder="Escribe el nombre del músculo…" autocomplete="off" autocapitalize="off" spellcheck="false"><button id="qc" class="on">Comprobar</button></div>
+  <div class="row" style="margin-top:8px"><button id="qh" class="sm" style="margin:0">Pista</button><button id="qn" class="sm" style="margin:0">Ver respuesta</button></div><p id="qf"></p></div>
+ <div id="pn"><div class="row"><div style="flex:1;min-width:0"><h2 id="pt"></h2><div class="ln"><em id="pl"></em> <small id="pe"></small></div></div><button id="pc" class="ic" aria-label="Plegar">▾</button><button id="px" class="ic" aria-label="Cerrar">✕</button></div>
+  <div class="pb"><div class="tg" id="pg"></div><div class="row"><button id="bi">Aislar</button><button id="bh">Ocultar</button><button id="bf" class="on">Función y uso diario</button></div><p id="pf"></p></div></div>
+ <button id="mini">Ajustes</button>
+</div>
+<div id="set"><div class="sheet"><div class="row"><h2>Ajustes</h2><button id="sx" class="ic" aria-label="Cerrar">✕</button></div>
+ <div class="sec"><div class="lbl">Vista</div><div class="row sc"><div class="seg"><button id="m0">Simple</button><button id="m1" class="on">Avanzado</button></div><div class="seg"><button id="lq0" class="on">Completa</button><button id="lq1">Low poly</button></div></div></div>
+ <div class="sec"><div class="lbl">Capas</div><div id="ly"></div></div>
+ <div class="sec"><div class="lbl">Zona del cuerpo</div><div id="rg"></div></div>
+ <div class="sec"><div class="lbl">Profundidad</div><div class="op" id="dp">Capas <input id="dv" type="range" min="1" max="8" step="1" value="8"><span id="dl">Todo el cuerpo</span></div>
+  <div id="dn"><div id="dc"><b id="dt"></b><button id="dlst" class="sm">Ver lista</button></div><div id="dd"></div></div></div>
+ <div class="sec"><div class="lbl">Apariencia</div><div class="row"><div class="op" style="flex:1">Opacidad <input id="ov" type="range" min="15" max="100" value="100"></div><button id="th" class="ic" aria-label="Cambiar tema">◐ Tema</button></div></div>
+ <div class="row sec"><button id="inb">ℹ Información y fuentes</button><button id="rst">Restablecer</button></div>
+ <div id="cr">Modelo basado en anatomía de un varón adulto (Z-Anatomy / BodyParts3D, CC BY-SA). Toca una estructura para ver su ficha, arrastra para girar y pellizca para hacer zoom.</div>
+</div></div>
+
+<script src="https://cdn.jsdelivr.net/npm/three@0.128.0/build/three.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/controls/OrbitControls.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/loaders/GLTFLoader.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/libs/meshopt_decoder.js"></script>
+<script>const A={"articulaciones-s": 1, "articulaciones-x": 1, "cardiovascular-s": 1, "cardiovascular-x": 1, "huesos-s": 1, "huesos-x": 1, "linfatico-s": 1, "linfatico-x": 1, "musculos-s": 1, "musculos-x": 1, "nervioso-s": 1, "nervioso-x": 1, "visceras-s": 1, "visceras-x": 1, "huesos-lp": 1, "musculos-lp": 1, "articulaciones-lp": 1, "cardiovascular-lp": 1, "nervioso-lp": 1, "visceras-lp": 1, "linfatico-lp": 1};
+Promise.all([fetch("datos/estructuras.json").then(r=>r.json()),fetch("datos/fichas.json").then(r=>r.json()).catch(()=>({}))]).then(([META,FICHAS])=>{
+
+const $=id=>document.getElementById(id);
+const LY=[["huesos","Huesos","#d9d2bd"],["musculos","Músculos","#c2504a"],["articulaciones","Articulaciones","#d6b24a"],["cardiovascular","Circulatorio","#e0383e"],["nervioso","Nervioso","#f0c93c"],["visceras","Órganos","#d98a6b"],["linfatico","Linfático","#6fc27a"]];
+const SAN={};META.forEach(m=>SAN[THREE.PropertyBinding.sanitizeNodeName(m[0])]=m[0]);
+const FULL=["huesos","articulaciones"];const MALE=new Set(["Right testicular artery.r","Deep artery of penis.l","Dorsal artery of penis.r","Dorsal artery of penis.l","Right testicular vein","Deep dorsal vein of penis","Superficial dorsal veins of penis","Deep artery of penis.r","Left testicular artery","Left testicular vein","Urethra","Testis.r","Testis.l","Epididymis.r","Epididymis.l","Ductus deferens.l","Ductus deferens.r","Seminal gland.r","Seminal gland.l","Prostate","Ejaculatory duct.l","Ejaculatory duct.r","Glans penis","Corpus cavernosum of penis","Corpus spongiosum of penis"]);let showM=false;const LN=Object.fromEntries(LY.map(l=>[l[0],l[1]]));
+const M={};META.forEach(m=>M[m[0]]={id:m[0],es:m[1],la:m[2],en:m[3],side:m[4],ly:m[5],md:m[6],gr:m[7],lv:m[8],im:m[9],rg:m[10]});
+const IMP=["","★ Imprescindible","Importante","Secundario","De detalle","Estructura asociada"];
+function fk(id){return(M[id]||{}).en||id}
+function ft(k){let f=cache[k];if(!f)return"";if(typeof f=="string")return f;let s="";if(f.a){const g=cache[f.a]||{};s=g.m?"Parte de: "+(g.n||f.a)+"\n":"";f=g}return s+"Qué hace: "+f.fn+"\nEn la vida diaria: "+f.uso+"\nCuriosidad: "+f.cur+(f.les?"\nLesiones o problemas frecuentes: "+f.les+"\n(Información orientativa; ante dolor persistente consulta a un profesional sanitario.)":"")}
+let qa=false,qs=null,qmodel=false,lo=false,rgSel=null;
+let dv=7,adv=true,op=1,sel=null,iso=null,fit0=true;const on={huesos:1,musculos:1},parts={},mats={},meshes=[],hid=new Set(),by={},cache=FICHAS;
+const R=new THREE.WebGLRenderer({canvas:$("c"),antialias:true,alpha:true});R.setPixelRatio(Math.min(devicePixelRatio,3));
+const S=new THREE.Scene(),cam=new THREE.PerspectiveCamera(40,1,.01,30);cam.position.set(0,.9,3.2);
+S.add(new THREE.HemisphereLight(0xffffff,0x556070,.9));const dl=new THREE.DirectionalLight(0xffffff,.8);S.add(dl);
+const ct=new THREE.OrbitControls(cam,R.domElement);ct.enableDamping=true;ct.minDistance=.03;ct.maxDistance=8;ct.target.set(0,.9,0);
+const root=new THREE.Group();S.add(root);
+function rs(){R.setSize(innerWidth,innerHeight);cam.aspect=innerWidth/innerHeight;cam.updateProjectionMatrix()}addEventListener("resize",rs);rs();
+(function a(){requestAnimationFrame(a);ct.update();dl.position.copy(cam.position).add(new THREE.Vector3(1,2,1));R.render(S,cam)})();
+const SEL=new THREE.MeshStandardMaterial({color:0xff7a1a,emissive:0x6a2a00,roughness:.5,side:THREE.DoubleSide});
+function mat(l,n){const k=l+(/vein|vena/i.test(n)&&l=="cardiovascular"?"v":"");if(!mats[k]){mats[k]=new THREE.MeshStandardMaterial({color:k.endsWith("v")?"#3f6fd6":LY.find(x=>x[0]==l)[2],roughness:.6,metalness:0,side:THREE.DoubleSide,opacity:op})}return mats[k]}
+const ldr=new THREE.GLTFLoader();ldr.setMeshoptDecoder(MeshoptDecoder);
+function b2a(s){const b=atob(s),u=new Uint8Array(b.length);for(let i=0;i<b.length;i++)u[i]=b.charCodeAt(i);return u.buffer}
+function load(l,k){const q=lo,key=q?l+"-lp":l+"-"+k;if(!A[key])return Promise.resolve();if(parts[key])return parts[key];$("ld").style.display="block";
+ return parts[key]=fetch("modelos/"+key+".glb").then(r=>{if(!r.ok)throw new Error(key);return r.arrayBuffer()}).then(tx=>new Promise(res=>ldr.parse(tx,"",g=>{g.scene.traverse(o=>{if(o.isMesh){const n=SAN[o.parent.name]||SAN[o.name]||o.parent.name;o.geometry.computeVertexNormals();o.material=mat(l,n);o.userData={id:n,l,lv:M[n]?M[n].lv:7,lo:q};o.name=n;by[n]=o;meshes.push(o)}});
+  g.scene.userData={l,k:q?"a":k,lo:q};root.add(g.scene);if(fit0){fit0=false;fit()}$("ld").style.display="none";vis();res(g.scene)},e=>{console.error(e);$("ld").style.display="none";res()}))).catch(e=>{console.error(e);$("ld").style.display="none"})}
+function fit(){const b=new THREE.Box3().setFromObject(root),c=b.getCenter(new THREE.Vector3()),s=b.getSize(new THREE.Vector3());ct.target.copy(c);cam.position.set(c.x,c.y,c.z+Math.max(s.y,s.x)*1.6)}
+function vis(){root.children.forEach(g=>{const u=g.userData;g.visible=u.lo==lo&&!!on[u.l]&&(u.k=="s"||u.k=="a"||adv||FULL.includes(u.l))});meshes.forEach(m=>{m.visible=m.userData.lo==lo&&(rgSel==null||(M[m.userData.id]||{}).rg==rgSel)&&(!lo||adv||FULL.includes(m.userData.l)||(M[m.userData.id]||{}).md!="x")&&!hid.has(m.userData.id)&&(!iso||m===iso)&&m.userData.lv>=8-dv&&(showM||!MALE.has(m.userData.id))});cntUpd()}
+function need(){return Promise.all(LY.filter(l=>on[l[0]]).flatMap(l=>[load(l[0],"s")].concat(adv||FULL.includes(l[0])?[load(l[0],"x")]:[])))}
+function upd(){need().then(vis);vis();info();LY.forEach(l=>$("b_"+l[0]).classList.toggle("on",!!on[l[0]]))}
+LY.forEach(l=>{const b=document.createElement("button");b.id="b_"+l[0];b.innerHTML='<i style="background:'+l[2]+'"></i>'+l[1];b.onclick=()=>{on[l[0]]=!on[l[0]];upd()};$("ly").appendChild(b)});
+$("m0").onclick=()=>{adv=false;$("m0").classList.add("on");$("m1").classList.remove("on");upd()};
+$("m1").onclick=()=>{adv=true;$("m1").classList.add("on");$("m0").classList.remove("on");upd()};
+function setOp(){const dim=sel||iso||qs?Math.min(op,.3):op;Object.values(mats).forEach(m=>{const tr=dim<1;if(m.transparent!==tr){m.transparent=tr;m.needsUpdate=true}m.opacity=dim})}
+function info(){const lv=8-dv,s=new Set();META.forEach(m=>{if(m[5]=="musculos"&&m[8]==lv&&(adv||m[6]=="s"))s.add(m[1]||m[3])});const a=[...s].sort(),h="Paso "+dv+"/8 · ";
+ $("dd").textContent=a.length?h+"aparecen "+a.length+(lv==0?" fascias y envolturas":" músculos")+": "+a.slice(0,12).join(", ")+(a.length>12?" … y "+(a.length-12)+" más":"")+(dv>1?". Al bajar el slider se ocultan.":"."):h+(lv==0?"fascias y envolturas: solo existen en modo Avanzado.":"este paso no añade músculos en este modo.")}
+function vm(){const lv=8-dv;return META.filter(m=>m[5]=="musculos"&&on.musculos&&(rgSel==null||m[10]==rgSel)&&m[8]>=lv&&(adv||m[6]=="s")&&!hid.has(m[0])&&(!iso||iso.userData.id==m[0]))}
+const tmf=()=>META.filter(m=>m[5]=="musculos"&&(rgSel==null||m[10]==rgSel)).length;
+function cntUpd(){const c=vm().length+"/"+tmf();$("dt").textContent=c+" músculos visibles";$("mini").textContent=on.musculos?c+" músculos · Paso "+dv+"/8":"⚙ Ajustes"}
+function setDv(v){dv=v;$("dv").value=v;$("dl").textContent=v==8?"Todo el cuerpo":"Paso "+v+"/8";info();vis()}
+$("dv").oninput=e=>setDv(+e.target.value);
+$("ov").oninput=e=>{op=e.target.value/100;setOp()};
+function pick(m){if(sel)sel.material=sel.userData.om||sel.material;sel=m;if(m){m.userData.om=m.material;m.material=SEL;const i=M[m.userData.id]||{es:m.userData.id,la:"",en:m.userData.id,gr:"",side:""};
+ $("pt").textContent=i.es||i.en;$("pl").textContent=i.la;$("pe").textContent=i.es?"· "+i.en:"";$("pg").innerHTML=[LN[m.userData.l],i.gr,i.side=="l"?"Lado izquierdo":i.side=="r"?"Lado derecho":"",i.im?IMP[i.im]:"",ft(fk(m.userData.id))?"":"Sin ficha todavía"].filter(Boolean).map(t=>"<span>"+t+"</span>").join("");
+ $("pf").textContent=ft(fk(m.userData.id));$("bf").style.display=(ft(fk(m.userData.id))||typeof claude=="undefined")?"none":"";$("pn").style.display="block";document.body.classList.remove("pc");$("pc").textContent="▾"}else $("pn").style.display="none";setOp();vo()}
+function focus(m){const b=m.isBox3?m:new THREE.Box3().setFromObject(m),c=b.getCenter(new THREE.Vector3()),d=Math.max(...b.getSize(new THREE.Vector3()).toArray())*2.2+.06;cam.position.copy(c).add(cam.position.clone().sub(ct.target).normalize().multiplyScalar(d));ct.target.copy(c)}
+let dn=null;const cv=$("c");cv.addEventListener("pointerdown",e=>dn=[e.clientX,e.clientY]);
+cv.addEventListener("pointerup",e=>{if(qa||!dn||Math.hypot(e.clientX-dn[0],e.clientY-dn[1])>6)return;const rc=new THREE.Raycaster(),v=new THREE.Vector2(e.clientX/innerWidth*2-1,-(e.clientY/innerHeight)*2+1);rc.setFromCamera(v,cam);
+ const h=rc.intersectObjects(meshes.filter(m=>{for(let p=m;p;p=p.parent)if(!p.visible)return false;return true}),false)[0];pick(h?h.object:null)});
+$("px").onclick=()=>pick(null);
+$("bi").onclick=()=>{iso=iso?null:sel;$("bi").textContent=iso?"Mostrar todo":"Aislar";setOp();vis()};
+$("bh").onclick=()=>{if(sel){hid.add(sel.userData.id);pick(null);vis()}};
+$("rst").onclick=()=>{setRegion(null,true);setDv(7);hid.clear();iso=null;$("bi").textContent="Aislar";pick(null);vis();fit()};
+$("bf").onclick=async()=>{const id=sel.userData.id,i=M[id]||{es:id,en:id,la:""},p=$("pf");p.textContent="Consultando…";
+ try{const s=await claude.use("sample");if(!s){p.textContent="Las fichas con IA solo están disponibles dentro de Claude.";return}
+  const r=await s("Eres anatomista y docente. Estructura: "+(i.es||i.en)+" ("+i.la+"; "+i.en+"), sistema: "+LN[sel.userData.l]+". Responde en español, máximo 90 palabras, con exactamente dos apartados breves: «Qué hace:» y «En la vida diaria:» (ejemplos cotidianos concretos). Sin introducción ni avisos.",{modelTier:"quick"});
+  cache[fk(id)]=r.text;if(sel&&sel.userData.id==id){p.textContent=r.text;$("bf").style.display="none"}}catch(e){p.textContent="No se pudo generar la ficha ("+(e.code||"error")+")."}};
+$("sb").onclick=()=>{const q=$("q");q.style.display=q.style.display=="block"?"none":"block";if(q.style.display=="block")q.focus();else $("rs").style.display="none"};
+$("q").oninput=e=>{const t=e.target.value.toLowerCase().trim(),r=$("rs");if(t.length<2){r.style.display="none";return}
+ const h=META.filter(m=>(m[1]+" "+m[3]+" "+m[2]).toLowerCase().includes(t)&&(showM||!MALE.has(m[0]))).slice(0,8);r.innerHTML="";h.forEach(m=>{const d=document.createElement("div");d.innerHTML=(m[1]||m[3])+(m[4]?" ("+m[4].toUpperCase()+")":"")+"<br><small>"+LN[m[5]]+(m[6]=="x"?" · avanzado":"")+"</small>";
+  d.onclick=async()=>{setDv(8);on[m[5]]=1;if(m[6]=="x"&&!adv&&!FULL.includes(m[5]))$("m1").click();else upd();await need();r.style.display="none";const o=by[m[0]];if(o){pick(o);focus(o)}};r.appendChild(d)});r.style.display=h.length?"block":"none"};
+const nz=s=>s.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,"").replace(/[^a-z0-9 ]/g," ").replace(/\b(musculo|del|de|la|el|los|las)\b/g," ").replace(/\s+/g," ").trim();
+function lev(a,b){const d=[...Array(b.length+1).keys()];for(let i=1;i<=a.length;i++){let p=d[0];d[0]=i;for(let j=1;j<=b.length;j++){const t=d[j];d[j]=Math.min(d[j]+1,d[j-1]+1,p+(a[i-1]==b[j-1]?0:1));p=t}}return d[b.length]}
+const ALT={"G:gas":["gemelos","gemelo"],"G:gmax":["gluteo maximo"],"G:gmin":["gluteo minimo"],"G:recto":["recto abdominal","abdominal recto"],"G:dors":["latisimo del dorso","dorsal","latisimo"],"G:oc":["orbicular del ojo","orbicular de los parpados"],"G:oo":["orbicular de los labios"],"G:bic":["biceps"],"G:tric":["triceps"],"G:ecm":["ecm"],"G:romb":["romboides"],"G:serr":["serrato","serrato mayor"],"G:addm":["aductor magno"],"G:vl":["vasto externo"],"G:vm":["vasto interno"],"G:vi":["crural"],"G:oblext":["oblicuo mayor"],"G:oblint":["oblicuo menor"],"G:pect":["gran pectoral"],"G:zig":["cigomatico"],"G:ilia":["iliaco"],"G:erect":["erector espinal","erector de la columna","sacroespinal"],"G:tfl":["tensor de la fascia lata"],"G:brr":["supinador largo"],"G:intc":["intercostales"],"G:fib":["peroneos","peroneo largo"],"G:pl":["palmar mayor"],"G:fcr":["palmar mayor"],"G:esc":["escaleno","escalenos"],"G:tmaj":["redondo mayor"],"G:ql":["cuadrado lumbar"]}
+let qbag=[],qk=null,qh=0,qdone=false,qok=0,qn=0,qcA=true,qcD=7,qcR=-1;
+const GM={};Object.keys(FICHAS).forEach(x=>{const a=FICHAS[x].a;if(a)(GM[a]=GM[a]||[]).push(x)});
+const qElig=()=>META.filter(m=>m[5]=="musculos"&&(qcA||m[6]=="s")&&(qcR<0||m[10]==qcR)&&m[8]>=8-qcD);
+const qGroups=()=>{const s=new Set(qElig().map(m=>m[3]));return Object.keys(GM).filter(k=>FICHAS[k].fn&&GM[k].some(x=>s.has(x)))};
+const qok_=(v,k)=>{const a=nz(v);if(!a)return false;return [FICHAS[k].n].concat(ALT[k]||[]).some(t=>{t=nz(t);return a==t||(t.length>=6&&lev(a,t)<=(t.length>=12?2:1))})};
+function qMask(txt,k){const w=new Set([FICHAS[k].n].concat(ALT[k]||[]).flatMap(t=>nz(t).split(" ")).filter(x=>x.length>=4));return txt.split(/(\s+)/).map(t=>w.has(nz(t))?"▒▒▒":t).join("")}
+function qclear(){if(qs){qs.forEach(o=>{if(o.userData.om)o.material=o.userData.om});qs=null;setOp()}}
+async function qShow(k){const el=qElig().filter(m=>GM[k].includes(m[3])).map(m=>m[0]);on.musculos=1;upd();await need();if(k!=qk)return;
+ const ms=el.map(i=>by[i]).filter(Boolean);qs=new Set(ms);ms.forEach(o=>{o.userData.om=o.userData.om||o.material;o.material=SEL});setOp();const b=new THREE.Box3();ms.forEach(o=>b.union(new THREE.Box3().setFromObject(o)));if(!b.isEmpty())focus(b)}
+function qNext(){qclear();if(!qbag.length)qbag=qGroups().sort(()=>Math.random()-.5);if(!qbag.length){qk=null;$("qq").textContent="No hay músculos con ficha con esta configuración. Pulsa «Ajustes» y cambia el modo o la profundidad.";$("qf").textContent="";return}
+ qk=qbag.pop();qh=0;qdone=false;$("qi").value="";$("qf").textContent="";$("qn").textContent="Ver respuesta";$("qq").textContent="¿Qué músculo está resaltado en naranja? Gira el modelo para verlo desde distintos lados.";qShow(qk)}
+function qEnd(win){if(!qk)return;qdone=true;qn++;if(win)qok++;const g=FICHAS[qk];$("qf").textContent=(win?"✅ ¡Correcto! ":"Era: ")+g.n+"\nQué hace: "+g.fn+"\nEn la vida diaria: "+g.uso+"\nCuriosidad: "+g.cur+(g.les?"\nLesiones o problemas frecuentes: "+g.les:"");$("qn").textContent="Siguiente";$("qs").textContent="Quiz · aciertos "+qok+"/"+qn}
+function qCheck(){if(!qk)return;if(qdone)return qNext();if(!nz($("qi").value))return;if(qok_($("qi").value,qk))qEnd(true);else $("qf").textContent="❌ No es ese. Prueba otra vez, pide una pista o pulsa «Ver respuesta»."}
+function qdUpd(){$("q0").classList.toggle("on",!qcA);$("q1").classList.toggle("on",qcA);$("qdl").textContent=qcD==8?"Todo el cuerpo":"Paso "+qcD+"/8";const n=qGroups().length;$("qcn").textContent=n?"Te preguntaré por "+n+" músculos con esta configuración.":"No hay músculos con ficha con esta configuración. Cambia el modo o la profundidad.";$("qgo").disabled=!n}
+function qOpen(){qcA=adv;qcD=dv;qcR=rgSel==null?-1:rgSel;$("qrg").value=qcR;$("qdv").value=qcD;qdUpd();$("qd").style.display="flex"}
+$("qb").onclick=qOpen;$("qset").onclick=qOpen;
+$("q0").onclick=()=>{qcA=false;qdUpd()};$("q1").onclick=()=>{qcA=true;qdUpd()};$("qdv").oninput=e=>{qcD=+e.target.value;qdUpd()};
+$("qcl").onclick=()=>{$("qd").style.display="none"};
+$("qgo").onclick=()=>{$("qd").style.display="none";(qcA?$("m1"):$("m0")).click();setDv(qcD);on.musculos=1;upd();qa=true;pick(null);document.body.classList.add("q");$("qz").style.display="block";qok=qn=0;qbag=[];$("qs").textContent="Quiz · aciertos 0/0";qNext()};
+$("qx").onclick=()=>{qa=false;qclear();document.body.classList.remove("q");$("qz").style.display="none"};
+$("qc").onclick=qCheck;$("qi").onkeydown=e=>{if(e.key=="Enter")qCheck()};$("qn").onclick=()=>{if(!qk)return;qdone?qNext():qEnd(false)};
+$("qh").onclick=()=>{if(!qk||qdone)return;const g=FICHAS[qk],H=["Qué hace: "+g.fn,"Curiosidad: "+qMask(g.cur,qk),"Empieza por «"+g.n[0]+"» y tiene "+g.n.length+" letras."];$("qf").textContent="Pista: "+H[Math.min(qh++,H.length-1)]};
+
+function setLo(v){if(lo==v)return;pick(null);qclear();lo=v;$("lq1").classList.toggle("on",v);$("lq0").classList.toggle("on",!v);
+ [...root.children].filter(g=>g.userData.lo!=lo).forEach(g=>{g.traverse(o=>{if(o.isMesh){o.geometry.dispose();delete by[o.userData.id]}});root.remove(g);delete parts[g.userData.l+(g.userData.lo?"-lp":"-"+g.userData.k)]});
+ for(let i=meshes.length-1;i>=0;i--)if(meshes[i].userData.lo!=lo)meshes.splice(i,1);upd()}
+$("lq1").onclick=()=>setLo(true);$("lq0").onclick=()=>setLo(false);
+let ML=[];
+function mlRender(){const q=$("mq").value.toLowerCase().trim(),r=$("mr");r.innerHTML="";ML.filter(x=>!q||x.k.includes(q)).forEach(x=>{const d=document.createElement("div");d.innerHTML=x.n+(x.s?" <small>("+(x.s=="l"?"izq.":"der.")+")</small>":"")+(x.im<9?" <small>· "+IMP[x.im]+"</small>":"")+(x.f?"":" <small>· sin ficha</small>");d.onclick=async()=>{$("ml").style.display="none";await need();const o=by[x.id];if(o){pick(o);focus(o)}};r.appendChild(d)})}
+$("dlst").onclick=()=>{const v=vm();ML=v.map(m=>({id:m[0],n:m[1]||m[3],s:m[4],im:m[9]||9,f:ft(m[3])?1:0,k:((m[1]||"")+" "+m[3]).toLowerCase()})).sort((a,b)=>(a.im-b.im)||a.n.localeCompare(b.n,"es")||a.s.localeCompare(b.s));$("mh").textContent="Músculos visibles: "+v.length+"/"+tmf();$("mn").textContent="Incluye fascias, bolsas sinoviales y vainas tendinosas de la capa Músculos. Ordenados por importancia y luego alfabéticamente. Toca uno para localizarlo en el modelo.";$("mq").value="";mlRender();$("ml").style.display="block";$("ml").scrollTop=0};
+$("mq").oninput=mlRender;$("mx").onclick=()=>{$("ml").style.display="none"};
+$("inb").onclick=()=>{$("inf").style.display="block";$("inf").scrollTop=0};$("ix").onclick=()=>{$("inf").style.display="none"};
+
+const RG=["Cabeza","Cuello","Tórax","Columna y espalda","Abdomen","Pelvis","Hombro y brazo","Antebrazo y mano","Cadera y muslo","Pierna y pie"];
+function hh(){document.documentElement.style.setProperty("--hh",$("top").offsetHeight+"px")}
+function setTab(t){document.body.classList.toggle("study",t=="s");$("t_m").classList.toggle("on",t!="s");$("t_s").classList.toggle("on",t=="s");$("st").style.display=t=="s"?"block":"none";hh();if(t=="s")buildStudy()}
+$("t_m").onclick=()=>setTab("m");$("t_s").onclick=()=>setTab("s");addEventListener("resize",hh);
+const so=o=>$("set").classList.toggle("o",o);
+$("t_a").onclick=()=>so(true);$("sx").onclick=()=>so(false);$("set").onclick=e=>{if(e.target===$("set"))so(false)};$("mini").onclick=()=>so(true);
+function vo(){const open=$("pn").style.display=="block"&&!document.body.classList.contains("pc");if(open)cam.setViewOffset(innerWidth,innerHeight,0,Math.round(innerHeight*.2),innerWidth,innerHeight);else cam.clearViewOffset();cam.updateProjectionMatrix()}
+$("pc").onclick=()=>{document.body.classList.toggle("pc");$("pc").textContent=document.body.classList.contains("pc")?"▴":"▾";vo()};addEventListener("resize",vo);
+const ib0=$("inb").onclick;$("inb").onclick=()=>{so(false);ib0()};const dl0=$("dlst").onclick;$("dlst").onclick=()=>{so(false);dl0()};
+function setTheme(t){document.documentElement.dataset.theme=t;try{localStorage.setItem("th",t)}catch(e){}}
+let th0=null;try{th0=localStorage.getItem("th")}catch(e){}
+setTheme(th0||"dark");$("th").onclick=()=>setTheme(document.documentElement.dataset.theme=="dark"?"light":"dark");
+["Todo el cuerpo"].concat(RG).forEach((n,i)=>{const b=document.createElement("button");b.textContent=n;if(!i)b.className="on";b.onclick=()=>setRegion(i?i-1:null);$("rg").appendChild(b)});
+function setRegion(i,nf){rgSel=i;[...$("rg").children].forEach((b,j)=>b.classList.toggle("on",(i==null?0:i+1)==j));vis();
+ if(!nf)need().then(()=>{vis();if(i==null)fit();else{const b=new THREE.Box3();let n=0;meshes.forEach(m=>{if(m.visible){b.union(new THREE.Box3().setFromObject(m));n++}});if(n)focus(b)}})}
+(function(){const s=$("qrg");[[-1,"Todo el cuerpo"]].concat(RG.map((n,i)=>[i,n])).forEach(x=>{const o=document.createElement("option");o.value=x[0];o.textContent=x[1];s.appendChild(o)});s.onchange=e=>{qcR=+e.target.value;qdUpd()}})();
+let sLy=null;
+const sb0=$("sb").onclick;$("sb").onclick=()=>{setTab("m");sb0()};
+const qg0=$("qgo").onclick;$("qgo").onclick=()=>{setTab("m");setRegion(qcR<0?null:qcR,true);qg0()};
+async function goTo(m){setTab("m");setRegion(null,true);on[m[5]]=1;if(m[6]=="x"&&!adv&&!FULL.includes(m[5]))$("m1").click();setDv(8);upd();await need();const o=by[m[0]];if(o){pick(o);focus(o)}}
+function buildStudy(){const root=$("sa");root.innerHTML="";const q=nz($("sf").value||"");
+ const sl=$("sl");if(!sl.children.length){[[null,"Todas"]].concat(LY.map(l=>[l[0],l[1]])).forEach(x=>{const b=document.createElement("button");b.textContent=x[1];if(!x[0])b.className="on";b.onclick=()=>{sLy=x[0];[...sl.children].forEach(c=>c.classList.toggle("on",c===b));buildStudy()};sl.appendChild(b)})}
+ const LO=LY.map(l=>l[0]);
+ RG.forEach((n,ri)=>{const seen=new Map();
+  META.forEach(m=>{if(m[10]!=ri||MALE.has(m[0])||(sLy&&m[5]!=sLy)||(q&&!nz((m[1]||"")+" "+m[3]).includes(q)))return;const k=m[5]+"|"+m[3];if(!seen.has(k))seen.set(k,{m,s:new Set()});seen.get(k).s.add(m[4])});
+  const items=[...seen.values()].sort((a,b)=>LO.indexOf(a.m[5])-LO.indexOf(b.m[5])||((a.m[9]||9)-(b.m[9]||9))||((a.m[1]||a.m[3]).localeCompare(b.m[1]||b.m[3],"es")));
+  if(!items.length&&(q||sLy))return;
+  const nf=items.filter(x=>ft(x.m[3])).length,a=document.createElement("div");a.className="acc"+(q?" open":"");
+  a.innerHTML='<div class="ah"><b>'+n+'</b><span class="ct">'+items.length+' estructuras · '+nf+' con ficha</span><span class="ar">▼</span></div><div class="ab"></div>';
+  const body=a.querySelector(".ab");let built=false;
+  const fill=()=>{if(built)return;built=true;const fr=document.createDocumentFragment();items.forEach(x=>{const m=x.m,d=document.createElement("div"),f=ft(m[3]),sd=x.s.has("l")&&x.s.has("r")?" (izq. y der.)":x.s.has("l")?" (izq.)":x.s.has("r")?" (der.)":"";
+   d.className="it";d.innerHTML='<div class="nm">'+(m[1]||m[3])+sd+'<small>'+(m[2]||m[3])+'</small></div><span class="tag">'+LN[m[5]]+'</span>'+(m[9]&&m[5]=="musculos"?'<span class="tag t'+Math.min(m[9],3)+'">'+IMP[m[9]]+'</span>':"")+(f?"":'<span class="tag nf">sin ficha</span>');
+   d.onclick=()=>goTo(m);fr.appendChild(d)});body.appendChild(fr)};
+  a.querySelector(".ah").onclick=()=>{a.classList.toggle("open");fill()};if(q)fill();root.appendChild(a)})}
+$("sf").oninput=()=>buildStudy();
+hh();
+
+setDv(7);upd();
+
+}).catch(e=>{document.body.insertAdjacentHTML("beforeend","<p style='position:fixed;top:40%;left:0;right:0;text-align:center'>No se pudieron cargar los datos. Abre la página desde GitHub Pages o un servidor local, no haciendo doble clic en el archivo.</p>");console.error(e)});</script></body></html>
