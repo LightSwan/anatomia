@@ -1,0 +1,1688 @@
+﻿capa,nivel,nombre_es,nombre_en,estado,lesiones
+Huesos,Principal,Atlas (C1),Atlas (C1),con ficha,sí
+Huesos,Principal,Axis (C2),Axis (C2),con ficha,sí
+Huesos,Principal,Calcáneo,Calcaneus,con ficha,sí
+Huesos,,Cartílago alar mayor,Major alar cartilage,con ficha,sí
+Huesos,,Cartílago aritenoides,Arytenoid cartilage,con ficha,sí
+Huesos,,Cartílago corniculado,Corniculate cartilage,con ficha,sí
+Huesos,,Cartílago costal de la cuarta costilla,Costal cartilage of fourth rib,con ficha,sí
+Huesos,,Cartílago costal de la décima costilla,Costal cartilage of tenth rib,con ficha,sí
+Huesos,,Cartílago costal de la novena costilla,Costal cartilage of ninth rib,con ficha,sí
+Huesos,,Cartílago costal de la octava costilla,Costal cartilage of eighth rib,con ficha,sí
+Huesos,,Cartílago costal de la primera costilla,Costal cartilage of first rib,con ficha,sí
+Huesos,,Cartílago costal de la quinta costilla,Costal cartilage of fifth rib,con ficha,sí
+Huesos,,Cartílago costal de la segunda costilla,Costal cartilage of second rib,con ficha,sí
+Huesos,,Cartílago costal de la sexta costilla,Costal cartilage of sixth rib,con ficha,sí
+Huesos,,Cartílago costal de la séptima costilla,Costal cartilage of seventh rib,con ficha,sí
+Huesos,,Cartílago costal de la tercera costilla,Costal cartilage of third rib,con ficha,sí
+Huesos,,Cartílago cricoides,Cricoid cartilage,con ficha,sí
+Huesos,,Cartílago del septo nasal,Nasal septal cartilage,con ficha,sí
+Huesos,,Cartílago tiroideo,Thyroid cartilage,con ficha,sí
+Huesos,Principal,Clavícula,Clavicle,con ficha,sí
+Huesos,Principal,Cuarta costilla,Fourth rib,con ficha,sí
+Huesos,Principal,Cuarto hueso metacarpiano,Fourth metacarpal bone,con ficha,sí
+Huesos,Principal,Cuarto hueso metatarsiano,Fourth metatarsal bone,con ficha,sí
+Huesos,Principal,Cuerpo del esternón,Body of sternum,con ficha,sí
+Huesos,,Células óseas etmoidales etmoidales anteriores,Anterior cells of ethmoid bone,con ficha,sí
+Huesos,,Células óseas etmoidales etmoidales medias,Middle cells of ethmoid bone,con ficha,sí
+Huesos,,Células óseas etmoidales etmoidales posteriores,Posterior cells of ethmoid bone,con ficha,sí
+Huesos,Principal,Cóccix,Coccyx,con ficha,sí
+Huesos,,Diente canino inferior,Lower canine,con ficha,sí
+Huesos,,Diente canino superior,Upper canine,con ficha,sí
+Huesos,,Diente incisivo inferolateral,Lower lateral incisor,con ficha,sí
+Huesos,,Diente incisivo inferomedial,Lower medial incisor,con ficha,sí
+Huesos,,Diente incisivo superolateral,Upper lateral incisor,con ficha,sí
+Huesos,,Diente incisivo superomedial,Upper medial incisor,con ficha,sí
+Huesos,,Diente primer molar inferior,Lower first molar tooth,con ficha,sí
+Huesos,,Diente primer molar superior,Upper first molar tooth,con ficha,sí
+Huesos,,Diente primer premolar inferior,Lower first premolar,con ficha,sí
+Huesos,,Diente primer premolar superior,Upper first premolar,con ficha,sí
+Huesos,,Diente segundo molar inferior,Lower second molar tooth,con ficha,sí
+Huesos,,Diente segundo molar superior,Upper second molar tooth,con ficha,sí
+Huesos,,Diente segundo premolar inferior,Lower second premolar,con ficha,sí
+Huesos,,Diente segundo premolar superior,Upper second premolar,con ficha,sí
+Huesos,Principal,Duodécima costilla,Twelfth rib,con ficha,sí
+Huesos,Principal,Décima costilla,Tenth rib,con ficha,sí
+Huesos,Principal,Escápula,Scapula,con ficha,sí
+Huesos,,Estapedio,Stapes,con ficha,sí
+Huesos,,Falange distal del cuarto dedo de la mano,Distal phalanx of fourth finger of hand,con ficha,sí
+Huesos,,Falange distal del cuarto dedo del pie,Distal phalanx of fourth finger of foot,con ficha,sí
+Huesos,,Falange distal del primer dedo de la mano,Distal phalanx of first finger of hand,con ficha,sí
+Huesos,,Falange distal del primer dedo del pie,Distal phalanx of first finger of foot,con ficha,sí
+Huesos,,Falange distal del quinto dedo de la mano,Distal phalanx of fifth finger of hand,con ficha,sí
+Huesos,,Falange distal del quinto dedo del pie,Distal phalanx of fifth finger of foot,con ficha,sí
+Huesos,,Falange distal del segundo dedo de la mano,Distal phalanx of second finger of hand,con ficha,sí
+Huesos,,Falange distal del segundo dedo del pie,Distal phalanx of second finger of foot,con ficha,sí
+Huesos,,Falange distal del tercer dedo de la mano,Distal phalanx of third finger of hand,con ficha,sí
+Huesos,,Falange distal del tercer dedo del pie,Distal phalanx of third finger of foot,con ficha,sí
+Huesos,,Falange media del cuarto dedo de la mano,Middle phalanx of fourth finger of hand,con ficha,sí
+Huesos,,Falange media del cuarto dedo del pie,Middle phalanx of fourth finger of foot,con ficha,sí
+Huesos,,Falange media del quinto dedo de la mano,Middle phalanx of fifth finger of hand,con ficha,sí
+Huesos,,Falange media del quinto dedo del pie,Middle phalanx of fifth finger of foot,con ficha,sí
+Huesos,,Falange media del segundo dedo de la mano,Middle phalanx of second finger of hand,con ficha,sí
+Huesos,,Falange media del segundo dedo del pie,Middle phalanx of second finger of foot,con ficha,sí
+Huesos,,Falange media del tercer dedo de la mano,Middle phalanx of third finger of hand,con ficha,sí
+Huesos,,Falange media del tercer dedo del pie,Middle phalanx of third finger of foot,con ficha,sí
+Huesos,,Falange proximal del cuarto dedo de la mano,Proximal phalanx of fourth finger of hand,con ficha,sí
+Huesos,,Falange proximal del cuarto dedo del pie,Proximal phalanx of fourth finger of foot,con ficha,sí
+Huesos,,Falange proximal del primer dedo de la mano,Proximal phalanx of first finger of hand,con ficha,sí
+Huesos,,Falange proximal del primer dedo del pie,Proximal phalanx of first finger of foot,con ficha,sí
+Huesos,,Falange proximal del quinto dedo de la mano,Proximal phalanx of fifth finger of hand,con ficha,sí
+Huesos,,Falange proximal del quinto dedo del pie,Proximal phalanx of fifth finger of foot,con ficha,sí
+Huesos,,Falange proximal del segundo dedo de la mano,Proximal phalanx of second finger of hand,con ficha,sí
+Huesos,,Falange proximal del segundo dedo del pie,Proximal phalanx of second finger of foot,con ficha,sí
+Huesos,,Falange proximal del tercer dedo de la mano,Proximal phalanx of third finger of hand,con ficha,sí
+Huesos,,Falange proximal del tercer dedo del pie,Proximal phalanx of third finger of foot,con ficha,sí
+Huesos,Principal,Fíbula,Fibula,con ficha,sí
+Huesos,Principal,Hueso Fémur,Femur,con ficha,sí
+Huesos,Principal,Hueso Talo,Talus,con ficha,sí
+Huesos,,Hueso capitado,Capitate bone,con ficha,sí
+Huesos,Principal,Hueso cigomático,Zygomatic bone,con ficha,sí
+Huesos,,Hueso concha nasal inferior,Inferior nasal concha bone,con ficha,sí
+Huesos,Principal,Hueso coxal,Hip bone,con ficha,sí
+Huesos,,Hueso cuboide,Cuboid bone,con ficha,sí
+Huesos,,Hueso cuneiforme intermedio,Intermediate cuneiform bone,con ficha,sí
+Huesos,,Hueso cuneiforme lateral,Lateral cuneiform bone,con ficha,sí
+Huesos,,Hueso cuneiforme medial,Medial cuneiform bone,con ficha,sí
+Huesos,,Hueso escafoides,Scaphoid bone,con ficha,sí
+Huesos,Principal,Hueso esfenoide,Sphenoid bone,con ficha,sí
+Huesos,,Hueso etmoides,Ethmoid bone,con ficha,sí
+Huesos,Principal,Hueso frontal,Frontal bone,con ficha,sí
+Huesos,,Hueso hamatal,Hamate bone,con ficha,sí
+Huesos,Principal,Hueso hioides,Hyoid bone,con ficha,sí
+Huesos,,Hueso lagrimal,Lacrimal bone,con ficha,sí
+Huesos,,Hueso lunado,Lunate bone,con ficha,sí
+Huesos,Principal,Hueso maxilar,Maxilla,con ficha,sí
+Huesos,Principal,Hueso nasal,Nasal bone,con ficha,sí
+Huesos,,Hueso navicular,Navicular bone,con ficha,sí
+Huesos,Principal,Hueso occipital,Occipital bone,con ficha,sí
+Huesos,,Hueso palatino,Palatine bone,con ficha,sí
+Huesos,Principal,Hueso parietal,Parietal bone,con ficha,sí
+Huesos,,Hueso pisiforme,Pisiform bone,con ficha,sí
+Huesos,Principal,Hueso sacro,Sacrum,con ficha,sí
+Huesos,Principal,Hueso temporal,Temporal bone,con ficha,sí
+Huesos,,Hueso trapecio,Trapezium bone,con ficha,sí
+Huesos,,Hueso trapezoide,Trapezoid bone,con ficha,sí
+Huesos,,Hueso triquetral,Triquetrum bone,con ficha,sí
+Huesos,,Huesos sesamoideos del pie,Sesamoid bones of foot,con ficha,sí
+Huesos,Principal,Húmero,Humerus,con ficha,sí
+Huesos,,Incus,Incus,con ficha,sí
+Huesos,,Malleus,Malleus,con ficha,sí
+Huesos,Principal,Mandíbula,Mandible,con ficha,sí
+Huesos,Principal,Manubrio del esternón,Manubrium of sternum,con ficha,sí
+Huesos,Principal,Novena costilla,Ninth rib,con ficha,sí
+Huesos,Principal,Octava costilla,Eighth rib,con ficha,sí
+Huesos,Principal,Patela,Patella,con ficha,sí
+Huesos,Principal,Primer hueso metacarpiano,First metacarpal bone,con ficha,sí
+Huesos,Principal,Primer hueso metatarsiano,First metatarsal bone,con ficha,sí
+Huesos,Principal,Primera costilla,First rib,con ficha,sí
+Huesos,,Proceso lateral del cartílago septal nasal,Lateral process of nasal septal cartilage,con ficha,sí
+Huesos,Principal,Proceso xifoides,Xiphoid process,con ficha,sí
+Huesos,Principal,Quinta costilla,Fifth rib,con ficha,sí
+Huesos,Principal,Quinto hueso metacarpiano,Fifth metacarpal bone,con ficha,sí
+Huesos,Principal,Quinto hueso metatarsiano,Fifth metatarsal bone,con ficha,sí
+Huesos,Principal,Radio,Radius,con ficha,sí
+Huesos,Principal,Segunda costilla,Second rib,con ficha,sí
+Huesos,Principal,Segundo hueso metacarpiano,Second metacarpal bone,con ficha,sí
+Huesos,Principal,Segundo hueso metatarsiano,Second metatarsal bone,con ficha,sí
+Huesos,,Seno del hueso esfenoidal,Sinus of sphenoid bone,con ficha,sí
+Huesos,,Seno del hueso frontal,Sinus of frontal bone,con ficha,sí
+Huesos,Principal,Sexta costilla,Sixth rib,con ficha,sí
+Huesos,Principal,Séptima costilla,Seventh rib,con ficha,sí
+Huesos,Principal,Tercer hueso metacarpiano,Third metacarpal bone,con ficha,sí
+Huesos,Principal,Tercer hueso metatarsiano,Third metatarsal bone,con ficha,sí
+Huesos,Principal,Tercera costilla,Third rib,con ficha,sí
+Huesos,Principal,Tibia,Tibia,con ficha,sí
+Huesos,Principal,Ulna,Ulna,con ficha,sí
+Huesos,Principal,Undécima costilla,Eleventh rib,con ficha,sí
+Huesos,Principal,Vértebra C3,Vertebra C3,con ficha,sí
+Huesos,Principal,Vértebra C4,Vertebra C4,con ficha,sí
+Huesos,Principal,Vértebra C5,Vertebra C5,con ficha,sí
+Huesos,Principal,Vértebra C6,Vertebra C6,con ficha,sí
+Huesos,Principal,Vértebra C7,Vertebra C7,con ficha,sí
+Huesos,Principal,Vértebra L1,Vertebra L1,con ficha,sí
+Huesos,Principal,Vértebra L2,Vertebra L2,con ficha,sí
+Huesos,Principal,Vértebra L3,Vertebra L3,con ficha,sí
+Huesos,Principal,Vértebra L4,Vertebra L4,con ficha,sí
+Huesos,Principal,Vértebra L5,Vertebra L5,con ficha,sí
+Huesos,Principal,Vértebra T1,Vertebra T1,con ficha,sí
+Huesos,Principal,Vértebra T10,Vertebra T10,con ficha,sí
+Huesos,Principal,Vértebra T11,Vertebra T11,con ficha,sí
+Huesos,Principal,Vértebra T12,Vertebra T12,con ficha,sí
+Huesos,Principal,Vértebra T2,Vertebra T2,con ficha,sí
+Huesos,Principal,Vértebra T3,Vertebra T3,con ficha,sí
+Huesos,Principal,Vértebra T4,Vertebra T4,con ficha,sí
+Huesos,Principal,Vértebra T5,Vertebra T5,con ficha,sí
+Huesos,Principal,Vértebra T6,Vertebra T6,con ficha,sí
+Huesos,Principal,Vértebra T7,Vertebra T7,con ficha,sí
+Huesos,Principal,Vértebra T8,Vertebra T8,con ficha,sí
+Huesos,Principal,Vértebra T9,Vertebra T9,con ficha,sí
+Huesos,,Vómer,Vomer,con ficha,sí
+Músculos,Imprescindible,,Abdominal part of pectoralis major muscle,con ficha,sí
+Músculos,Imprescindible,Aductor mayor,Adductor magnus,con ficha,sí
+Músculos,Imprescindible,Cabeza corta del músculo bíceps femoral,Short head of biceps femoris,con ficha,sí
+Músculos,Imprescindible,Cabeza corta músculo del bíceps braquial,Short head of biceps brachii,con ficha,sí
+Músculos,Imprescindible,Cabeza larga del músculo bíceps braquial,Long head of biceps brachii,con ficha,sí
+Músculos,Imprescindible,Cabeza larga del músculo bíceps femoral,Long head of biceps femoris,con ficha,sí
+Músculos,Imprescindible,Cabeza larga del músculo tríceps braquial,Long head of triceps brachii,con ficha,sí
+Músculos,Imprescindible,Cabeza lateral del músculo gastrocnemio,Lateral head of gastrocnemius,con ficha,sí
+Músculos,Imprescindible,Cabeza lateral del músculo tríceps braquial,Lateral head of triceps brachii,con ficha,sí
+Músculos,Imprescindible,Cabeza medial del músculo gastrocnemio,Medial head of gastrocnemius,con ficha,sí
+Músculos,Imprescindible,Cabeza medial del músculo tríceps braquial,Medial head of triceps brachii,con ficha,sí
+Músculos,Imprescindible,Diafragma,Diaphragm,con ficha,sí
+Músculos,Imprescindible,Músculo braquial,Brachialis muscle,con ficha,sí
+Músculos,Imprescindible,Músculo cigomático mayor,Zygomaticus major muscle,con ficha,sí
+Músculos,Imprescindible,Músculo esternocleidomastoideo,Sternocleidomastoid muscle,con ficha,sí
+Músculos,Imprescindible,Músculo glúteo medio,Gluteus medius muscle,con ficha,sí
+Músculos,Imprescindible,Músculo glúteo máximo,Gluteus maximus muscle,con ficha,sí
+Músculos,Imprescindible,Músculo glúteo mínimo,Gluteus minimus muscle,con ficha,sí
+Músculos,Imprescindible,Músculo ilíaco,Iliacus muscle,con ficha,sí
+Músculos,Imprescindible,Músculo infraespinoso,Infraspinatus muscle,con ficha,sí
+Músculos,Imprescindible,Músculo latísimo del dorso,Latissimus dorsi muscle,con ficha,sí
+Músculos,Imprescindible,Músculo oblicuo externo del abdomen,External abdominal oblique muscle,con ficha,sí
+Músculos,Imprescindible,Músculo oblicuo interno del abdomen,Internal abdominal oblique muscle,con ficha,sí
+Músculos,Imprescindible,Músculo orbicular de la boca,Orbicularis oris muscle,con ficha,sí
+Músculos,Imprescindible,Músculo recto del abdomen,Rectus abdominis muscle,con ficha,sí
+Músculos,Imprescindible,Músculo recto femoral,Rectus femoris muscle,con ficha,sí
+Músculos,Imprescindible,Músculo redondo menor,Teres minor muscle,con ficha,sí
+Músculos,Imprescindible,Músculo romboides mayor,Rhomboid major muscle,con ficha,sí
+Músculos,Imprescindible,Músculo sartorio,Sartorius muscle,con ficha,sí
+Músculos,Imprescindible,Músculo semimembranoso,Semimembranosus muscle,con ficha,sí
+Músculos,Imprescindible,Músculo semitendinoso,Semitendinosus muscle,con ficha,sí
+Músculos,Imprescindible,Músculo serrato anterior,Serratus anterior muscle,con ficha,sí
+Músculos,Imprescindible,Músculo subescapular,Subscapularis muscle,con ficha,sí
+Músculos,Imprescindible,Músculo supraespinoso,Supraspinatus muscle,con ficha,sí
+Músculos,Imprescindible,Músculo sóleo,Soleus muscle,con ficha,sí
+Músculos,Imprescindible,Músculo temporal,Temporalis muscle,con ficha,sí
+Músculos,Imprescindible,Músculo tibial anterior,Tibialis anterior muscle,con ficha,sí
+Músculos,Imprescindible,Músculo transverso del abdomen,Transversus abdominis muscle,con ficha,sí
+Músculos,Imprescindible,Músculo vasto intermedio,Vastus intermedius muscle,con ficha,sí
+Músculos,Imprescindible,Músculo vasto lateral,Vastus lateralis muscle,con ficha,sí
+Músculos,Imprescindible,Músculo vasto medial,Vastus medialis muscle,con ficha,sí
+Músculos,Imprescindible,Parte palpebral del múculo orbicular del ojo,Palpebral part of orbicularis oculi,con ficha,sí
+Músculos,Imprescindible,Porción acromial del músculo deltoides,Acromial part of deltoid muscle,con ficha,sí
+Músculos,Imprescindible,Porción ascendente del músculo trapecio,Ascending part of trapezius muscle,con ficha,sí
+Músculos,Imprescindible,Porción clavicular del músculo deltoides,Clavicular part of deltoid muscle,con ficha,sí
+Músculos,Imprescindible,Porción clavicular del músculo pectoral mayor,Clavicular head of pectoralis major muscle,con ficha,sí
+Músculos,Imprescindible,Porción descendente del músculo trapecio,Descending part of trapezius muscle,con ficha,sí
+Músculos,Imprescindible,Porción espinal escapular del músculo deltoides,Scapular spinal part of deltoid muscle,con ficha,sí
+Músculos,Imprescindible,Porción esternocostal del músculo pectoral mayor,Sternocostal head of pectoralis major muscle,con ficha,sí
+Músculos,Imprescindible,Porción orbitaria del músculo orbicular del ojo,Orbital part of orbicularis oculi,con ficha,sí
+Músculos,Imprescindible,Porción profunda del masétero,Deep part of masseter,con ficha,sí
+Músculos,Imprescindible,Porción superficial del masétero,Superficial part of masseter,con ficha,sí
+Músculos,Imprescindible,Porción transversa del músculo trapecio,Transverse part of trapezius muscle,con ficha,sí
+Músculos,Imprescindible,Psoas mayor,Psoas major,con ficha,sí
+Músculos,Importante,Abductor largo del pulgar,Abductor pollicis longus,con ficha,sí
+Músculos,Importante,Aductor corto,Adductor brevis,con ficha,sí
+Músculos,Importante,Aductor largo,Adductor longus,con ficha,sí
+Músculos,Importante,Buccinador,Bucinator,con ficha,sí
+Músculos,Importante,Cabeza humeral del extensor ulnar del carpo,Humeral head of extensor carpi ulnaris,con ficha,sí
+Músculos,Importante,Cabeza humeral del flexor ulnar del carpo,Humeral head of flexor carpi ulnaris,con ficha,sí
+Músculos,Importante,Cabeza humeroulnar del flexor superficial de los dedos,Humero-ulnar head of flexor digitorum superficialis,con ficha,sí
+Músculos,Importante,Cabeza profunda del pronador redondo,Deep head of pronator teres,con ficha,sí
+Músculos,Importante,Cabeza radial del flexor superficial de los dedos,Radial head of flexor digitorum superficialis,con ficha,sí
+Músculos,Importante,Cabeza superficial del pronador redondo,Superficial head of pronator teres,con ficha,sí
+Músculos,Importante,Cabeza ulnar del extensor ulnar del carpo,Ulnar head of extensor carpi ulnaris,con ficha,sí
+Músculos,Importante,Cabeza ulnar del flexor ulnar del carpo,Ulnar head of flexor carpi ulnaris,con ficha,sí
+Músculos,Importante,Elevador de la escápula,Levator scapulae,con ficha,sí
+Músculos,Importante,Extensor de los dedos,Extensor digitorum,con ficha,sí
+Músculos,Importante,Extensor largo de los dedos,Extensor digitorum longus,con ficha,sí
+Músculos,Importante,Extensor largo del hállux,Extensor hallucis longus,con ficha,sí
+Músculos,Importante,Extensor largo del pulgar,Extensor pollicis longus,con ficha,sí
+Músculos,Importante,Extensor radial corto del carpo,Extensor carpi radialis brevis,con ficha,sí
+Músculos,Importante,Extensor radial largo del carpo,Extensor carpi radialis longus,con ficha,sí
+Músculos,Importante,Flexor largo del hállux,Flexor hallucis longus,con ficha,sí
+Músculos,Importante,Flexor largo del pulgar,Flexor pollicis longus,con ficha,sí
+Músculos,Importante,Flexor profundo de los dedos,Flexor digitorum profundus,con ficha,sí
+Músculos,Importante,Flexor radial del carpo,Flexor carpi radialis,con ficha,sí
+Músculos,Importante,Músculo ancóneo,Anconeus muscle,con ficha,sí
+Músculos,Importante,Músculo braquiorradial,Brachioradialis muscle,con ficha,sí
+Músculos,Importante,Músculo coracobraquial,Coracobrachialis muscle,con ficha,sí
+Músculos,Importante,Músculo cuadrado femoral,Quadratus femoris muscle,con ficha,sí
+Músculos,Importante,Músculo cuadrado lumbar,Quadratus lumborum muscle,con ficha,sí
+Músculos,Importante,Músculo escaleno anterior,Scalenus anterior muscle,con ficha,sí
+Músculos,Importante,Músculo escaleno medio,Scalenus medius muscle,con ficha,sí
+Músculos,Importante,Músculo espinal del tórax,Spinalis thoracis muscle,con ficha,sí
+Músculos,Importante,Músculo esplenio de la cabeza,Splenius capitis muscle,con ficha,sí
+Músculos,Importante,Músculo esplenio del cuello,Splenius colli muscle,con ficha,sí
+Músculos,Importante,Músculo fibular corto,Fibularis brevis muscle,con ficha,sí
+Músculos,Importante,Músculo fibular largo,Fibularis longus muscle,con ficha,sí
+Músculos,Importante,Músculo flexor largo de los dedos,Flexor digitorum longus,con ficha,sí
+Músculos,Importante,Músculo frontal,Frontalis muscle,con ficha,sí
+Músculos,Importante,Músculo grácil,Gracilis muscle,con ficha,sí
+Músculos,Importante,Músculo iliocostal del tórax,Iliocostalis thoracis muscle,con ficha,sí
+Músculos,Importante,Músculo iliocostal lumbar,Iliocostalis lumborum muscle,con ficha,sí
+Músculos,Importante,Músculo longísimo del tórax,Longissimus thoracis muscle,con ficha,sí
+Músculos,Importante,Músculo multifido lumbar,Multifidus lumborum muscle,con ficha,sí
+Músculos,Importante,Músculo palmar largo,Palmaris longus muscle,con ficha,sí
+Músculos,Importante,Músculo pectoral menor,Pectoralis minor muscle,con ficha,sí
+Músculos,Importante,Músculo pectíneo,Pectineus muscle,con ficha,sí
+Músculos,Importante,Músculo piriforme,Piriformis muscle,con ficha,sí
+Músculos,Importante,Músculo poplíteo,Popliteus muscle,con ficha,sí
+Músculos,Importante,Músculo redondo mayor,Teres major muscle,con ficha,sí
+Músculos,Importante,Músculo romboides menor,Rhomboid minor muscle,con ficha,sí
+Músculos,Importante,Músculo serrato posterior inferior,Serratus posterior inferior muscle,con ficha,sí
+Músculos,Importante,Músculo subclavio,Subclavius muscle,con ficha,sí
+Músculos,Importante,Músculo tibial posterior,Tibialis posterior muscle,con ficha,sí
+Músculos,Importante,Músculos intercostales externos,External intercostal muscles,con ficha,sí
+Músculos,Importante,Músculos intercostales internos,Internal intercostal muscles,con ficha,sí
+Músculos,Importante,Obturador externo,Obturator externus,con ficha,sí
+Músculos,Importante,Obturador interno,Obturator internus,con ficha,sí
+Músculos,Importante,Supinador,Supinator,con ficha,sí
+Músculos,Importante,Tensor de la fascia lata,Tensor fasciae latae,con ficha,sí
+Músculos,Secundario,,Adductor minimus,con ficha,sí
+Músculos,Secundario,Depresor del labio inferior,Depressor labii inferioris,con ficha,sí
+Músculos,Secundario,Depresor del septo nasal,Depressor septi nasi,con ficha,sí
+Músculos,Secundario,Depresor del ángulo oral,Depressor anguli oris,con ficha,sí
+Músculos,Secundario,Elevador del angulo de la boca,Levator anguli oris,con ficha,sí
+Músculos,Secundario,Elevador del labio superior,Levator labii superioris,con ficha,sí
+Músculos,Secundario,Elevador nasolabial,Levator nasolabialis,con ficha,sí
+Músculos,Secundario,Extensor del índice,Extensor indicis,con ficha,sí
+Músculos,Secundario,Músculo cigomático menor,Zygomaticus minor muscle,con ficha,sí
+Músculos,Secundario,Músculo corrugador del supercilio,Corrugator supercilii,con ficha,sí
+Músculos,Secundario,Músculo escaleno posterior,Scalenus posterior muscle,con ficha,sí
+Músculos,Secundario,Músculo fibular tercero,Fibularis tertius muscle,con ficha,sí
+Músculos,Secundario,Músculo gemelo inferior,Inferior gemellus muscle,con ficha,sí
+Músculos,Secundario,Músculo gemelo superior,Superior gemellus muscle,con ficha,sí
+Músculos,Secundario,Músculo mental,Mentalis muscle,con ficha,sí
+Músculos,Secundario,Músculo nasal,Nasalis muscle,con ficha,sí
+Músculos,Secundario,Músculo occipital,Occipitalis muscle,con ficha,sí
+Músculos,Secundario,Músculo piramidal,Pyramidalis muscle,con ficha,sí
+Músculos,Secundario,Músculo plantar,Plantaris muscle,con ficha,sí
+Músculos,Secundario,Músculo prócero,Procerus muscle,con ficha,sí
+Músculos,Secundario,Músculo risorio,Risorius muscle,con ficha,sí
+Músculos,Secundario,Músculo temporoparietal,Temporoparietalis muscle,con ficha,sí
+Músculos,Secundario,Músculos intercostales íntimos,Innermost intercostal muscles,con ficha,sí
+Músculos,Secundario,Platisma,Platysma,con ficha,sí
+Músculos,Secundario,Pronador cuadrado,Pronator quadratus,con ficha,sí
+Músculos,De detalle,Abductor corto del pulgar,Abductor pollicis brevis,pendiente,
+Músculos,De detalle,Abductor del dedo mínimo de la mano,Abductor digiti minimi of hand,pendiente,
+Músculos,De detalle,Abductor del dedo mínimo del pie,Abductor digiti minimi of foot,pendiente,
+Músculos,De detalle,Abductor del hállux,Abductor hallucis,pendiente,
+Músculos,De detalle,Cabeza inferior del músculo pterigoideo lateral,Inferior head of lateral pterygoid muscle,pendiente,
+Músculos,De detalle,Cabeza lateral del flexor corto del hállux,Lateral head of flexor hallucis brevis,pendiente,
+Músculos,De detalle,Cabeza medial del flexor corto del hállux,Medial head of flexor hallucis brevis,pendiente,
+Músculos,De detalle,Cabeza oblicua del aductor del hállux,Oblique head of adductor hallucis,pendiente,
+Músculos,De detalle,Cabeza oblicua del aductor del pulgar,Oblique head of adductor pollicis,pendiente,
+Músculos,De detalle,Cabeza profunda del flexor corto del pulgar,Deep head of flexor pollicis brevis,pendiente,
+Músculos,De detalle,Cabeza superficial del flexor corto del pulgar,Superficial head of flexor pollicis brevis,pendiente,
+Músculos,De detalle,Cabeza superior del músculo pterigoideo lateral,Superior head of lateral pterygoid muscle,pendiente,
+Músculos,De detalle,Cabeza transversa del aductor del hállux,Transverse head of adductor hallucis,pendiente,
+Músculos,De detalle,Cabeza transversa del aductor del pulgar,Transverse head of adductor pollicis,pendiente,
+Músculos,De detalle,Constrictor inferior de la faringe,Inferior pharyngeal constrictor,pendiente,
+Músculos,De detalle,Constrictor medio de la faringe,Middle pharyngeal constrictor,pendiente,
+Músculos,De detalle,Constrictor superior de la faringe,Superior pharyngeal constrictor,pendiente,
+Músculos,De detalle,Elevador del párpado superior,Levator palpebrae superioris,pendiente,
+Músculos,De detalle,Elevadores cortos de las costillas,Levatores breves costarum,pendiente,
+Músculos,De detalle,Elevadores largos de las costillas,Levatores longi costarum,pendiente,
+Músculos,De detalle,Esfínter anal externo,External anal sphincter,pendiente,
+Músculos,De detalle,Extensor corto de los dedos,Extensor digitorum brevis,pendiente,
+Músculos,De detalle,Extensor corto del hállux,Extensor hallucis brevis,pendiente,
+Músculos,De detalle,Extensor corto del pulgar,Extensor pollicis brevis,pendiente,
+Músculos,De detalle,Extensor del dedo mínimo,Extensor digiti minimi,pendiente,
+Músculos,De detalle,Flexor corto de los dedos,Flexor digitorum brevis,pendiente,
+Músculos,De detalle,Flexor del dedo mínimo de la mano,Flexor digiti minimi of hand,pendiente,
+Músculos,De detalle,Flexor del dedo mínimo del pie,Flexor digiti minimi of foot,pendiente,
+Músculos,De detalle,Músculo aritenoideo transverso,Transverse arytenoid muscle,pendiente,
+Músculos,De detalle,Músculo coccígeo,Coccygeus muscle,pendiente,
+Músculos,De detalle,Músculo crico-aritenoideo posterior,Posterior crico-arytenoid muscle,pendiente,
+Músculos,De detalle,Músculo cricoaritenoideo lateral,Lateral crico-arytenoid muscle,pendiente,
+Músculos,De detalle,Músculo cuadrado plantar,Quadratus plantae muscle,pendiente,
+Músculos,De detalle,Músculo espinal de la cabeza,Spinalis capitis muscle,pendiente,
+Músculos,De detalle,Músculo espinal del cuello,Spinalis colli muscle,pendiente,
+Músculos,De detalle,Músculo esternohioideo,Sternohyoid muscle,pendiente,
+Músculos,De detalle,Músculo esternotiroideo,Sternothyroid muscle,pendiente,
+Músculos,De detalle,Músculo estilofaríngeo,Stylopharyngeus muscle,pendiente,
+Músculos,De detalle,Músculo estilohioideo,Stylohyoid muscle,pendiente,
+Músculos,De detalle,Músculo geniogloso,Genioglossus muscle,pendiente,
+Músculos,De detalle,Músculo geniohioideo,Geniohyoid muscle,pendiente,
+Músculos,De detalle,Músculo hiogloso,Hyoglossus muscle,pendiente,
+Músculos,De detalle,Músculo iliococcígeo,Iliococcygeus muscle,pendiente,
+Músculos,De detalle,Músculo iliocostal del cuello,Iliocostalis colli muscle,pendiente,
+Músculos,De detalle,Músculo largo de la cabeza,Longus capitis muscle,pendiente,
+Músculos,De detalle,Músculo largo del cuello,Longus colli muscle,pendiente,
+Músculos,De detalle,Músculo longísimo de la cabeza,Longissimus capitis muscle,pendiente,
+Músculos,De detalle,Músculo longísmo del cuello,Longissimus colli muscle,pendiente,
+Músculos,De detalle,Músculo milohioideo,Mylohyoid muscle,pendiente,
+Músculos,De detalle,Músculo multifido del cuello,Multifidus colli muscle,pendiente,
+Músculos,De detalle,Músculo multifido del tórax,Multifidus thoracis muscle,pendiente,
+Músculos,De detalle,Músculo oblicuo inferior de la cabeza,Obliquus inferior capitis muscle,pendiente,
+Músculos,De detalle,Músculo oblicuo inferior del bulbo ocular,Inferior oblique muscle,pendiente,
+Músculos,De detalle,Músculo oblicuo superior de la cabeza,Obliquus superior capitis muscle,pendiente,
+Músculos,De detalle,Músculo oblicuo superior del bulbo ocular,Superior oblique muscle,pendiente,
+Músculos,De detalle,Músculo omohioideo,Omohyoid muscle,pendiente,
+Músculos,De detalle,Músculo oponente del dedo mínimo de la mano,Opponens digiti minimi muscle of hand,pendiente,
+Músculos,De detalle,Músculo oponente del pulgar,Opponens pollicis muscle,pendiente,
+Músculos,De detalle,Músculo palatofaríngeo,Palatopharyngeus muscle,pendiente,
+Músculos,De detalle,Músculo pterigoideo medial,Medial pterygoid muscle,pendiente,
+Músculos,De detalle,Músculo puboanal,Pubo-analis muscle,pendiente,
+Músculos,De detalle,Músculo pubococcígeo,Pubococcygeus muscle,pendiente,
+Músculos,De detalle,Músculo recto anterior de la cabeza,Rectus anterior capitis muscle,pendiente,
+Músculos,De detalle,Músculo recto inferior,Inferior rectus muscle,pendiente,
+Músculos,De detalle,Músculo recto lateral,Lateral rectus muscle,pendiente,
+Músculos,De detalle,Músculo recto lateral de la cabeza,Rectus lateralis capitis muscle,pendiente,
+Músculos,De detalle,Músculo recto medial,Medial rectus muscle,pendiente,
+Músculos,De detalle,Músculo recto posterior mayor de la cabeza,Rectus posterior major capitis muscle,pendiente,
+Músculos,De detalle,Músculo recto posterior menor de la cabeza,Rectus posterior minor capitis muscle,pendiente,
+Músculos,De detalle,Músculo recto superior,Superior rectus muscle,pendiente,
+Músculos,De detalle,Músculo semiespinoso del cuello,Semispinalis colli muscle,pendiente,
+Músculos,De detalle,Músculo semiespinoso del tórax,Semispinalis thoracis muscle,pendiente,
+Músculos,De detalle,Músculo serrato posterior superior,Serratus posterior superior muscle,pendiente,
+Músculos,De detalle,Músculo tirohioideo,Thyrohyoid muscle,pendiente,
+Músculos,De detalle,Músculo transverso del tórax,Transversus thoracis muscle,pendiente,
+Músculos,De detalle,Músculos interespinosos del cuello,Interspinales colli muscles,pendiente,
+Músculos,De detalle,Músculos interespinosos del tórax,Interspinales thoracis muscles,pendiente,
+Músculos,De detalle,Músculos interespinosos lumbares,Interspinales lumborum muscles,pendiente,
+Músculos,De detalle,Músculos interóseos dorsales de la mano,Dorsal interossei muscles of hand,pendiente,
+Músculos,De detalle,Músculos interóseos dorsales del pie,Dorsal interossei muscles of foot,pendiente,
+Músculos,De detalle,Músculos interóseos palmares,Palmar interossei muscles,pendiente,
+Músculos,De detalle,Músculos interóseos plantares,Plantar interossei muscles,pendiente,
+Músculos,De detalle,Músculos lumbricales de la mano,Lumbrical muscles of hand,pendiente,
+Músculos,De detalle,Músculos lumbricales del pie,Lumbrical muscles of foot,pendiente,
+Músculos,De detalle,,Opponens digiti minimi muscle of foot,pendiente,
+Músculos,De detalle,Partes dorsales de los m. lumbares intertransversarios lat.,Dorsal parts of lateral intertransversarii lumborum muscles,pendiente,
+Músculos,De detalle,Partes ventrales de los m. lumbares intertransvarios lat.,Ventral parts of lateral intertransversarii lumborum muscles,pendiente,
+Músculos,De detalle,Porción ariepiglótica del músculo aritenoideo oblicuo,Ary-epiglottic part of oblique arytenoid muscle,pendiente,
+Músculos,De detalle,Porción externa del músculo tiroaritenoideo,External part of thyro-arytenoid muscle,pendiente,
+Músculos,De detalle,Porción oblicua del músculo cricotiroideo,Oblique part of cricothyroid muscle,pendiente,
+Músculos,De detalle,Porción recta del músculo cricotiroideo,Straight part of cricothyroid muscle,pendiente,
+Músculos,De detalle,Porción tiroepiglótica del músculo tiroaritenoideo,Thyro-epiglottic part of thyro-arytenoid muscle,pendiente,
+Músculos,De detalle,Rotadores,Rotatores,pendiente,
+Músculos,De detalle,Vientre anterior del músculo digástrico,Anterior belly of digastric muscle,pendiente,
+Músculos,De detalle,Vientre posterior del músculo digástrico,Posterior belly of digastric muscle,pendiente,
+Músculos,Estructura asociada,(Bolsa prepatelar subtendinosa),Subtendinous prepatellar bursa,pendiente,
+Músculos,Estructura asociada,Anillo tendinoso común,Common tendinous ring,pendiente,
+Músculos,Estructura asociada,Aponeurosis epicraneal,Epicranial aponeurosis,pendiente,
+Músculos,Estructura asociada,Aponeurosis palmar,Palmar aponeurosis,pendiente,
+Músculos,Estructura asociada,Aponeurosis plantar,Plantar aponeurosis,pendiente,
+Músculos,Estructura asociada,Arco iliopectinato,Iliopectineal arch,pendiente,
+Músculos,Estructura asociada,Arco tendinoso del elevador del ano,Tendinous arch of levator ani,pendiente,
+Músculos,Estructura asociada,Bolsa anserina,Anserine bursa,pendiente,
+Músculos,Estructura asociada,Bolsa bicipitoradial,Bicipitoradial bursa,pendiente,
+Músculos,Estructura asociada,Bolsa calcánea subcutánea,Subcutaneous calcaneal bursa,pendiente,
+Músculos,Estructura asociada,Bolsa calcánea subtendinosa,Subtendinous calcaneal bursa,pendiente,
+Músculos,Estructura asociada,Bolsa del musculo semimembranoso,Semimembranosus bursa,pendiente,
+Músculos,Estructura asociada,Bolsa del músculo piriforme,Bursa of piriformis muscle,pendiente,
+Músculos,Estructura asociada,Bolsa infrapatelar profunda,Deep infrapatellar bursa,pendiente,
+Músculos,Estructura asociada,Bolsa isquiática del músculo glúteo máximo,Sciatic bursa of gluteus maximus muscle,pendiente,
+Músculos,Estructura asociada,Bolsa isquiática del obturador interno,Sciatic bursa of obturator internus,pendiente,
+Músculos,Estructura asociada,Bolsa prepatelar subcutánea,Subcutaneous prepatellar bursa,pendiente,
+Músculos,Estructura asociada,Bolsa subacromial,Subacromial bursa,pendiente,
+Músculos,Estructura asociada,Bolsa subcutánea de la tuberosidad de la tibia,Subcutaneous bursa of tuberosity of tibia,pendiente,
+Músculos,Estructura asociada,Bolsa subcutánea del maléolo lateral,Subcutaneous bursa of lateral malleolus,pendiente,
+Músculos,Estructura asociada,Bolsa subcutánea del maléolo medial,Subcutaneous bursa of medial malleolus,pendiente,
+Músculos,Estructura asociada,Bolsa subcutánea infrapatelar,Subcutaneous infrapatellar bursa,pendiente,
+Músculos,Estructura asociada,Bolsa subdeltoidea,Subdeltoid bursa,pendiente,
+Músculos,Estructura asociada,Bolsa subtendinosa del músculo infraespinoso,Subtendinous bursa of infraspinatus muscle,pendiente,
+Músculos,Estructura asociada,Bolsa subtendinosa del músculo redondo mayor,Subtendinous bursa of teres major muscle,pendiente,
+Músculos,Estructura asociada,Bolsa subtendinosa del músculo trapecio,Subtendinous bursa of trapezius muscle,pendiente,
+Músculos,Estructura asociada,Bolsa subtendinosa del músculo tríceps braquial,Subtendinous bursa of triceps brachii muscle,pendiente,
+Músculos,Estructura asociada,Bolsa subtendínea del músculo sartorio,Subtendinous bursa of sartorius muscle,pendiente,
+Músculos,Estructura asociada,Bolsa subtendínea del músculo tibial anterior,Subtendinous bursa of tibialis anterior,pendiente,
+Músculos,Estructura asociada,Bolsa subtendínea del obturador interno,Subtendinous bursa of obturator internus,pendiente,
+Músculos,Estructura asociada,Bolsa subtendínea ilíaca,Subtendinous bursa of iliacus muscle,pendiente,
+Músculos,Estructura asociada,Bolsa subtendínea inferior del músculo bíceps femoral,Inferior subtendinous bursa of biceps femoris muscle,pendiente,
+Músculos,Estructura asociada,Bolsa subtendínea lateral del músculo gastrocnemio,Lateral subtendinous bursa of gastrocnemius muscle,pendiente,
+Músculos,Estructura asociada,Bolsa subtendínea medial del músculo gastrocnemio,Medial subtendinous bursa of gastrocnemius muscle,pendiente,
+Músculos,Estructura asociada,Bolsa superior del músculo bíceps femoral,Superior bursa of biceps femoris muscle,pendiente,
+Músculos,Estructura asociada,Bolsa suprapatelar,Suprapatellar bursa,pendiente,
+Músculos,Estructura asociada,Bolsa trocantérica del músculo glúteo máximo,Trochanteric bursa of gluteus maximus muscle,pendiente,
+Músculos,Estructura asociada,Bolsa trocantérica del músculo glúteo mínimo,Trochanteric bursa of gluteus minimus muscle,pendiente,
+Músculos,Estructura asociada,Bolsa trocantérica subcutánea,Subcutaneous trochanteric bursa,pendiente,
+Músculos,Estructura asociada,Bolsas glúteas intermusculares,Intermuscular gluteal bursae,pendiente,
+Músculos,Estructura asociada,,Coracobrachial bursa,pendiente,
+Músculos,Estructura asociada,,Cruciform part of fibrous sheath of digit of hand,pendiente,
+Músculos,Estructura asociada,Fascia antebraquial,Antebrachial fascia,pendiente,
+Músculos,Estructura asociada,Fascia braquial,Brachial fascia,pendiente,
+Músculos,Estructura asociada,Fascia clavipectoral,Clavipectoral fascia,pendiente,
+Músculos,Estructura asociada,Fascia crural,Crural fascia,pendiente,
+Músculos,Estructura asociada,Fascia de revestimiento del abdomen,Investing abdominal fascia,pendiente,
+Músculos,Estructura asociada,Fascia de revestimiento superficial del cuello,Superficial investing cervical fascia,pendiente,
+Músculos,Estructura asociada,Fascia del iliopsoas,Iliopsoas fascia,pendiente,
+Músculos,Estructura asociada,Fascia del músculo piriforme,Piriformis fascia,pendiente,
+Músculos,Estructura asociada,Fascia deltoidea,Deltoid fascia,pendiente,
+Músculos,Estructura asociada,Fascia diafragmática,Diaphragmatic fascia,pendiente,
+Músculos,Estructura asociada,Fascia dorsal de la mano,Dorsal fascia of hand,pendiente,
+Músculos,Estructura asociada,Fascia lata,Fascia lata,pendiente,
+Músculos,Estructura asociada,Fascia masetérica,Masseteric fascia,pendiente,
+Músculos,Estructura asociada,Fascia pectoral,Pectoral fascia,pendiente,
+Músculos,Estructura asociada,Fascia poplítea,Popliteal fascia,pendiente,
+Músculos,Estructura asociada,Fascia transversal,Transversalis fascia,pendiente,
+Músculos,Estructura asociada,,Iliopectineal bursa,pendiente,
+Músculos,Estructura asociada,Ligamento inguinal,Inguinal ligament,pendiente,
+Músculos,Estructura asociada,Ligamento metacarpiano transverso superficial,Superficial transverse metacarpal ligament,pendiente,
+Músculos,Estructura asociada,Ligamento metatarsiano transverso superficial,Superficial transverse metatarsal ligament,pendiente,
+Músculos,Estructura asociada,Linea alba,Linea alba,pendiente,
+Músculos,Estructura asociada,Lámina anterior de la fascia toracolumbar,Anterior layer of thoracolumbar fascia,pendiente,
+Músculos,Estructura asociada,Lámina media de la fascia toracolumbar,Middle layer of thoracolumbar fascia,pendiente,
+Músculos,Estructura asociada,Lámina posterior de la fascia toracolumbar,Posterior layer of thoracolumbar fascia,pendiente,
+Músculos,Estructura asociada,Lámina superficial de la fascia temporal,Superficial layer of temporal fascia,pendiente,
+Músculos,Estructura asociada,Retináculo de los extensores del carpo,Extensor retinaculum of wrist,pendiente,
+Músculos,Estructura asociada,Retináculo de los flexores del carpo,Flexor retinaculum of wrist,pendiente,
+Músculos,Estructura asociada,Retináculo de los flexores del tobillo,Flexor retinaculum of ankle,pendiente,
+Músculos,Estructura asociada,Retináculo fibular inferior,Inferior fibular retinaculum,pendiente,
+Músculos,Estructura asociada,Retináculo fibular superior,Superior fibular retinaculum,pendiente,
+Músculos,Estructura asociada,Retináculo inferior de los extensores del tobillo,Inferior extensor retinaculum of ankle,pendiente,
+Músculos,Estructura asociada,Retináculo patelar lateral,Lateral patellar retinaculum,pendiente,
+Músculos,Estructura asociada,Retináculo patelar medial,Medial patellar retinaculum,pendiente,
+Músculos,Estructura asociada,Retináculo superior de los extensores del tobillo,Superior extensor retinaculum of ankle,pendiente,
+Músculos,Estructura asociada,Septo intermuscular anterior de la pierna,Anterior intermuscular septum of leg,pendiente,
+Músculos,Estructura asociada,Septo intermuscular femoral lateral,Lateral femoral intermuscular septum,pendiente,
+Músculos,Estructura asociada,Septo intermuscular femoral medial,Medial femoral intermuscular septum,pendiente,
+Músculos,Estructura asociada,Septo intermuscular lateral del brazo,Lateral intermuscular septum of arm,pendiente,
+Músculos,Estructura asociada,Septo intermuscular medial del brazo,Medial intermuscular septum of arm,pendiente,
+Músculos,Estructura asociada,Septo intermuscular posterior de la pierna,Posterior intermuscular septum of leg,pendiente,
+Músculos,Estructura asociada,Septo intermuscular transverso de la pierna,Transverse intermuscular septum of leg,pendiente,
+Músculos,Estructura asociada,,Subcutaneous acromial bursa,pendiente,
+Músculos,Estructura asociada,,Subfacial prepatellar bursa,pendiente,
+Músculos,Estructura asociada,Tarso inferior,Inferior tarsus,pendiente,
+Músculos,Estructura asociada,Tarso superior,Superior tarsus,pendiente,
+Músculos,Estructura asociada,,Tendon sheath of extensor digiti minimi manus,pendiente,
+Músculos,Estructura asociada,,Tendon sheath of extensors carpi radialis,pendiente,
+Músculos,Estructura asociada,Tendón calcáneo,Calcaneal tendon,pendiente,
+Músculos,Estructura asociada,Tendón del extensor largo de los dedos,Tendon of extensor digitorum longus,pendiente,
+Músculos,Estructura asociada,Tendón intermedio del músculo digástrico,Intermediate tendon of digastric muscle,pendiente,
+Músculos,Estructura asociada,Tracto iliotibial,Iliotibial tract,pendiente,
+Músculos,Estructura asociada,,Trochanteric bursa of gluteus medius muscle,pendiente,
+Músculos,Estructura asociada,Tróclea del músculo oblicuo superior,Trochlea of superior oblique muscle,pendiente,
+Músculos,Estructura asociada,Vaina del tendón flexor común,Common flexor tendon sheath,pendiente,
+Músculos,Estructura asociada,Vaina del tendón intertubercular,Intertubercular tendon sheath,pendiente,
+Músculos,Estructura asociada,Vaina tendinosa común de los músculos fibulares,Common tendon sheath of fibularis muscles,pendiente,
+Músculos,Estructura asociada,Vaina tendinosa de los ext. de los dedos y el index,Tendon sheath of extensor digitorum and extensor indicis,pendiente,
+Músculos,Estructura asociada,Vaina tendinosa del abductor largo y ext. corto del pulgar,Tendon sheath - abd. pollicis longus - ext. pollicis brevis,pendiente,
+Músculos,Estructura asociada,Vaina tendinosa del extensor largo de los dedos,Tendon sheath of extensor digitorum longus,pendiente,
+Músculos,Estructura asociada,Vaina tendinosa del extensor largo del hállux,Tendon sheath of extensor hallucis longus,pendiente,
+Músculos,Estructura asociada,Vaina tendinosa del extensor largo del pulgar,Tendon sheath of extensor pollicis longus,pendiente,
+Músculos,Estructura asociada,Vaina tendinosa del extensor ulnar del carpo,Tendon sheath of extensor carpi ulnaris,pendiente,
+Músculos,Estructura asociada,Vaina tendinosa del flexor largo de los dedos,Tendon sheath of flexor digitorum longus,pendiente,
+Músculos,Estructura asociada,Vaina tendinosa del flexor largo del hállux,Tendon sheath of flexor hallucis longus,pendiente,
+Músculos,Estructura asociada,Vaina tendinosa del flexor largo del pulgar,Tendon sheath of flexor pollicis longus,pendiente,
+Músculos,Estructura asociada,Vaina tendinosa del flexor radial del carpo,Tendon sheath of flexor carpi radialis,pendiente,
+Músculos,Estructura asociada,Vaina tendinosa del músculo tibial anterior,Tendon sheath of tibialis anterior,pendiente,
+Músculos,Estructura asociada,Vaina tendinosa del músculo tibial posterior,Tendon sheath of tibialis posterior muscle,pendiente,
+Músculos,Estructura asociada,Vaina tendinosa plantar del músculo fibular largo,Plantar tendon sheath of fibularis longus muscle,pendiente,
+Músculos,Estructura asociada,Vainas sinoviales de los dedos de la mano,Synovial sheaths of digits of hand,pendiente,
+Articulaciones,,Capsula articular de la articulacion glenohumeral,Articular capsule of glenohumeral joint,con ficha,sí
+Articulaciones,,Capsulas articulares de las art. interfalangeas distales,Articular capsules of distal interphalangeal joints,con ficha,sí
+Articulaciones,,Capsulas articulares de las art. interfalangeas proximales,Articular capsules of proximal interphalangeal joints,con ficha,sí
+Articulaciones,,Capsulas articulares de las articulaciones metatarsofalangeas,Articular capsules of metatarsophalangeal joints,con ficha,sí
+Articulaciones,,Cartílago trirradiado,Triradiate cartilage,con ficha,sí
+Articulaciones,,Cordón oblicuo,Oblique cord,con ficha,sí
+Articulaciones,,Cuerpo adiposo infrapatelar,Infrapatellar fat pad,con ficha,sí
+Articulaciones,,Cápsula articular de la art. interfalángica del hallux,Articular capsule of interphalangeal joint of great toe,con ficha,sí
+Articulaciones,,Cápsula articular de la articulación acromioclavicular,Articular capsule of acromioclavicular joint,con ficha,sí
+Articulaciones,,Cápsula articular de la articulación de la cadera,Articular capsule of hip joint,con ficha,sí
+Articulaciones,,Cápsula articular de la articulación de la rodilla,Articular capsule of knee joint,con ficha,sí
+Articulaciones,,Cápsula articular de la articulación del codo,Articular capsule of elbow joint,con ficha,sí
+Articulaciones,,Cápsula articular de la articulación esternoclavicular,Articular capsule of sternoclavicular joint,con ficha,sí
+Articulaciones,,Cápsula articular de la articulación radiocarpiana,Articular capsule of radiocarpal joint,con ficha,sí
+Articulaciones,,Cápsula articular de la articulación temporomandibular,Articular capsule of temporomandibular joint,con ficha,sí
+Articulaciones,,Cápsula articular de la articulación tibioperonea superior,Articular capsule of superior tibiofibular joint,con ficha,sí
+Articulaciones,,Cápsulas art. de las art. interfalángicas dist. del pie,Articular capsules of distal interphalangeal joints of foot,con ficha,sí
+Articulaciones,,Cápsulas art. de las art. interfalángicas prox. del pie,Articular capsules of proximal interphalangeal joints of foot,con ficha,sí
+Articulaciones,,Cápsulas articulares de las art. metacarpofalángicas,Articular capsules of metacarpophalangeal joints,con ficha,sí
+Articulaciones,,Disco articular de la articulación acromioclavicular,Articular disc of acromioclavicular joint,con ficha,sí
+Articulaciones,,Disco articular de la articulación esternoclavicular,Articular disc of sternoclavicular joint,con ficha,sí
+Articulaciones,,Disco articular de la articulación radio-ulnar distal,Articular disc of distal radio-ulnar joint,con ficha,sí
+Articulaciones,,Disco articular de la articulación temporomandibular,Articular disc of temporomandibular joint,con ficha,sí
+Articulaciones,,Disco interpúbico,Interpubic disc,con ficha,sí
+Articulaciones,,Disco intervertebral C2-C3,Intervertebral disc C2-C3,con ficha,sí
+Articulaciones,,Disco intervertebral C3-C4,Intervertebral disc C3-C4,con ficha,sí
+Articulaciones,,Disco intervertebral C4-C5,Intervertebral disc C4-C5,con ficha,sí
+Articulaciones,,Disco intervertebral C5-C6,Intervertebral disc C5-C6,con ficha,sí
+Articulaciones,,Disco intervertebral C6-C7,Intervertebral disc C6-C7,con ficha,sí
+Articulaciones,,Disco intervertebral C7-T1,Intervertebral disc C7-T1,con ficha,sí
+Articulaciones,,Disco intervertebral L1-L2,Intervertebral disc L1-L2,con ficha,sí
+Articulaciones,,Disco intervertebral L2-L3,Intervertebral disc L2-L3,con ficha,sí
+Articulaciones,,Disco intervertebral L3-L4,Intervertebral disc L3-L4,con ficha,sí
+Articulaciones,,Disco intervertebral L4-L5,Intervertebral disc L4-L5,con ficha,sí
+Articulaciones,,Disco intervertebral L5-S1,Intervertebral disc L5-S1,con ficha,sí
+Articulaciones,,Disco intervertebral T1-T2,Intervertebral disc T1-T2,con ficha,sí
+Articulaciones,,Disco intervertebral T10-T11,Intervertebral disc T10-T11,con ficha,sí
+Articulaciones,,Disco intervertebral T11-T12,Intervertebral disc T11-T12,con ficha,sí
+Articulaciones,,Disco intervertebral T12-L1,Intervertebral disc T12-L1,con ficha,sí
+Articulaciones,,Disco intervertebral T2-T3,Intervertebral disc T2-T3,con ficha,sí
+Articulaciones,,Disco intervertebral T3-T4,Intervertebral disc T3-T4,con ficha,sí
+Articulaciones,,Disco intervertebral T4-T5,Intervertebral disc T4-T5,con ficha,sí
+Articulaciones,,Disco intervertebral T5-T6,Intervertebral disc T5-T6,con ficha,sí
+Articulaciones,,Disco intervertebral T6-T7,Intervertebral disc T6-T7,con ficha,sí
+Articulaciones,,Disco intervertebral T7-T8,Intervertebral disc T7-T8,con ficha,sí
+Articulaciones,,Disco intervertebral T8-T9,Intervertebral disc T8-T9,con ficha,sí
+Articulaciones,,Disco intervertebral T9-T10,Intervertebral disc T9-T10,con ficha,sí
+Articulaciones,,,Frenula capsulae,con ficha,sí
+Articulaciones,,Labro acetabular,Acetabular labrum,con ficha,sí
+Articulaciones,,Labro glenoideo,Glenoid labrum,con ficha,sí
+Articulaciones,,Ligamento acetabular transverso,Transverse acetabular ligament,con ficha,sí
+Articulaciones,,Ligamento acromioclavicular,Acromioclavicular ligament,con ficha,sí
+Articulaciones,,Ligamento amarillo,Ligamenta flava,con ficha,sí
+Articulaciones,,Ligamento anterior de la cabeza de la fibula,Anterior ligament of fibular head,con ficha,sí
+Articulaciones,,Ligamento anular del radio,Annular ligament of radius,con ficha,sí
+Articulaciones,,Ligamento calcaneonavicular,Calcaneonavicular ligament,con ficha,sí
+Articulaciones,,Ligamento calcaneonavicular plantar,Plantar calcaneonavicular ligament,con ficha,sí
+Articulaciones,,Ligamento calcáneo-cuboideo,Calcaneocuboid ligament,con ficha,sí
+Articulaciones,,Ligamento calcáneocuboideo dorsal,Dorsal calcaneocuboid ligament,con ficha,sí
+Articulaciones,,Ligamento calcáneocuboideo plantar,Plantar calcaneocuboid ligament,con ficha,sí
+Articulaciones,,Ligamento calcáneofibular,Calcaneofibular ligament,con ficha,sí
+Articulaciones,,Ligamento calcáneotibial,Tibiocalcaneal ligament,con ficha,sí
+Articulaciones,,Ligamento capitohamatal interóseo,Capitohamate interosseous ligament,con ficha,sí
+Articulaciones,,Ligamento capitohamatal palmar,Palmar capitohamate ligament,con ficha,sí
+Articulaciones,,Ligamento colateral fibular,Fibular collateral ligament,con ficha,sí
+Articulaciones,,Ligamento colateral radial cubital,Radial collateral ligament,con ficha,sí
+Articulaciones,,Ligamento colateral radial del carpo,Radial collateral ligament of wrist joint,con ficha,sí
+Articulaciones,,Ligamento colateral ulnar cubital,Ulnar collateral ligament,con ficha,sí
+Articulaciones,,Ligamento colateral ulnar del carpo,Ulnar collateral ligament of wrist joint,con ficha,sí
+Articulaciones,,Ligamento conoide,Conoid ligament,con ficha,sí
+Articulaciones,,Ligamento coraco-acromial,Coraco-acromial ligament,con ficha,sí
+Articulaciones,,Ligamento coracohumeral,Coracohumeral ligament,con ficha,sí
+Articulaciones,,Ligamento costoclavicular,Costoclavicular ligament,con ficha,sí
+Articulaciones,,Ligamento costotransverso,Costotransverse ligament,con ficha,sí
+Articulaciones,,Ligamento cricofaríngeo,Cricopharyngeal ligament,con ficha,sí
+Articulaciones,,Ligamento cricotiroideo mediano,Median cricothyroid ligament,con ficha,sí
+Articulaciones,,Ligamento cruzado anterior,Anterior cruciate ligament,con ficha,sí
+Articulaciones,,Ligamento cruzado posterior,Posterior cruciate ligament,con ficha,sí
+Articulaciones,,Ligamento cuadrado,Quadrate ligament,con ficha,sí
+Articulaciones,,Ligamento cuboideonavicular dorsal,Dorsal cuboideonavicular ligament,con ficha,sí
+Articulaciones,,Ligamento cuboideonavicular plantar,Plantar cuboideonavicular ligament,con ficha,sí
+Articulaciones,,Ligamento cuneocuboideo dorsal,Dorsal cuneocuboid ligament,con ficha,sí
+Articulaciones,,Ligamento cuneocuboideo plantar,Plantar cuneocuboid ligament,con ficha,sí
+Articulaciones,,Ligamento de la cabeza del fémur,Ligament of head of femur,con ficha,sí
+Articulaciones,,Ligamento escafocapitado,Scaphocapitate ligament,con ficha,sí
+Articulaciones,,Ligamento escafolunado interóseo,Scapholunate interosseous ligament,con ficha,sí
+Articulaciones,,Ligamento escafotrapeciotrapezoidal,Scaphotrapeziotrapezoidal ligament,con ficha,sí
+Articulaciones,,Ligamento escafotriquetral dorsal,Dorsal scaphotriquetral ligament,con ficha,sí
+Articulaciones,,Ligamento escafotriquetral palmar,Palmar scaphotriquetral ligament,con ficha,sí
+Articulaciones,,Ligamento esfenomandibular,Sphenomandibular ligament,con ficha,sí
+Articulaciones,,Ligamento esternoclavicular anterior,Anterior sternoclavicular ligament,con ficha,sí
+Articulaciones,,Ligamento esternoclavicular posterior,Posterior sternoclavicular ligament,con ficha,sí
+Articulaciones,,Ligamento estilohioideo,Stylohyoid ligament,con ficha,sí
+Articulaciones,,Ligamento estilomandibular,Stylomandibular ligament,con ficha,sí
+Articulaciones,,Ligamento glenohumeral inferior,Inferior glenohumeral ligament,con ficha,sí
+Articulaciones,,Ligamento glenohumeral medio,Middle glenohumeral ligament,con ficha,sí
+Articulaciones,,Ligamento glenohumeral superior,Superior glenohumeral ligament,con ficha,sí
+Articulaciones,,Ligamento iliolumbar,Iliolumbar ligament,con ficha,sí
+Articulaciones,,Ligamento interclavicular,Interclavicular ligament,con ficha,sí
+Articulaciones,,Ligamento intercornual,Intercornual ligament,con ficha,sí
+Articulaciones,,Ligamento intersesamoideo,Intersesamoid ligament,con ficha,sí
+Articulaciones,,Ligamento interóseo cuneocuboideo,Cuneocuboid interosseous ligament,con ficha,sí
+Articulaciones,,Ligamento intra-articular de la cabeza de la costilla,Intra-articular ligament of head of rib,con ficha,sí
+Articulaciones,,Ligamento isquiofemoral,Ischiofemoral ligament,con ficha,sí
+Articulaciones,,Ligamento longitudinal anterior,Anterior longitudinal ligament,con ficha,sí
+Articulaciones,,Ligamento longitudinal posterior,Posterior longitudinal ligament,con ficha,sí
+Articulaciones,,Ligamento lunotriquetral interóseo,Lunotriquetral interosseous ligament,con ficha,sí
+Articulaciones,,Ligamento lunotriquetral palmar,Palmar lunotriquetral ligament,con ficha,sí
+Articulaciones,,Ligamento meniscopatelar,Meniscopatellar ligament,con ficha,sí
+Articulaciones,,Ligamento meniscotibial anterior (Menisco lateral),Anterior meniscotibial ligament (Lateral meniscus),con ficha,sí
+Articulaciones,,Ligamento meniscotibial anterior (Menisco medial),Anterior meniscotibial ligament (Medial meniscus),con ficha,sí
+Articulaciones,,Ligamento meniscotibial posterior (Menisco lateral),Posterior meniscotibial ligament (Lateral meniscus),con ficha,sí
+Articulaciones,,Ligamento meniscotibial posterior (Menisco medial),Posterior meniscotibial ligament (Medial meniscus),con ficha,sí
+Articulaciones,,Ligamento metacarpiano transverso profundo,Deep transverse metacarpal ligament,con ficha,sí
+Articulaciones,,Ligamento metatarsiano transverso profundo,Deep transverse metatarsal ligament,con ficha,sí
+Articulaciones,,Ligamento nucal,Nuchal ligament,con ficha,sí
+Articulaciones,,Ligamento pisohamatal,Pisohamate ligament,con ficha,sí
+Articulaciones,,Ligamento pisometacarpiano,Pisometacarpal ligament,con ficha,sí
+Articulaciones,,Ligamento pisotriquetral,Pisotriquetral ligament,con ficha,sí
+Articulaciones,,Ligamento plantar largo,Long plantar ligament,con ficha,sí
+Articulaciones,,Ligamento poplíteo arqueado,Arcuate popliteal ligament,con ficha,sí
+Articulaciones,,Ligamento poplíteo oblicuo,Oblique popliteal ligament,con ficha,sí
+Articulaciones,,Ligamento poplíteofibular,Popliteofibular ligament,con ficha,sí
+Articulaciones,,Ligamento posterior de la cabeza de la fibula,Posterior ligament of fibular head,con ficha,sí
+Articulaciones,,Ligamento pterigo-espinoso,Pterygospinous ligament,con ficha,sí
+Articulaciones,,Ligamento pubofemoral,Pubofemoral ligament,con ficha,sí
+Articulaciones,,Ligamento púbico inferior,Inferior pubic ligament,con ficha,sí
+Articulaciones,,Ligamento púbico superior,Superior pubic ligament,con ficha,sí
+Articulaciones,,Ligamento radiado de la cabeza de la costilla,Radiate ligament of head of rib,con ficha,sí
+Articulaciones,,Ligamento radiado del carpo,Radiate carpal ligament,con ficha,sí
+Articulaciones,,Ligamento radiocapitado,Radiocapitate ligament,con ficha,sí
+Articulaciones,,Ligamento radiocarpiano dorsal,Dorsal radiocarpal ligament,con ficha,sí
+Articulaciones,,Ligamento radioescafocapitado,Radioscaphocapitate ligament,con ficha,sí
+Articulaciones,,Ligamento radioulnar dorsal,Dorsal radio-ulnar ligament,con ficha,sí
+Articulaciones,,Ligamento radioulnar palmar,Palmar radio-ulnar ligament,con ficha,sí
+Articulaciones,,Ligamento sacroespinoso,Sacrospinous ligament,con ficha,sí
+Articulaciones,,Ligamento sacroilíaco anterior,Anterior sacro-iliac ligament,con ficha,sí
+Articulaciones,,Ligamento sacroilíaco interóseo,Interosseous sacro-iliac ligament,con ficha,sí
+Articulaciones,,Ligamento sacroilíaco posterior,Posterior sacro-iliac ligament,con ficha,sí
+Articulaciones,,Ligamento sacrotuberoso,Sacrotuberous ligament,con ficha,sí
+Articulaciones,,Ligamento supra-espinoso,Supraspinous ligament,con ficha,sí
+Articulaciones,,Ligamento talocalcáneo anterior,Anterior talocalcaneal ligament,con ficha,sí
+Articulaciones,,Ligamento talocalcáneo interóseo,Talocalcaneal interosseous ligament,con ficha,sí
+Articulaciones,,Ligamento talocalcáneo lateral,Lateral talocalcaneal ligament,con ficha,sí
+Articulaciones,,Ligamento talocalcáneo medial,Medial talocalcaneal ligament,con ficha,sí
+Articulaciones,,Ligamento talocalcáneo posterior,Posterior talocalcaneal ligament,con ficha,sí
+Articulaciones,,Ligamento talofibular anterior,Anterior talofibular ligament,con ficha,sí
+Articulaciones,,Ligamento talofibular posterior,Posterior talofibular ligament,con ficha,sí
+Articulaciones,,Ligamento talonavicular,Talonavicular ligament,con ficha,sí
+Articulaciones,,Ligamento temporomandibular lateral,Lateral temporomandibular ligament,con ficha,sí
+Articulaciones,,Ligamento tibiofibular anterior,Anterior tibiofibular ligament,con ficha,sí
+Articulaciones,,Ligamento tibiofibular posterior,Posterior tibiofibular ligament,con ficha,sí
+Articulaciones,,Ligamento tibiofibular transverso,Transverse tibiofibular ligament,con ficha,sí
+Articulaciones,,Ligamento tibionavicular,Tibionavicular ligament,con ficha,sí
+Articulaciones,,Ligamento tibiotalar posterior,Posterior tibiotalar ligament,con ficha,sí
+Articulaciones,,Ligamento tirohioideo lateral,Lateral thyrohyoid ligament,con ficha,sí
+Articulaciones,,Ligamento tirohioideo mediano,Median thyrohyoid ligament,con ficha,sí
+Articulaciones,,Ligamento transverso de la rodilla,Transverse ligament of knee,con ficha,sí
+Articulaciones,,Ligamento transverso del humero,Transverse humeral ligament,con ficha,sí
+Articulaciones,,Ligamento transverso inferior de la escáupula,Inferior transverse scapular ligament,con ficha,sí
+Articulaciones,,Ligamento transverso superior de la escápula,Superior transverse scapular ligament,con ficha,sí
+Articulaciones,,Ligamento trapeciotrapezoidal interóseo,Trapeziotrapezoidal interosseous ligament,con ficha,sí
+Articulaciones,,Ligamento trapezoide,Trapezoid ligament,con ficha,sí
+Articulaciones,,Ligamento trapezoideocapitado interóseo,Trapezoideocapitate interosseous ligament,con ficha,sí
+Articulaciones,,Ligamento trapezoideocapitado palmar,Palmar trapezoideocapitate ligament,con ficha,sí
+Articulaciones,,Ligamento triquetrocapitado,Triquetrocapitate ligament,con ficha,sí
+Articulaciones,,Ligamento triquetrohamatal,Triquetrohamate ligament,con ficha,sí
+Articulaciones,,Ligamento ulnocapitado,Ulnocapitate ligament,con ficha,sí
+Articulaciones,,Ligamento ulnocarpiano dorsal,Dorsal ulnocarpal ligament,con ficha,sí
+Articulaciones,,Ligamento ulnolunado,Ulnolunate ligament,con ficha,sí
+Articulaciones,,Ligamento ulnopisiforme,Ulnopisiform ligament,con ficha,sí
+Articulaciones,,Ligamento ulnotriquetral,Ulnotriquetral ligament,con ficha,sí
+Articulaciones,,Ligamentos carpometacarpianos dorsales,Dorsal carpometacarpal ligaments,con ficha,sí
+Articulaciones,,Ligamentos carpometacarpianos palmares,Palmar carpometacarpal ligaments,con ficha,sí
+Articulaciones,,Ligamentos cuneometatarsianos interóseos,Cuneometatarsal interosseous ligaments,con ficha,sí
+Articulaciones,,Ligamentos cuneonaviculares dorsales,Dorsal cuneonavicular ligaments,con ficha,sí
+Articulaciones,,Ligamentos cuneonaviculares plantares,Plantar cuneonavicular ligaments,con ficha,sí
+Articulaciones,,Ligamentos intercarpianos dorsales,Dorsal intercarpal ligaments,con ficha,sí
+Articulaciones,,Ligamentos intercuneiformes dorsales,Dorsal intercuneiform ligaments,con ficha,sí
+Articulaciones,,Ligamentos intercuneiformes interóseos,Intercuneiform interosseous ligaments,con ficha,sí
+Articulaciones,,Ligamentos intercuneiformes plantares,Plantar intercuneiform ligaments,con ficha,sí
+Articulaciones,,Ligamentos interespinosos,Interspinous ligaments,con ficha,sí
+Articulaciones,,Ligamentos interfalángicos colaterales de la mano,Collateral interphalangeal ligaments of hand,con ficha,sí
+Articulaciones,,Ligamentos interfalángicos colaterales del pie,Collateral interphalangeal ligaments of foot,con ficha,sí
+Articulaciones,,Ligamentos interfalángicos palmares,Palmar interphalangeal ligaments,con ficha,sí
+Articulaciones,,Ligamentos interfalángicos plantares,Plantar interphalangeal ligaments,con ficha,sí
+Articulaciones,,Ligamentos intertransversos,Intertransverse ligaments,con ficha,sí
+Articulaciones,,Ligamentos interóseos metatarsianos,Metatarsal interosseous ligaments,con ficha,sí
+Articulaciones,,Ligamentos metacarpianos dorsales,Dorsal metacarpal ligaments,con ficha,sí
+Articulaciones,,Ligamentos metacarpianos interóseos,Interosseous metacarpal ligaments,con ficha,sí
+Articulaciones,,Ligamentos metacarpianos palmares,Palmar metacarpal ligaments,con ficha,sí
+Articulaciones,,Ligamentos metacarpofalángicos colaterales,Collateral metacarpophalangeal ligaments,con ficha,sí
+Articulaciones,,Ligamentos metatarsianos dorsales,Dorsal metatarsal ligaments,con ficha,sí
+Articulaciones,,Ligamentos metatarsianos plantares,Plantar metatarsal ligaments,con ficha,sí
+Articulaciones,,Ligamentos metatarsofalángicos colaterales,Collateral metatarsophalangeal ligaments,con ficha,sí
+Articulaciones,,Ligamentos metatarsofalángicos plantares,Plantar metatarsophalangeal ligaments,con ficha,sí
+Articulaciones,,Ligamentos tarsometatarsianos dorsales,Dorsal tarsometatarsal ligaments,con ficha,sí
+Articulaciones,,Ligamentos tarsometatarsianos plantares,Plantar tarsometatarsal ligaments,con ficha,sí
+Articulaciones,,Membrana cuadrangular,Quadrangular membrane,con ficha,sí
+Articulaciones,,Membrana intercostal externa,External intercostal membrane,con ficha,sí
+Articulaciones,,Membrana intercostal interna,Internal intercostal membrane,con ficha,sí
+Articulaciones,,Membrana interósea de la pierna,Interosseous membrane of leg,con ficha,sí
+Articulaciones,,Membrana interósea del antebrazo,Interosseous membrane of forearm,con ficha,sí
+Articulaciones,,Membrana obturadora,Obturator membrane,con ficha,sí
+Articulaciones,,Menisco lateral,Lateral meniscus,con ficha,sí
+Articulaciones,,Menisco medial,Medial meniscus,con ficha,sí
+Articulaciones,,Núcleo pulposo C2-C3,Nucleus pulposus C2-C3,con ficha,sí
+Articulaciones,,Núcleo pulposo C3-C4,Nucleus pulposus C3-C4,con ficha,sí
+Articulaciones,,Núcleo pulposo C4-C5,Nucleus pulposus C4-C5,con ficha,sí
+Articulaciones,,Núcleo pulposo C5-C6,Nucleus pulposus C5-C6,con ficha,sí
+Articulaciones,,Núcleo pulposo C6-C7,Nucleus pulposus C6-C7,con ficha,sí
+Articulaciones,,Núcleo pulposo C7-T1,Nucleus pulposus C7-T1,con ficha,sí
+Articulaciones,,Núcleo pulposo L1-L2,Nucleus pulposus L1-L2,con ficha,sí
+Articulaciones,,Núcleo pulposo L2-L3,Nucleus pulposus L2-L3,con ficha,sí
+Articulaciones,,Núcleo pulposo L3-L4,Nucleus pulposus L3-L4,con ficha,sí
+Articulaciones,,Núcleo pulposo L4-L5,Nucleus pulposus L4-L5,con ficha,sí
+Articulaciones,,Núcleo pulposo L5-S1,Nucleus pulposus L5-S1,con ficha,sí
+Articulaciones,,Núcleo pulposo T1-T2,Nucleus pulposus T1-T2,con ficha,sí
+Articulaciones,,Núcleo pulposo T10-T11,Nucleus pulposus T10-T11,con ficha,sí
+Articulaciones,,Núcleo pulposo T11-T12,Nucleus pulposus T11-T12,con ficha,sí
+Articulaciones,,Núcleo pulposo T12-L1,Nucleus pulposus T12-L1,con ficha,sí
+Articulaciones,,Núcleo pulposo T2-T3,Nucleus pulposus T2-T3,con ficha,sí
+Articulaciones,,Núcleo pulposo T3-T4,Nucleus pulposus T3-T4,con ficha,sí
+Articulaciones,,Núcleo pulposo T4-T5,Nucleus pulposus T4-T5,con ficha,sí
+Articulaciones,,Núcleo pulposo T5-T6,Nucleus pulposus T5-T6,con ficha,sí
+Articulaciones,,Núcleo pulposo T6-T7,Nucleus pulposus T6-T7,con ficha,sí
+Articulaciones,,Núcleo pulposo T7-T8,Nucleus pulposus T7-T8,con ficha,sí
+Articulaciones,,Núcleo pulposo T8-T9,Nucleus pulposus T8-T9,con ficha,sí
+Articulaciones,,Núcleo pulposo T9-T10,Nucleus pulposus T9-T10,con ficha,sí
+Articulaciones,,Parte descendente del ligamento iliofemoral,Descending part of iliofemoral ligament,con ficha,sí
+Articulaciones,,Parte profunda del ligamento colateral tibial,Deep part of tibial collateral ligament,con ficha,sí
+Articulaciones,,Parte superficial del ligamento colateral tibial,Superficial part of tibial collateral ligament,con ficha,sí
+Articulaciones,,Parte transversal del ligamento iliofemoral,Transverse part of iliofemoral ligament,con ficha,sí
+Articulaciones,,Sínfisis púbica,Pubic symphysis,con ficha,sí
+Articulaciones,,Sínfisis sacrococcígea,Sacrococcygeal symphysis,con ficha,sí
+Articulaciones,,Zona orbicular,Zona orbicularis,con ficha,sí
+Circulatorio,,,????????,con ficha,sí
+Circulatorio,,,?x,pendiente,
+Circulatorio,,Anastomosis patelar,Patellar anastomosis,con ficha,sí
+Circulatorio,,,Anterior temporal branch,con ficha,sí
+Circulatorio,,Aorta abdominal,Abdominal aorta,con ficha,sí
+Circulatorio,,Aorta ascendente,Ascending aorta,con ficha,sí
+Circulatorio,,Aorta torácica,Thoracic aorta,con ficha,sí
+Circulatorio,,Arco aórtico,Aortic arch,con ficha,sí
+Circulatorio,,Arco palmar profundo,Deep palmar arch,con ficha,sí
+Circulatorio,,Arco palmar superficial,Superficial palmar arch,con ficha,sí
+Circulatorio,,Arco plantar,Plantar arch,con ficha,sí
+Circulatorio,,Arco venoso dorsal del pie,Dorsal venous arch of foot,con ficha,sí
+Circulatorio,,Arco venoso palmar profundo,Deep venous palmar arch,con ficha,sí
+Circulatorio,,Arco venoso palmar superficial,Superficial venous palmar arch,con ficha,sí
+Circulatorio,,Arco venoso plantar,Plantar venous arch,con ficha,sí
+Circulatorio,,Arteria alveolar inferior,Inferior alveolar artery,con ficha,sí
+Circulatorio,,Arteria alveolar superior posterior,Posterior superior alveolar artery,con ficha,sí
+Circulatorio,,Arteria angular,Angular artery,con ficha,sí
+Circulatorio,,Arteria anorrectal superior,Superior anorectal artery,con ficha,sí
+Circulatorio,,Arteria apendicular,Appendicular artery,con ficha,sí
+Circulatorio,,Arteria arqueada,Arcuate artery,con ficha,sí
+Circulatorio,,Arteria axilar,Axillary artery,con ficha,sí
+Circulatorio,,Arteria basilar,Basilar artery,con ficha,sí
+Circulatorio,,Arteria braquial,Brachial artery,con ficha,sí
+Circulatorio,,Arteria braquial profunda,Deep brachial artery,con ficha,sí
+Circulatorio,,Arteria bucal,Buccal artery,con ficha,sí
+Circulatorio,,Arteria callosomarginal,Callosomarginal artery,con ficha,sí
+Circulatorio,,Arteria carótida común derecha,Right common carotid artery,con ficha,sí
+Circulatorio,,Arteria carótida común izquierda,Left common carotid artery,con ficha,sí
+Circulatorio,,Arteria carótida externa,External carotid artery,con ficha,sí
+Circulatorio,,Arteria carótida interna,Internal carotid artery,con ficha,sí
+Circulatorio,,Arteria central de la retina,Central retinal artery,con ficha,sí
+Circulatorio,,Arteria cerebelosa inferior anterior,Anterior inferior cerebellar artery,con ficha,sí
+Circulatorio,,Arteria cerebelosa inferior posterior,Posterior inferior cerebellar artery,con ficha,sí
+Circulatorio,,Arteria cerebelosa superior,Superior cerebellar artery,con ficha,sí
+Circulatorio,,Arteria cerebral anterior,Anterior cerebral artery,con ficha,sí
+Circulatorio,,Arteria cerebral media (Segmento M1),Middle cerebral artery (M1-segment),con ficha,sí
+Circulatorio,,Arteria cerebral media (Segmento M3),Middle cerebral artery (M3-segment),con ficha,sí
+Circulatorio,,Arteria cerebral posterior,Posterior cerebral artery,con ficha,sí
+Circulatorio,,Arteria cervical profunda,Deep cervical artery,con ficha,sí
+Circulatorio,,Arteria cervical transversal,Transverse cervical artery,con ficha,sí
+Circulatorio,,Arteria circunfleja anterior del húmero,Anterior circumflex humeral artery,con ficha,sí
+Circulatorio,,Arteria circunfleja de la escápula,Circumflex scapular artery,con ficha,sí
+Circulatorio,,Arteria circunfleja del corazón,Circumflex artery of heart,con ficha,sí
+Circulatorio,,Arteria circunfleja femoral lateral,Lateral circumflex femoral artery,con ficha,sí
+Circulatorio,,Arteria circunfleja posterior del húmero,Posterior circumflex humeral artery,con ficha,sí
+Circulatorio,,Arteria colateral media,Middle collateral artery,con ficha,sí
+Circulatorio,,Arteria colateral radial,Radial collateral artery,con ficha,sí
+Circulatorio,,Arteria colateral ulnar inferior,Inferior ulnar collateral artery,con ficha,sí
+Circulatorio,,Arteria colateral ulnar superior,Superior ulnar collateral artery,con ficha,sí
+Circulatorio,,Arteria comunicante anterior,Anterior communicating artery,con ficha,sí
+Circulatorio,,Arteria comunicante posterior,Posterior communicating artery,con ficha,sí
+Circulatorio,,Arteria coronaria derecha,Right coronary artery,con ficha,sí
+Circulatorio,,Arteria coronaria izquierda,Left coronary artery,con ficha,sí
+Circulatorio,,Arteria cólica derecha,Right colic artery,con ficha,sí
+Circulatorio,,Arteria cólica izquierda,Left colic artery,con ficha,sí
+Circulatorio,,Arteria cólica media,Middle colic artery,con ficha,sí
+Circulatorio,,Arteria del canal pterigoideo,Artery of pterygoid canal,con ficha,sí
+Circulatorio,,Arteria dorsal del pene,Dorsal artery of penis,oculta (estructura masculina),
+Circulatorio,,Arteria dorsal del pie,Dorsalis pedis artery,con ficha,sí
+Circulatorio,,Arteria epigástrica inferior,Inferior epigastric artery,con ficha,sí
+Circulatorio,,Arteria epigástrica superficial,Superficial epigastric artery,con ficha,sí
+Circulatorio,,Arteria epigástrica superior,Superior epigastric artery,con ficha,sí
+Circulatorio,,Arteria espinal anterior,Anterior spinal artery,con ficha,sí
+Circulatorio,,Arteria esplénica,Splenic artery,con ficha,sí
+Circulatorio,,Arteria etmoidal anterior,Anterior ethmoidal artery,con ficha,sí
+Circulatorio,,Arteria etmoidal posterior,Posterior ethmoidal artery,con ficha,sí
+Circulatorio,,Arteria facial,Facial artery,con ficha,sí
+Circulatorio,,Arteria facial transversa,Transverse facial artery,con ficha,sí
+Circulatorio,,Arteria faríngea ascendente,Ascending pharyngeal artery,con ficha,sí
+Circulatorio,,Arteria femoral,Femoral artery,con ficha,sí
+Circulatorio,,Arteria femoral circunfleja medial,Medial circumflex femoral artery,con ficha,sí
+Circulatorio,,Arteria femoral profunda,Deep femoral artery,con ficha,sí
+Circulatorio,,Arteria fibular,Fibular artery,con ficha,sí
+Circulatorio,,Arteria frénica inferior,Inferior phrenic artery,con ficha,sí
+Circulatorio,,Arteria gastroduodenal,Gastroduodenal artery,con ficha,sí
+Circulatorio,,Arteria genicular inferior lateral,Inferior lateral genicular artery,con ficha,sí
+Circulatorio,,Arteria genicular inferior medial,Inferior medial genicular artery,con ficha,sí
+Circulatorio,,Arteria genicular superior lateral,Superior lateral genicular artery,con ficha,sí
+Circulatorio,,Arteria genicular superior medial,Superior medial genicular artery,con ficha,sí
+Circulatorio,,Arteria glútea inferior,Inferior gluteal artery,con ficha,sí
+Circulatorio,,Arteria glútea superior,Superior gluteal artery,con ficha,sí
+Circulatorio,,Arteria gástrica izquierda,Left gastric artery,con ficha,sí
+Circulatorio,,Arteria hepática común,Common hepatic artery,con ficha,sí
+Circulatorio,,Arteria hepática propia,Proper hepatic artery,con ficha,sí
+Circulatorio,,Arteria iliaca externa,External iliac artery,con ficha,sí
+Circulatorio,,Arteria iliolumbar,Iliolumbar artery,con ficha,sí
+Circulatorio,,Arteria ilíaca común,Common iliac artery,con ficha,sí
+Circulatorio,,Arteria ilíaca interna,Internal iliac artery,con ficha,sí
+Circulatorio,,Arteria infraorbitaria,Infra-orbital artery,con ficha,sí
+Circulatorio,,Arteria intercostal suprema,Supreme intercostal artery,con ficha,sí
+Circulatorio,,Arteria interventricular anterior,Anterior interventricular artery,con ficha,sí
+Circulatorio,,Arteria interósea común,Common interosseous artery,con ficha,sí
+Circulatorio,,Arteria interósea posterior,Posterior interosseous artery,con ficha,sí
+Circulatorio,,Arteria interósea recurrente,Recurrent interosseous artery,con ficha,sí
+Circulatorio,,Arteria labial inferior,Inferior labial artery,con ficha,sí
+Circulatorio,,Arteria labial superior,Superior labial artery,con ficha,sí
+Circulatorio,,Arteria lagrimal,Lacrimal artery,con ficha,sí
+Circulatorio,,Arteria lingular inferior del pulmón izquierdo,Inferior lingular artery of left lung,con ficha,sí
+Circulatorio,,Arteria lingular superior del pulmón izquierdo,Superior lingular artery of left lung,con ficha,sí
+Circulatorio,,Arteria lleocólica,Ileocolic artery,con ficha,sí
+Circulatorio,,Arteria lobar inferior del pulmón derecho,Inferior lobar artery of right lung,con ficha,sí
+Circulatorio,,Arteria lobar media del pulmón derecho,Middle lobar artery of right lung,con ficha,sí
+Circulatorio,,Arteria lobar superior del pulmón derecho,Superior lobar artery of right lung,con ficha,sí
+Circulatorio,,Arteria marginal del colon,Marginal artery,con ficha,sí
+Circulatorio,,Arteria maxilar,Maxillary artery,con ficha,sí
+Circulatorio,,Arteria meníngea media,Middle meningeal artery,con ficha,sí
+Circulatorio,,Arteria mesentérica inferior,Inferior mesenteric artery,con ficha,sí
+Circulatorio,,Arteria mesentérica superior,Superior mesenteric artery,con ficha,sí
+Circulatorio,,Arteria musculofrénica,Musculophrenic artery,con ficha,sí
+Circulatorio,,Arteria obturatriz,Obturator artery,con ficha,sí
+Circulatorio,,Arteria occipital,Occipital artery,con ficha,sí
+Circulatorio,,Arteria occipital lateral,Lateral occipital artery,con ficha,sí
+Circulatorio,,Arteria occipital medial,Medial occipital artery,con ficha,sí
+Circulatorio,,Arteria oftálmica,Ophthalmic artery,con ficha,sí
+Circulatorio,,Arteria palatina descendente,Descending palatine artery,con ficha,sí
+Circulatorio,,Arteria palatina mayor,Greater palatine artery,con ficha,sí
+Circulatorio,,Arteria pancreaticoduodenal inferior,Inferior pancreaticoduodenal artery,con ficha,sí
+Circulatorio,,Arteria pancreáticoduodenal inferior anterior,Anterior inferior pancreaticoduodenal artery,con ficha,sí
+Circulatorio,,Arteria parietooccipital,Parieto-occipital artery,con ficha,sí
+Circulatorio,,Arteria pericallosa,Pericallosal artery,con ficha,sí
+Circulatorio,,Arteria plantar lateral,Lateral plantar artery,con ficha,sí
+Circulatorio,,Arteria plantar medial,Medial plantar artery,con ficha,sí
+Circulatorio,,Arteria plantar profunda,Deep plantar artery,con ficha,sí
+Circulatorio,,Arteria poplítea,Popliteal artery,con ficha,sí
+Circulatorio,,Arteria profunda del pene,Deep artery of penis,oculta (estructura masculina),
+Circulatorio,,Arteria pudenda externa profunda,Deep external pudendal artery,con ficha,sí
+Circulatorio,,Arteria pudenda externa superficial,Superficial external pudendal artery,con ficha,sí
+Circulatorio,,Arteria pudenda interna,Internal pudendal artery,con ficha,sí
+Circulatorio,,Arteria pulmonar derecha,Right pulmonary artery,con ficha,sí
+Circulatorio,,Arteria pulmonar izquierda,Left pulmonary artery,con ficha,sí
+Circulatorio,,Arteria radial,Radial artery,con ficha,sí
+Circulatorio,,Arteria renal derecha,Right renal artery,con ficha,sí
+Circulatorio,,Arteria renal izquierda,Left renal artery,con ficha,sí
+Circulatorio,,Arteria sacral mediana,Median sacral artery,con ficha,sí
+Circulatorio,,Arteria segmentaria anterior del pulmón derecho,Anterior segmental artery of right lung,con ficha,sí
+Circulatorio,,Arteria segmentaria anterior del pulmón izquierdo,Anterior segmental artery of left lung,con ficha,sí
+Circulatorio,,Arteria segmentaria apical del pulmón derecho,Apical segmental artery of right lung,con ficha,sí
+Circulatorio,,Arteria segmentaria apical del pulmón izquierdo,Apical segmental artery of left lung,con ficha,sí
+Circulatorio,,Arteria segmentaria basal anterior del pulmón derecho,Anterior basal segmental artery of right lung,con ficha,sí
+Circulatorio,,Arteria segmentaria basal anterior del pulmón izquierdo,Anterior basal segmental artery of left lung,con ficha,sí
+Circulatorio,,Arteria segmentaria basal lateral del pulmón derecho,Lateral basal segmental artery of right lung,con ficha,sí
+Circulatorio,,Arteria segmentaria basal lateral del pulmón izquierdo,Lateral basal segmental artery of left lung,con ficha,sí
+Circulatorio,,Arteria segmentaria basal medial del pulmón derecho,Medial basal segmental artery of right lung,con ficha,sí
+Circulatorio,,Arteria segmentaria basal medial del pulmón izquierdo,Medial basal segmental artery of left lung,con ficha,sí
+Circulatorio,,Arteria segmentaria basal posterior del pulmón derecho,Posterior basal segmental artery of right lung,con ficha,sí
+Circulatorio,,Arteria segmentaria basal posterior del pulmón izquierdo,Posterior basal segmental artery of left lung,con ficha,sí
+Circulatorio,,Arteria segmentaria lateral del pulmón derecho,Lateral segmental artery of right lung,con ficha,sí
+Circulatorio,,Arteria segmentaria medial del pulmón derecho,Medial segmental artery of right lung,con ficha,sí
+Circulatorio,,Arteria segmentaria posterior del pulmón derecho,Posterior segmental artery of right lung,con ficha,sí
+Circulatorio,,Arteria segmentaria posterior del pulmón izquierdo,Posterior segmental artery of left lung,con ficha,sí
+Circulatorio,,Arteria segmentaria superior del pulmón derecho,Superior segmental artery of right lung,con ficha,sí
+Circulatorio,,Arteria segmentaria superior del pulmón izquierdo,Superior segmental artery of left lung,con ficha,sí
+Circulatorio,,Arteria subclavia derecha,Right subclavian artery,con ficha,sí
+Circulatorio,,Arteria subclavia izquierda,Left subclavian artery,con ficha,sí
+Circulatorio,,Arteria subcostal,Subcostal artery,con ficha,sí
+Circulatorio,,Arteria subescapular,Subscapular artery,con ficha,sí
+Circulatorio,,Arteria submental,Submental artery,con ficha,sí
+Circulatorio,,Arteria supraescapular,Suprascapular artery,con ficha,sí
+Circulatorio,,Arteria supraorbitaria,Supra-orbital artery,con ficha,sí
+Circulatorio,,Arteria suprarrenal inferior,Inferior suprarenal artery,con ficha,sí
+Circulatorio,,Arteria supratroclear,Supratrochlear artery,con ficha,sí
+Circulatorio,,Arteria tarsal lateral,Lateral tarsal artery,con ficha,sí
+Circulatorio,,Arteria temporal profunda anterior,Anterior deep temporal artery,con ficha,sí
+Circulatorio,,Arteria temporal profunda posterior,Posterior deep temporal artery,con ficha,sí
+Circulatorio,,Arteria temporal superficial,Superficial temporal artery,con ficha,sí
+Circulatorio,,Arteria testicular derecha,Right testicular artery,oculta (estructura masculina),
+Circulatorio,,Arteria testicular izquierda,Left testicular artery,oculta (estructura masculina),
+Circulatorio,,Arteria tibial anterior,Anterior tibial artery,con ficha,sí
+Circulatorio,,Arteria tibial posterior,Posterior tibial artery,con ficha,sí
+Circulatorio,,Arteria tiroidea inferior,Inferior thyroid artery,con ficha,sí
+Circulatorio,,Arteria toracoacromial,Thoraco-acromial artery,con ficha,sí
+Circulatorio,,Arteria toracodorsal,Thoracodorsal artery,con ficha,sí
+Circulatorio,,Arteria torácica interna,Internal thoracic artery,con ficha,sí
+Circulatorio,,Arteria torácica lateral,Lateral thoracic artery,con ficha,sí
+Circulatorio,,Arteria ulnar,Ulnar artery,con ficha,sí
+Circulatorio,,Arteria vertebral,Vertebral artery,con ficha,sí
+Circulatorio,,Arterias ciliares posteriores cortas,Short posterior ciliary arteries,con ficha,sí
+Circulatorio,,Arterias ciliares posteriores largas,Long posterior ciliary arteries,con ficha,sí
+Circulatorio,,Arterias digitales dorsales de la mano,Dorsal digital arteries of hand,con ficha,sí
+Circulatorio,,Arterias digitales dorsales del pie,Dorsal digital arteries of foot,con ficha,sí
+Circulatorio,,Arterias digitales palmares comunes,Common palmar digital arteries,con ficha,sí
+Circulatorio,,Arterias digitales palmares propias,Proper palmar digital arteries,con ficha,sí
+Circulatorio,,Arterias digitales plantares comunes,Common plantar digital arteries,con ficha,sí
+Circulatorio,,Arterias digitales plantares propias,Proper plantar digital arteries,con ficha,sí
+Circulatorio,,Arterias femorales perforantes,Perforating femoral arteries,con ficha,sí
+Circulatorio,,Arterias frénicas superiores,Superior phrenic arteries,con ficha,sí
+Circulatorio,,Arterias intercostales posteriores,Posterior intercostal arteries,con ficha,sí
+Circulatorio,,Arterias intrarrenales del riñón derecho,Intrarenal arteries of right kidney,con ficha,sí
+Circulatorio,,Arterias intrarrenales del riñón izquierdo,Intrarenal arteries of left kidney,con ficha,sí
+Circulatorio,,Arterias lumbares,Lumbar arteries,con ficha,sí
+Circulatorio,,Arterias metacarpianas dorsales,Dorsal metacarpal arteries,con ficha,sí
+Circulatorio,,Arterias metacarpianas palmares,Palmar metacarpal arteries,con ficha,sí
+Circulatorio,,Arterias metatarsianas dorsales,Dorsal metatarsal arteries,con ficha,sí
+Circulatorio,,Arterias metatarsianas plantares,Plantar metatarsal arteries,con ficha,sí
+Circulatorio,,Arterias sigmoideas,Sigmoid arteries,con ficha,sí
+Circulatorio,,,Artery of central sulcus,con ficha,sí
+Circulatorio,,,Artery of precentral sulcus,con ficha,sí
+Circulatorio,,Atrio derecho,Right atrium,con ficha,sí
+Circulatorio,,Atrio izquierdo,Left atrium,con ficha,sí
+Circulatorio,,Bifurcación del tronco pulmonar,Bifurcation of pulmonary trunk,con ficha,sí
+Circulatorio,,,Branch to angular gyrus,con ficha,sí
+Circulatorio,,,Deep branch of transverse cervical artery,con ficha,sí
+Circulatorio,,,Distal lateral striate branches,con ficha,sí
+Circulatorio,,División anterior de la arteria ilíaca interna,Anterior division of internal iliac artery,con ficha,sí
+Circulatorio,,División anterior de la vena retromandibular,Anterior division of retromandibular vein,con ficha,sí
+Circulatorio,,División posterior de la arteria ilíaca interna,Posterior division of internal iliac artery,con ficha,sí
+Circulatorio,,División posterior de la vena retromandibular,Posterior division of retromandibular vein,con ficha,sí
+Circulatorio,,Gran vena safena,Great saphenous vein,con ficha,sí
+Circulatorio,,,Inferior vein of left ventricle (//Posterior ''),con ficha,sí
+Circulatorio,,,Insular branches of middle cerebral artery (M2-segment),con ficha,sí
+Circulatorio,,,Lateral frontobasal artery,con ficha,sí
+Circulatorio,,,Middle cerebral artery (M3 segment),con ficha,sí
+Circulatorio,,,Middle genicular artery,con ficha,sí
+Circulatorio,,Musculo papilar septal del ventrículo derecho,Septal papillary muscle of right ventricle,con ficha,sí
+Circulatorio,,Músculo papilar anterior del ventrículo derecho,Anterior papillary muscle of right ventricle,con ficha,sí
+Circulatorio,,Músculo papilar inferior del ventrículo izquierdo,Inferior papillary muscle of left ventricle,con ficha,sí
+Circulatorio,,Músculo papilar posterior del ventrículo derecho,Inferior papillary muscle of right ventricle,con ficha,sí
+Circulatorio,,Pequeña vena safena,Small saphenous vein,con ficha,sí
+Circulatorio,,Plexo venoso basilar,Basilar venous plexus,con ficha,sí
+Circulatorio,,,Posterior lateral nasal branches of sphenopalatine artery.,con ficha,sí
+Circulatorio,,,Posterior parietal artery,con ficha,sí
+Circulatorio,,,Posterior temporal branch,con ficha,sí
+Circulatorio,,,Prefrontal artery,con ficha,sí
+Circulatorio,,Primera arteria intercostal posterior,First posterior intercostal artery,con ficha,sí
+Circulatorio,,,Proximal lateral striate branches,con ficha,sí
+Circulatorio,,Rama accesoria de la arteria meníngea media,Accessory branch of middle meningeal artery,con ficha,sí
+Circulatorio,,Rama anterior de la arteria renal,Anterior branch of renal artery,con ficha,sí
+Circulatorio,,Rama arterial poscentral,Postcentral arterial branch,con ficha,sí
+Circulatorio,,Rama ascendente de la arteria cólica izquierda,Ascending branch of left colic artery,con ficha,sí
+Circulatorio,,Rama carpiana dorsal de la arteria ulnar,Dorsal carpal branch of ulnar artery,con ficha,sí
+Circulatorio,,Rama carpiana palmar de la arteria radial,Palmar carpal branch of radial artery,con ficha,sí
+Circulatorio,,Rama cólica de la arteria ileocólica,Colic branch of ileocolic artery,con ficha,sí
+Circulatorio,,Rama descendente de la arteria cólica izquierda,Descending branch of left colic artery,con ficha,sí
+Circulatorio,,Rama descendente de la arteria femoral circunfleja lateral,Descending branch of lateral circumflex femoral artery,con ficha,sí
+Circulatorio,,Rama espinal de la arteria iliolumbar,Spinal branch of iliolumbar artery,con ficha,sí
+Circulatorio,,Rama frontal de la arteria temporal superficial,Frontal branch of superficial temporal artery,con ficha,sí
+Circulatorio,,Rama ileal de la arteria ileocólica,Ileal branch of ileocolic artery,con ficha,sí
+Circulatorio,,Rama ilíaca de la arteria iliolumbar,Iliacus branch of iliolumbar artery,con ficha,sí
+Circulatorio,,Rama inferolateral derecha de la arteria coronaria derecha,Right inferolateral branch of right coronary artery,con ficha,sí
+Circulatorio,,Rama lumbar de la arteria iliolumbar,Lumbar branch of iliolumbar artery,con ficha,sí
+Circulatorio,,Rama mental de la arteria alveolar inferior,Mental branch of inferior alveolar artery,con ficha,sí
+Circulatorio,,Rama milohioidea de la arteria alveolar inferior,Mylohyoid branch of inferior alveolar artery,con ficha,sí
+Circulatorio,,Rama posterior de la arteria renal,Posterior branch of renal artery,con ficha,sí
+Circulatorio,,Rama superficial de la arteria plantar medial,Superficial branch of medial plantar artery,con ficha,sí
+Circulatorio,,Ramas calcáneas de la arteria fibular,Calcaneal branches of fibular artery,con ficha,sí
+Circulatorio,,Ramas calcáneas de la arteria tibial posterior,Calcaneal branches of posterior tibial artery,con ficha,sí
+Circulatorio,,Ramas del septales anteriores de la arteria etmoidal anterior,Anterior septal branches of anterior ethmoidal artery,con ficha,sí
+Circulatorio,,Ramas frontales de la arteria callosomarginal,Frontal branches of callosomarginal artery,con ficha,sí
+Circulatorio,,Ramas insulares de la arteria cerebra media (M2),Insular branches of middle cerebral artery (M2),con ficha,sí
+Circulatorio,,Ramas orbitofrontales de la arteria cerebral anterior,Orbitofrontal branches of anterior cerebral artery,con ficha,sí
+Circulatorio,,Ramas parietales de la arteria cerebral media,Parietal branches of middle cerebral artery,con ficha,sí
+Circulatorio,,Ramas pectorales de la arteria toracoacromial,Pectoral branches of thoraco-acromial artery,con ficha,sí
+Circulatorio,,Ramas perforantes de las arterias metatarsianas plantares,Perforating branches of plantar metatarsal arteries,con ficha,sí
+Circulatorio,,Ramas pontinas laterales de la arteria basilar,Lateral pontine branches of basilar artery,con ficha,sí
+Circulatorio,,Ramas pontinas mediales de la arteria basilar,Medial pontine branches of basilar artery,con ficha,sí
+Circulatorio,,Ramas septales de la arteria etmoidal posterior,Septal branches of posterior ethmoidal artery,con ficha,sí
+Circulatorio,,Ramas septales de la arteria interventricular anterior,Septal branches of anterior interventricular artery,con ficha,sí
+Circulatorio,,Ramas septales posteriores anteriores-arteria esfenopalatina,Posterior septal branches of sphenopalatine artery,con ficha,sí
+Circulatorio,,Ramas temporales de la arteria cerebral media,Temporal branches of middle cerebral artery,con ficha,sí
+Circulatorio,,Red carpiana dorsal,Dorsal carpal anastomosis,con ficha,sí
+Circulatorio,,Red venosa dorsal de la mano,Dorsal venous network of hand,con ficha,sí
+Circulatorio,,Segunda arteria intercostal posterior,Second posterior intercostal artery,con ficha,sí
+Circulatorio,,Seno cavernoso,Cavernous sinus,con ficha,sí
+Circulatorio,,Seno coronario,Coronary sinus,con ficha,sí
+Circulatorio,,Seno intercavernoso anterior,Anterior intercavernous sinus,con ficha,sí
+Circulatorio,,Seno intercavernoso posterior,Posterior intercavernous sinus,con ficha,sí
+Circulatorio,,Seno occipital,Occipital sinus,con ficha,sí
+Circulatorio,,Seno petroso inferior,Inferior petrosal sinus,con ficha,sí
+Circulatorio,,Seno petroso superior,Superior petrosal sinus,con ficha,sí
+Circulatorio,,Seno recto,Straight sinus,con ficha,sí
+Circulatorio,,Seno sagital inferior,Inferior sagittal sinus,con ficha,sí
+Circulatorio,,Seno sagital superior,Superior sagittal sinus,con ficha,sí
+Circulatorio,,Seno sigmoideo,Sigmoid sinus,con ficha,sí
+Circulatorio,,Seno transverso,Transverse sinus,con ficha,sí
+Circulatorio,,,Superficial branch of transverse cervical artery,con ficha,sí
+Circulatorio,,,Temporo-occipital branch,con ficha,sí
+Circulatorio,,Tronco braquiocefálico,Brachiocephalic trunk,con ficha,sí
+Circulatorio,,Tronco celiaco,Coeliac trunk,con ficha,sí
+Circulatorio,,Tronco costocervical,Costocervical trunk,con ficha,sí
+Circulatorio,,Tronco pulmonar,Pulmonary trunk,con ficha,sí
+Circulatorio,,Tronco tirocervical,Thyrocervical trunk,con ficha,sí
+Circulatorio,,,Ulnar recurrent artery,con ficha,sí
+Circulatorio,,Vena angular,Angular vein,con ficha,sí
+Circulatorio,,Vena antebraquial mediana,Median antebrachial vein,con ficha,sí
+Circulatorio,,Vena anterior del pulmón derecho,Anterior vein of right lung,con ficha,sí
+Circulatorio,,Vena anterior del pulmón izquierdo,Anterior vein of left lung,con ficha,sí
+Circulatorio,,Vena apical del pulmón derecho,Apical vein of right lung,con ficha,sí
+Circulatorio,,Vena apicoposterior del pulmón izquierdo,Apicoposterior vein of left lung,con ficha,sí
+Circulatorio,,Vena auricular posterior,Posterior auricular vein,con ficha,sí
+Circulatorio,,Vena axilar,Axillary vein,con ficha,sí
+Circulatorio,,Vena basal inferior del pulmón derecho,Inferior basal vein of right lung,con ficha,sí
+Circulatorio,,Vena basal inferior del pulmón izquierdo,Inferior basal vein of left lung,con ficha,sí
+Circulatorio,,Vena basal superior del pulmón derecho,Superior basal vein of right lung,con ficha,sí
+Circulatorio,,Vena basal superior del pulmón izquierdo,Superior basal vein of left lung,con ficha,sí
+Circulatorio,,Vena basílica,Basilic vein,con ficha,sí
+Circulatorio,,Vena braquiocefálica derecha,Right brachiocephalic vein,con ficha,sí
+Circulatorio,,Vena braquiocefálica izquierda,Left brachiocephalic vein,con ficha,sí
+Circulatorio,,Vena cardiaca media,Middle cardiac vein,con ficha,sí
+Circulatorio,,Vena cardíaca mayor,Great cardiac vein,con ficha,sí
+Circulatorio,,Vena cava inferior (parte abdominal),Inferior vena cava (abdominal part),con ficha,sí
+Circulatorio,,Vena cava inferior (parte torácica),Inferior vena cava (thoracic part),con ficha,sí
+Circulatorio,,Vena cava superior,Superior vena cava,con ficha,sí
+Circulatorio,,Vena cefálica,Cephalic vein,con ficha,sí
+Circulatorio,,Vena circunfleja escapular,Circumflex scapular vein,con ficha,sí
+Circulatorio,,Vena circunfleja humeral anterior,Anterior circumflex humeral vein,con ficha,sí
+Circulatorio,,Vena circunfleja humeral posterior,Posterior circumflex humeral vein,con ficha,sí
+Circulatorio,,Vena cubital mediana,Median cubital vein,con ficha,sí
+Circulatorio,,Vena cólica derecha,Right colic vein,con ficha,sí
+Circulatorio,,Vena cólico media,Middle colic vein,con ficha,sí
+Circulatorio,,Vena dorsal profunda del pene,Deep dorsal vein of penis,oculta (estructura masculina),
+Circulatorio,,Vena epigástrica inferior,Inferior epigastric vein,con ficha,sí
+Circulatorio,,Vena epigástrica superficial,Superficial epigastric vein,con ficha,sí
+Circulatorio,,Vena esplénica,Splenic vein,con ficha,sí
+Circulatorio,,Vena facial,Facial vein,con ficha,sí
+Circulatorio,,Vena facial común,Common facial vein,con ficha,sí
+Circulatorio,,Vena femoral,Femoral vein,con ficha,sí
+Circulatorio,,Vena femoral profunda,Deep femoral vein,con ficha,sí
+Circulatorio,,Vena frénica superior derecha,Right superior phrenic vein,con ficha,sí
+Circulatorio,,Vena gastro-omental derecha,Right gastro-omental vein,con ficha,sí
+Circulatorio,,Vena gastro-omental izquierda,Left gastro-omental vein,con ficha,sí
+Circulatorio,,Vena hemiácigos,Hemi-azygos vein,con ficha,sí
+Circulatorio,,Vena hemiácigos accessoria,Accessory hemi-azygos vein,con ficha,sí
+Circulatorio,,Vena iliaca común,Common iliac vein,con ficha,sí
+Circulatorio,,Vena iliaca externa,External iliac vein,con ficha,sí
+Circulatorio,,Vena iliaca interna,Internal iliac vein,con ficha,sí
+Circulatorio,,Vena iliolumbar,Iliolumbar vein,con ficha,sí
+Circulatorio,,Vena inferior del ventrículo izquierdo,Inferior vein of left ventricle,con ficha,sí
+Circulatorio,,Vena intercostal superior derecha,Right superior intercostal vein,con ficha,sí
+Circulatorio,,Vena intercostal superior izquierda,Left superior intercostal vein,con ficha,sí
+Circulatorio,,Vena labial superior,Superior labial vein,con ficha,sí
+Circulatorio,,Vena lateral del pulmón derecho,Lateral vein of right lung,con ficha,sí
+Circulatorio,,Vena lingual,Lingual vein,con ficha,sí
+Circulatorio,,Vena lingular del pulmón izquierdo,Lingular vein of left lung,con ficha,sí
+Circulatorio,,Vena lingular inferior del pulmón izquierdo,Inferior lingular vein of left lung,con ficha,sí
+Circulatorio,,Vena lingular superior del pulmón izquierdo,Superior lingular vein of left lung,con ficha,sí
+Circulatorio,,Vena lumbar ascendente derecha,Right ascending lumbar vein,con ficha,sí
+Circulatorio,,Vena lumbar ascendente izquierda,Left ascending lumbar vein,con ficha,sí
+Circulatorio,,Vena medial del pulmón derecho,Medial vein of right lung,con ficha,sí
+Circulatorio,,Vena mesentérica inferior,Inferior mesenteric vein,con ficha,sí
+Circulatorio,,Vena mesentérica superior,Superior mesenteric vein,con ficha,sí
+Circulatorio,,Vena occipital,Occipital vein,con ficha,sí
+Circulatorio,,Vena oftalmica superior,Superior ophthalmic vein,con ficha,sí
+Circulatorio,,Vena oftálmica inferior,Inferior ophthalmic vein,con ficha,sí
+Circulatorio,,Vena poplítea,Popliteal vein,con ficha,sí
+Circulatorio,,Vena porta hepática,Hepatic portal vein,con ficha,sí
+Circulatorio,,Vena posterior del pulmón derecho,Posterior vein of right lung,con ficha,sí
+Circulatorio,,Vena pudenda interna,Internal pudendal vein,con ficha,sí
+Circulatorio,,Vena pulmonar inferior derecha,Right inferior pulmonary vein,con ficha,sí
+Circulatorio,,Vena pulmonar inferior izquierda,Left inferior pulmonary vein,con ficha,sí
+Circulatorio,,Vena pulmonar superior izquierda,Left superior pulmonary vein,con ficha,sí
+Circulatorio,,Vena renal derecha,Right renal vein,con ficha,sí
+Circulatorio,,Vena renal izquierda,Left renal vein,con ficha,sí
+Circulatorio,,Vena retromandibular,Retromandibular vein,con ficha,sí
+Circulatorio,,Vena subclavia derecha,Right subclavian vein,con ficha,sí
+Circulatorio,,Vena subclavia izquierda,Left subclavian vein,con ficha,sí
+Circulatorio,,Vena subcostal derecha,Right subcostal vein,con ficha,sí
+Circulatorio,,Vena subcostal izquierda,Left subcostal vein,con ficha,sí
+Circulatorio,,Vena subescapular,Subscapular vein,con ficha,sí
+Circulatorio,,Vena submental,Submental vein,con ficha,sí
+Circulatorio,,Vena superior del pulmón derecho,Superior vein of right lung,con ficha,sí
+Circulatorio,,Vena superior del pulmón izquierdo,Superior vein of left lung,con ficha,sí
+Circulatorio,,Vena supraescapular,Suprascapular vein,con ficha,sí
+Circulatorio,,Vena testicular derecha,Right testicular vein,oculta (estructura masculina),
+Circulatorio,,Vena testicular izquierda,Left testicular vein,oculta (estructura masculina),
+Circulatorio,,Vena tiroidea superior,Superior thyroid vein,con ficha,sí
+Circulatorio,,Vena toracodorsal,Thoracodorsal vein,con ficha,sí
+Circulatorio,,Vena torácica lateral,Lateral thoracic vein,con ficha,sí
+Circulatorio,,Vena ulmonar superior derecha,Right superior pulmonary vein,con ficha,sí
+Circulatorio,,Vena vertebral,Vertebral vein,con ficha,sí
+Circulatorio,,Vena yugular anterior,Anterior jugular vein,con ficha,sí
+Circulatorio,,Vena yugular externa,External jugular vein,con ficha,sí
+Circulatorio,,Vena yugular interna,Internal jugular vein,con ficha,sí
+Circulatorio,,Vena ácigos,Azygos vein,con ficha,sí
+Circulatorio,,Venas braquiales,Brachial veins,con ficha,sí
+Circulatorio,,Venas digitales dorsales de la mano,Dorsal digital veins of hand,con ficha,sí
+Circulatorio,,Venas digitales dorsales del pie,Dorsal digital veins of foot,con ficha,sí
+Circulatorio,,Venas digitales palmares,Palmar digital veins,con ficha,sí
+Circulatorio,,Venas digitales plantares,Plantar digital veins,con ficha,sí
+Circulatorio,,Venas dorsales superficiales del pene,Superficial dorsal veins of penis,oculta (estructura masculina),
+Circulatorio,,Venas epigástricas superiores,Superior epigastric veins,con ficha,sí
+Circulatorio,,Venas femorales circunflejas laterales,Lateral circumflex femoral veins,con ficha,sí
+Circulatorio,,Venas femorales circunflejas mediales,Medial circumflex femoral veins,con ficha,sí
+Circulatorio,,Venas fibulares,Fibular veins,con ficha,sí
+Circulatorio,,Venas geniculares,Genicular veins,con ficha,sí
+Circulatorio,,Venas glúteas inferiores,Inferior gluteal veins,con ficha,sí
+Circulatorio,,Venas glúteas superiores,Superior gluteal veins,con ficha,sí
+Circulatorio,,Venas hepáticas,Hepatic veins,con ficha,sí
+Circulatorio,,Venas intercapitulares del pie,Intercapitular veins of foot,con ficha,sí
+Circulatorio,,Venas intrarrenales del riñón derecho,Intrarenal veins of right kidney,con ficha,sí
+Circulatorio,,Venas intrarrenales del riñón izquierdo,Intrarenal veins of left kidney,con ficha,sí
+Circulatorio,,Venas labiales inferiores,Inferior labial veins,con ficha,sí
+Circulatorio,,Venas lumbares,Lumbar veins,con ficha,sí
+Circulatorio,,Venas maxilares,Maxillary veins,con ficha,sí
+Circulatorio,,Venas metatarsianas dorsales,Dorsal metatarsal veins,con ficha,sí
+Circulatorio,,Venas metatarsianas plantares,Plantar metatarsal veins,con ficha,sí
+Circulatorio,,Venas musculofrénicas,Musculophrenic veins,con ficha,sí
+Circulatorio,,Venas perforantes,Perforating veins,pendiente,
+Circulatorio,,Venas plantares laterales,Lateral plantar veins,con ficha,sí
+Circulatorio,,Venas plantares mediales,Medial plantar veins,con ficha,sí
+Circulatorio,,Venas pudendas externas,External pudendal veins,con ficha,sí
+Circulatorio,,Venas radiales,Radial veins,con ficha,sí
+Circulatorio,,Venas sacras laterales,Lateral sacral veins,con ficha,sí
+Circulatorio,,Venas sigmoideas,Sigmoid veins,con ficha,sí
+Circulatorio,,Venas temporales superficiales,Superficial temporal veins,con ficha,sí
+Circulatorio,,Venas tibiales anteriores,Anterior tibial veins,con ficha,sí
+Circulatorio,,Venas tibiales posteriores,Posterior tibial veins,con ficha,sí
+Circulatorio,,Venas torácicas internas,Internal thoracic veins,con ficha,sí
+Circulatorio,,Venas ulnares,Ulnar veins,con ficha,sí
+Circulatorio,,Ventrículo derecho,Right ventricle,con ficha,sí
+Circulatorio,,Ventrículo izquierdo,Left ventricle,con ficha,sí
+Circulatorio,,Válvula coronaria aórtica derecha,Right coronary leaflet,con ficha,sí
+Circulatorio,,Válvula coronaria aórtica izquierda,Left coronary leaflet,con ficha,sí
+Circulatorio,,Válvula no coronaria de la valva aórtica,Non-coronary leaflet,con ficha,sí
+Circulatorio,,Válvula posterior de la valva atrioventricular derecha,Inferior leaflet of right atrioventricular valve,con ficha,sí
+Circulatorio,,Válvula posterior de la valva atrioventricular izquierda,Posterior leaflet of left atrioventricular valve,con ficha,sí
+Circulatorio,,Válvula semilunar anterior de la valva pulmonar,Anterior semilunar leaflet of pulmonary valve,con ficha,sí
+Circulatorio,,Válvula semilunar derecha de la valva pulmonar,Right semilunar leaflet of pulmonary valve,con ficha,sí
+Circulatorio,,Válvula semilunar izquierda de la valva pulmonar,Left semilunar leaflet of pulmonary valve,con ficha,sí
+Circulatorio,,Válvula septal de la valva atrioventricular derecha,Septal leaflet of right atrioventricular valve,con ficha,sí
+Nervioso,,Acueducto del mesencéfalo,Aqueduct of midbrain,pendiente,
+Nervioso,,Ala del lóbulo central,Wing of central lobule,pendiente,
+Nervioso,,Ampulla del canalículo lacrimal,Ampulla of lacrimal canaliculus,pendiente,
+Nervioso,,Amígdala del cerebelo,Tonsil of cerebellum,pendiente,
+Nervioso,,,Anterior occipital sulcus*,pendiente,
+Nervioso,,Base del pedúnculo,Base of peduncle,pendiente,
+Nervioso,,Bulbo,Medulla oblongata,pendiente,
+Nervioso,,Canal central,Central canal,pendiente,
+Nervioso,,Canalículo lagrimal,Lacrimal canaliculus,pendiente,
+Nervioso,,Cauda equina,Cauda equina,pendiente,
+Nervioso,,,Central canal',pendiente,
+Nervioso,,,Cingulate gyrus (Posteroventral part*),pendiente,
+Nervioso,,,Cingulate gyrus and sulcus (Middle anterior part),pendiente,
+Nervioso,,,Cingulate gyrus and sulcus (Middle posterior part),pendiente,
+Nervioso,,,Cingulate gyrus and sulcus (Posterior dorsal part),pendiente,
+Nervioso,,,Cingulate sulcus (Marginal part*),pendiente,
+Nervioso,,Colículo inferior,Inferior colliculus,pendiente,
+Nervioso,,Colículo superior,Superior colliculus,pendiente,
+Nervioso,,Comisura anterior,Anterior commissure,pendiente,
+Nervioso,,Comisura hipocampal,Hippocampal commissure,pendiente,
+Nervioso,,Comisura posterior,Posterior commissure,pendiente,
+Nervioso,,,Communicating branch of median nerve with ulnar nerve,pendiente,
+Nervioso,,Conducto nasolagrimal,Nasolacrimal duct,pendiente,
+Nervioso,,Cuarto ventrículo,Fourth ventricle,pendiente,
+Nervioso,,Cuerda del tímpano,Chorda tympani,pendiente,
+Nervioso,,Cuerno anterior de la médula espinal,Anterior horn of spinal cord,pendiente,
+Nervioso,,Cuerno posterior de la médula espinal,Posterior horn of spinal cord,pendiente,
+Nervioso,,Cuerpo amigdaloide,Amygdaloid body,pendiente,
+Nervioso,,Cuerpo calloso,Corpus callosum,pendiente,
+Nervioso,,Cuerpo geniculado lateral,Lateral geniculate body,pendiente,
+Nervioso,,Cuerpo geniculado medial,Medial geniculate body,pendiente,
+Nervioso,,Cuerpo mamilar,Mamillary body,pendiente,
+Nervioso,,Cuerpo vitreo,Vitreous body,pendiente,
+Nervioso,,Culmen,Culmen,pendiente,
+Nervioso,,Cuneus,Cuneus,pendiente,
+Nervioso,,Cámara anterior del globo ocular,Anterior chamber of eyeball,pendiente,
+Nervioso,,Cóclea,Cochlea,pendiente,
+Nervioso,,Córnea,Cornea,pendiente,
+Nervioso,,Declive,Declive,pendiente,
+Nervioso,,División anterior del nervio mandibular,Anterior division of mandibular nerve,pendiente,
+Nervioso,,División anterior del tronco inferior del plexo braquial,Anterior division of inferior trunk of brachial plexus,pendiente,
+Nervioso,,División anterior del tronco medio del plexo braquial,Anterior division of middle trunk of brachial plexus,pendiente,
+Nervioso,,División anterior del tronco superior del plexo braquial,Anterior division of superior trunk of brachial plexus,pendiente,
+Nervioso,,División posterior del nervio mandibular,Posterior division of mandibular nerve,pendiente,
+Nervioso,,División posterior del tronco inferior del plexo braquial,Posterior division of inferior trunk of brachial plexus,pendiente,
+Nervioso,,División posterior del tronco medio del plexo braquial,Posterior division of middle trunk of brachial plexus,pendiente,
+Nervioso,,División posterior del tronco superior del plexo braquial,Posterior division of superior trunk of brachial plexus,pendiente,
+Nervioso,,Dura espinal,Spinal dura,pendiente,
+Nervioso,,Esclera,Sclera,pendiente,
+Nervioso,,Estrías talámicas medulares,Stria medullaris thalami,pendiente,
+Nervioso,,Fascículo anterior propio,Anterior fasciculus proprius,pendiente,
+Nervioso,,Fascículo cuneiforme,Cuneate fasciculus,pendiente,
+Nervioso,,Fascículo grácil,Gracile fasciculus,pendiente,
+Nervioso,,Fascículo lateral propio,Lateral fasciculus proprius,pendiente,
+Nervioso,,Fascículo posterior del plexo braquial,Posterior cord of brachial plexus,pendiente,
+Nervioso,,Fascículo posterior propio,Posterior fasciculus proprius,pendiente,
+Nervioso,,Fibras zonulares,Zonular fibres,pendiente,
+Nervioso,,Flocculus,Flocculus,pendiente,
+Nervioso,,Folio del vermis,Folium of vermis,pendiente,
+Nervioso,,Fornix,Fornix,pendiente,
+Nervioso,,Fosa interpeduncular,Interpeduncular fossa,pendiente,
+Nervioso,,Ganglio espinal,Spinal ganglion,pendiente,
+Nervioso,,Ganglios del tronco simpático,Ganglia of sympathetic trunk,pendiente,
+Nervioso,,Giro angular,Angular gyrus,pendiente,
+Nervioso,,Giro frontal medio,Middle frontal gyrus,pendiente,
+Nervioso,,Giro frontal superior,Superior frontal gyrus,pendiente,
+Nervioso,,Giro lingual,Lingual gyrus,pendiente,
+Nervioso,,Giro occipitotemporal lateral,Lateral occipitotemporal gyrus,pendiente,
+Nervioso,,Giro poscentral,Postcentral gyrus,pendiente,
+Nervioso,,Giro precentral,Precentral gyrus,pendiente,
+Nervioso,,Giro supramarginal,Supramarginal gyrus,pendiente,
+Nervioso,,Giro temporal inferior,Inferior temporal gyrus,pendiente,
+Nervioso,,Giro temporal medio,Middle temporal gyrus,pendiente,
+Nervioso,,Giros occipitales superiores,Superior occipital gyri,pendiente,
+Nervioso,,Giros orbitales,Orbital gyri,pendiente,
+Nervioso,,Giros temporales transversos,Transverse temporal gyri,pendiente,
+Nervioso,,Globo pálido,Globus pallidus,pendiente,
+Nervioso,,Glándula lagrimal,Lacrimal gland,pendiente,
+Nervioso,,Habénula,Habenula,pendiente,
+Nervioso,,Hipocampo,Hippocampus,pendiente,
+Nervioso,,Hipotálamo,Hypothalamus,pendiente,
+Nervioso,,Hoz del cerebro,Falx cerebri,pendiente,
+Nervioso,,,Inferior occipital gyrus and sulcus*,pendiente,
+Nervioso,,,Insula (Subcentral gyrus and ant. and post. sulci*),pendiente,
+Nervioso,,Iris,Iris,pendiente,
+Nervioso,,,Lat_Fis-ant-Horizont,pendiente,
+Nervioso,,,Lat_Fis-ant-Vertical,pendiente,
+Nervioso,,,Lat_Fis-post,pendiente,
+Nervioso,,,Lateral occipital gyrus (Middle occipital gyrus*),pendiente,
+Nervioso,,Lente,Lens,pendiente,
+Nervioso,,Ligamento suspensorio del globo ocular,Suspensory ligament of eyeball,pendiente,
+Nervioso,,Lingula del cerebelo,Lingula of cerebellum,pendiente,
+Nervioso,,,Lunate sulcus,pendiente,
+Nervioso,,Lóbulo biventral,Biventral lobule,pendiente,
+Nervioso,,Lóbulo central,Central lobule,pendiente,
+Nervioso,,Lóbulo cuadrangular anterior,Anterior quadrangular lobule,pendiente,
+Nervioso,,Lóbulo cuadrangular posterior,Posterior quadrangular lobule,pendiente,
+Nervioso,,Lóbulo grácil,Gracile lobule,pendiente,
+Nervioso,,Lóbulo parietal superior,Superior parietal lobule,pendiente,
+Nervioso,,Lóbulo semilunar inferior,Inferior semilunar lobule,pendiente,
+Nervioso,,Lóbulo semilunar superior,Superior semilunar lobule,pendiente,
+Nervioso,,,Medial occipitotemporal gyrus (Parahippocampal*),pendiente,
+Nervioso,,Membrana timpánica,Tympanic membrane,pendiente,
+Nervioso,,Mesencéfalo,Midbrain,pendiente,
+Nervioso,,Nervio abducens (VI),Abducens nerve (VI),pendiente,
+Nervioso,,Nervio accesorio (XI),Accessory nerve (XI),pendiente,
+Nervioso,,Nervio alveolar inferior,Inferior alveolar nerve,pendiente,
+Nervioso,,Nervio axilar,Axillary nerve,pendiente,
+Nervioso,,Nervio bucal,Buccal nerve,pendiente,
+Nervioso,,Nervio ciático,Sciatic nerve,pendiente,
+Nervioso,,Nervio coclear,Cochlear nerve,pendiente,
+Nervioso,,Nervio cutáneo antebraquial lateral,Lateral antebrachial cutaneous nerve,pendiente,
+Nervioso,,Nervio cutáneo antebraquial medial,Medial antebrachial cutaneous nerve,pendiente,
+Nervioso,,Nervio cutáneo antebraquial posterior,Posterior antebrachial cutaneous nerve,pendiente,
+Nervioso,,Nervio cutáneo braquial lateral inferior,Inferior lateral brachial cutaneous nerve,pendiente,
+Nervioso,,Nervio cutáneo braquial lateroposterior,Superior lateral brachial cutaneous nerve,pendiente,
+Nervioso,,Nervio cutáneo braquial medial,Medial brachial cutaneous nerve,pendiente,
+Nervioso,,Nervio cutáneo dorsal intermedio del pie,Intermediate dorsal cutaneous nerve of foot,pendiente,
+Nervioso,,Nervio cutáneo dorsal medial del pie,Medial dorsal cutaneous nerve of foot,pendiente,
+Nervioso,,Nervio cutáneo femoral lateral,Lateral femoral cutaneous nerve,pendiente,
+Nervioso,,Nervio cutáneo femoral posterior,Posterior femoral cutaneous nerve,pendiente,
+Nervioso,,Nervio cutáneo sural medial,Medial sural cutaneous nerve,pendiente,
+Nervioso,,Nervio del músculo cuadrado femoral,Nerve to quadratus femoris muscle,pendiente,
+Nervioso,,Nervio del músculo milohioideo,Nerve to mylohyoid muscle,pendiente,
+Nervioso,,Nervio del músculo piriforme,Nerve to piriformis muscle,pendiente,
+Nervioso,,Nervio dorsal de la escápula,Dorsal scapular nerve,pendiente,
+Nervioso,,Nervio facial (VII),Facial nerve (VII),pendiente,
+Nervioso,,Nervio femoral,Femoral nerve,pendiente,
+Nervioso,,Nervio fibular común,Common fibular nerve,pendiente,
+Nervioso,,Nervio fibular profundo,Deep fibular nerve,pendiente,
+Nervioso,,Nervio fibular superficial,Superficial fibular nerve,pendiente,
+Nervioso,,Nervio genitofemoral,Genitofemoral nerve,pendiente,
+Nervioso,,Nervio glosofaríngeo (IX),Glossopharyngeal nerve (IX),pendiente,
+Nervioso,,Nervio glúteo superior,Superior gluteal nerve,pendiente,
+Nervioso,,Nervio hipogloso (XII),Hypoglossal nerve (XII),pendiente,
+Nervioso,,Nervio iliohipogástrico,Iliohypogastric nerve,pendiente,
+Nervioso,,Nervio ilioinguinal,Ilio-inguinal nerve,pendiente,
+Nervioso,,Nervio interóseo anterior del antebrazo,Anterior interosseous nerve of forearm,pendiente,
+Nervioso,,Nervio interóseo posterior del antebrazo,Posterior interosseous nerve of forearm,pendiente,
+Nervioso,,Nervio lingual,Lingual nerve,pendiente,
+Nervioso,,Nervio maxilar,Maxillary nerve,pendiente,
+Nervioso,,Nervio mediano,Median nerve,pendiente,
+Nervioso,,Nervio mental,Mental nerve,pendiente,
+Nervioso,,Nervio musculocutáneo,Musculocutaneous nerve,pendiente,
+Nervioso,,Nervio obturador,Obturator nerve,pendiente,
+Nervioso,,Nervio oculomotor (III),Oculomotor nerve (III),pendiente,
+Nervioso,,Nervio oftálmico,Ophthalmic nerve,pendiente,
+Nervioso,,Nervio olfatorio (I),Olfactory nerve (I),pendiente,
+Nervioso,,Nervio pectoral lateral,Lateral pectoral nerve,pendiente,
+Nervioso,,Nervio pectoral medial,Medial pectoral nerve,pendiente,
+Nervioso,,Nervio plantar lateral,Lateral plantar nerve,pendiente,
+Nervioso,,Nervio plantar medial,Medial plantar nerve,pendiente,
+Nervioso,,Nervio pudendo,Pudendal nerve,pendiente,
+Nervioso,,Nervio radial,Radial nerve,pendiente,
+Nervioso,,Nervio safeno,Saphenous nerve,pendiente,
+Nervioso,,Nervio subclavio,Subclavian nerve,pendiente,
+Nervioso,,Nervio subescapular inferior,Inferior subscapular nerve,pendiente,
+Nervioso,,Nervio subescapular superior,Superior subscapular nerve,pendiente,
+Nervioso,,Nervio supraescapular,Suprascapular nerve,pendiente,
+Nervioso,,Nervio sural,Sural nerve,pendiente,
+Nervioso,,Nervio tibial,Tibial nerve,pendiente,
+Nervioso,,Nervio toracodorsal,Thoracodorsal nerve,pendiente,
+Nervioso,,Nervio torácico largo,Long thoracic nerve,pendiente,
+Nervioso,,Nervio trigémino (V),Trigeminal nerve (V),pendiente,
+Nervioso,,Nervio troclear (IV),Trochlear nerve (IV),pendiente,
+Nervioso,,Nervio ulnar,Ulnar nerve,pendiente,
+Nervioso,,Nervio vago (X),Vagus nerve (X),pendiente,
+Nervioso,,Nervio vestibular,Vestibular nerve,pendiente,
+Nervioso,,Nervio vestibulococlear (VIII),Vestibulocochlear nerve (VIII),pendiente,
+Nervioso,,Nervio óptico (II),Optic nerve (II),pendiente,
+Nervioso,,Nervios intercostales,Intercostal nerves,pendiente,
+Nervioso,,Nervios simpáticos,Sympathetic nerves,pendiente,
+Nervioso,,Nódulo del vermis,Nodule of vermis,pendiente,
+Nervioso,,Núcleo accesorio del nervio oculomotor,Accessory nucleus of oculomotor nerve,pendiente,
+Nervioso,,Núcleo ambiguo,Nucleus ambiguus,pendiente,
+Nervioso,,Núcleo caudado,Caudate nucleus,pendiente,
+Nervioso,,Núcleo coclear anterior,Anterior cochlear nucleus,pendiente,
+Nervioso,,Núcleo coclear posterior,Posterior cochlear nucleus,pendiente,
+Nervioso,,Núcleo del nervio abducens,Nucleus of abducens nerve,pendiente,
+Nervioso,,Núcleo del nervio accesorio,Nucleus of accessory nerve,pendiente,
+Nervioso,,Núcleo del nervio hipogloso,Nucleus of hypoglossal nerve,pendiente,
+Nervioso,,Núcleo del nervio oculomotor,Nucleus of oculomotor nerve,pendiente,
+Nervioso,,Núcleo del nervio troclear,Nucleus of trochlear nerve,pendiente,
+Nervioso,,Núcleo del tracto solitario,Nucleus of solitary tract,pendiente,
+Nervioso,,Núcleo intermediolateral,Intermediolateral nucleus,pendiente,
+Nervioso,,Núcleo intermediomedial,Intermediomedial nucleus,pendiente,
+Nervioso,,Núcleo lentiforme,Lentiform nucleus,pendiente,
+Nervioso,,Núcleo motor del nervio facial,Motor nucleus of facial nerve,pendiente,
+Nervioso,,Núcleo posterior del nervio vago,Posterior nucleus of vagus nerve,pendiente,
+Nervioso,,Núcleo propio,Nucleus proprius,pendiente,
+Nervioso,,Núcleo rojo,Red nucleus,pendiente,
+Nervioso,,Núcleo salival inferior,Inferior salivatory nucleus,pendiente,
+Nervioso,,Núcleo salival superior,Superior salivatory nucleus,pendiente,
+Nervioso,,Núcleos septales,Septal nuclei,pendiente,
+Nervioso,,Núcleos vestibulares,Vestibular nuclei,pendiente,
+Nervioso,,,Occipitotemporal sulcus (Lateral part*),pendiente,
+Nervioso,,Oliva,Olive,pendiente,
+Nervioso,,,Orbital gyri (Frontomarginal gyrus and sulcus*),pendiente,
+Nervioso,,,Orbital part of  inferior frontal gyrus,pendiente,
+Nervioso,,,Orbital sulci (H-shaped orbital sulci*),pendiente,
+Nervioso,,,Orbital sulci (Lateral Orbital sulcus*),pendiente,
+Nervioso,,,Paracentral gyrus and sulcus*,pendiente,
+Nervioso,,Parte opercular del giro frontal inferior,Opercular part of inferior frontal gyrus,pendiente,
+Nervioso,,Parte triangular del giro frontal inferior,Triangular part of inferior frontal gyrus,pendiente,
+Nervioso,,Pedúnculo cerebeloso superior,Superior cerebellar peduncle,pendiente,
+Nervioso,,Pedúnculo del flóculo,Peduncle of flocculus,pendiente,
+Nervioso,,Pirámide bulbar,Pyramid of medulla oblongata,pendiente,
+Nervioso,,Pirámide del vermis,Pyramis of vermis,pendiente,
+Nervioso,,Plano temporal,Temporal plane,pendiente,
+Nervioso,,Plexo coroideo,Choroid plexus,pendiente,
+Nervioso,,Polo occipital,Occipital pole,pendiente,
+Nervioso,,Polo temporal,Temporal pole,pendiente,
+Nervioso,,,Posterior transverse collateral sulcus,pendiente,
+Nervioso,,,Precentral sulcus (Superior part)*,pendiente,
+Nervioso,,,Precentral sulcus (inferior part)*,pendiente,
+Nervioso,,Precuneus,Precuneus,pendiente,
+Nervioso,,Proceso reticular espinal,Spinal reticular process,pendiente,
+Nervioso,,Puente troncoencefálico,Pons,pendiente,
+Nervioso,,Putamen,Putamen,pendiente,
+Nervioso,,Quiasma óptico,Optic chiasm,pendiente,
+Nervioso,,Ramo anterior del nervio cutáneo antebraquial medial,Anterior branch of medial antebrachial cutaneous nerve,pendiente,
+Nervioso,,Ramo anterior del nervio obturador,Anterior branch of obturator nerve,pendiente,
+Nervioso,,Ramo dorsal del nervio ulnar,Dorsal branch of ulnar nerve,pendiente,
+Nervioso,,Ramo femoral del nervio genitofemoral,Femoral branch of genitofemoral nerve,pendiente,
+Nervioso,,Ramo genital del nervio genitofemoral,Genital branch of genitofemoral nerve,pendiente,
+Nervioso,,Ramo infrapatelar del nervio safeno,Infrapatellar branch of saphenous nerve,pendiente,
+Nervioso,,Ramo meníngeo del nervio maxilar,Meningeal branch of maxillary nerve,pendiente,
+Nervioso,,Ramo palmar del nervio mediano,Palmar branch of median nerve,pendiente,
+Nervioso,,Ramo palmar del nervio ulnar,Palmar branch of ulnar nerve,pendiente,
+Nervioso,,Ramo posterior del nervio cutáneo antebraquial medial,Posterior branch of medial antebrachial cutaneous nerve,pendiente,
+Nervioso,,Ramo posterior del nervio obturador,Posterior branch of obturator nerve,pendiente,
+Nervioso,,Ramo profunda del nervio ulnar,Deep branch of ulnar nerve,pendiente,
+Nervioso,,Ramo profundo del nervio radial,Deep branch of radial nerve,pendiente,
+Nervioso,,Ramo superficial del nervio radial,Superficial branch of radial nerve,pendiente,
+Nervioso,,Ramo superficial del nervio ulnar,Superficial branch of ulnar nerve,pendiente,
+Nervioso,,Ramo sural comunicante del nervio fibular común,Sural communicating branch of common fibular nerve,pendiente,
+Nervioso,,Ramos cutáneos anteriores del nervio femoral,Anterior cutaneous branches of femoral nerve,pendiente,
+Nervioso,,Ramos cutáneos crurales mediales del nervio safeno,Medial crural cutaneous branches of saphenous nerve,pendiente,
+Nervioso,,Ramos digitales dorsales del nervio fibular profundo,Dorsal digital branches of deep fibular nerve,pendiente,
+Nervioso,,Ramos digitales dorsales del nervio fibularo superficial,Dorsal digital branches of superficial fibular nerve,pendiente,
+Nervioso,,Ramos digitales dorsales del nervio radial,Dorsal digital branches of radial nerve,pendiente,
+Nervioso,,Ramos digitales dorsales del nervio ulnar,Dorsal digital branches of ulnar nerve,pendiente,
+Nervioso,,Ramos digitales palmares comunes del nervio mediano,Common palmar digital branches of median nerve,pendiente,
+Nervioso,,Ramos digitales palmares comunes del nervio ulnar,Common palmar digital branches of ulnar nerve,pendiente,
+Nervioso,,Ramos digitales palmares propias del nervio mediano,Proper palmar digital branches of median nerve,pendiente,
+Nervioso,,Ramos digitales palmares propias del nervio ulnar,Proper palmar digital branches of ulnar nerve,pendiente,
+Nervioso,,Ramos digitales plantares comunes del nervio plantar lateral,Common plantar digital branches of lateral plantar nerve,pendiente,
+Nervioso,,Ramos digitales plantares comunes del nervio plantar medial,Common plantar digital branches of medial plantar nerve,pendiente,
+Nervioso,,Ramos digitales plantares propios del nervio plantar lateral,Proper plantar digital branches of lateral plantar nerve,pendiente,
+Nervioso,,Ramos digitales plantares propios del nervio plantar medial,Proper plantar digital branches of medial plantar nerve,pendiente,
+Nervioso,,Ramos musculares del nervio axilar,Muscular branches of axillary nerve,pendiente,
+Nervioso,,Ramos musculares del nervio fibular profundo,Muscular branches of deep fibular nerve,pendiente,
+Nervioso,,Ramos musculares del nervio mediano,Muscular branches of median nerve,pendiente,
+Nervioso,,Ramos musculares del nervio radial,Muscular branches of radial nerve,pendiente,
+Nervioso,,Ramos musculares del nervio ulnar,Muscular branches of ulnar nerve,pendiente,
+Nervioso,,Raíces del plexo braquial,Roots of brachial plexus,pendiente,
+Nervioso,,Raíz anterior del nervio cutáneo femoral posterior,Anterior root of posterior femoral cutaneous nerve,pendiente,
+Nervioso,,Raíz anterior del nervio espinal,Anterior root of spinal nerve,pendiente,
+Nervioso,,Raíz motora del nervio trigémino,Motor root of trigeminal nerve,pendiente,
+Nervioso,,Raíz posterior del nervio cutáneo femoral posterior,Posterior root of posterior femoral cutaneous nerve,pendiente,
+Nervioso,,Raíz posterior del nervio espinal,Posterior root of spinal nerve,pendiente,
+Nervioso,,Raíz sensorial del nervio trigémino,Sensory root of trigeminal nerve,pendiente,
+Nervioso,,Retina,Retina,pendiente,
+Nervioso,,Saco lagrimal,Lacrimal sac,pendiente,
+Nervioso,,Segmento anterior del globo ocular,Anterior segment of eyeball,pendiente,
+Nervioso,,Segmento posterior del globo ocular,Posterior segment of eyeball,pendiente,
+Nervioso,,Septum pellucidum,Septum pellucidum,pendiente,
+Nervioso,,,Straight gyrus (Gyrus rectus),pendiente,
+Nervioso,,Stria terminalis,Stria terminalis,pendiente,
+Nervioso,,,Sulcus interm_prim-Jensen,pendiente,
+Nervioso,,,Superior temporal gyrus (Lateral part),pendiente,
+Nervioso,,Surco calcarino,Calcarine sulcus,pendiente,
+Nervioso,,Surco central,Central sulcus,pendiente,
+Nervioso,,Surco circular de la ínsula,Circular sulcus of insula,pendiente,
+Nervioso,,Surco colateral,Collateral sulcus,pendiente,
+Nervioso,,Surco frontal inferior,Inferior frontal sulcus,pendiente,
+Nervioso,,Surco frontal superior,Superior frontal sulcus,pendiente,
+Nervioso,,Surco intraparietal,Intraparietal sulcus,pendiente,
+Nervioso,,Surco occipital transversal,Transverse occipital sulcus,pendiente,
+Nervioso,,Surco olfatorio,Olfactory sulcus,pendiente,
+Nervioso,,Surco paracentral,Paracentral sulcus,pendiente,
+Nervioso,,Surco parieto-occipital,Parieto-occipital sulcus,pendiente,
+Nervioso,,Surco poscentral,Postcentral sulcus,pendiente,
+Nervioso,,Surco subparietal,Subparietal sulcus,pendiente,
+Nervioso,,Surco temporal inferior,Inferior temporal sulcus,pendiente,
+Nervioso,,Surco temporal superior,Superior temporal sulcus,pendiente,
+Nervioso,,Sustancia blanca de la médula espinal,White matter of spinal cord,pendiente,
+Nervioso,,Sustancia blanca del telencéfalo,White matter of telencephalon,pendiente,
+Nervioso,,Sustancia intermedia lateral,Lateral intermediate substance,pendiente,
+Nervioso,,Tercer ventrículo,Third ventricle,pendiente,
+Nervioso,,Tienda del cerebello,Tentorium cerebelli,pendiente,
+Nervioso,,Tracto corticoespinal anterior,Anterior corticospinal tract,pendiente,
+Nervioso,,Tracto corticoespinal lateral,Lateral corticospinal tract,pendiente,
+Nervioso,,Tracto espinocerebeloso anterior,Anterior spinocerebellar tract,pendiente,
+Nervioso,,Tracto espinocerebeloso posterior,Posterior spinocerebellar tract,pendiente,
+Nervioso,,Tracto espinotalámico anterior,Anterior spinothalamic tract,pendiente,
+Nervioso,,Tracto espinotalámico lateral,Lateral spinothalamic tract,pendiente,
+Nervioso,,Tracto posterolateral,Posterolateral tract,pendiente,
+Nervioso,,Tracto reticuloespinal lateral,Lateral reticulospinal tract,pendiente,
+Nervioso,,Tracto reticuloespinal medial,Medial reticulospinal tract,pendiente,
+Nervioso,,Tracto rubroespinal,Rubrospinal tract,pendiente,
+Nervioso,,Tracto spinotectal,Spinotectal tract,pendiente,
+Nervioso,,Tracto tectoespinal,Tectospinal tract,pendiente,
+Nervioso,,Tracto vestibuloespinal lateral,Lateral vestibulospinal tract,pendiente,
+Nervioso,,Tracto vestibuloespinal medial,Medial vestibulospinal tract,pendiente,
+Nervioso,,Tracto óptico,Optic tract,pendiente,
+Nervioso,,,Transverse frontopolar gyrus and sulcus*,pendiente,
+Nervioso,,Tronco inferior del plexo braquial,Inferior trunk of brachial plexus,pendiente,
+Nervioso,,Tronco medio del plexo braquial,Middle trunk of brachial plexus,pendiente,
+Nervioso,,Tronco simpático,Sympathetic trunk,pendiente,
+Nervioso,,Tronco superior del plexo braquial,Superior trunk of brachial plexus,pendiente,
+Nervioso,,Tuba auditiva,Auditory tube,pendiente,
+Nervioso,,Tubérculo del vermis,Tuber of vermis,pendiente,
+Nervioso,,Tálamo,Thalamus,pendiente,
+Nervioso,,Ventrículo lateral,Lateral ventricle,pendiente,
+Nervioso,,Vestíbulo,Vestibule,pendiente,
+Nervioso,,Úvula del vermis,Uvula of vermis,pendiente,
+Órganos,,,Accessory parotid gland,con ficha,sí
+Órganos,,Adenohipófisis,Adenohypophysis,con ficha,sí
+Órganos,,,Anteromedial basal segmental bronchus of left lung,con ficha,sí
+Órganos,,Apéndice vermiforme,Vermiform appendix,con ficha,sí
+Órganos,,Bronquio intermedio,Intermediate bronchus,con ficha,sí
+Órganos,,Bronquio lobar inferior derecho,Right inferior lobar bronchus,con ficha,sí
+Órganos,,Bronquio lobar inferior izquierdo,Left inferior lobar bronchus,con ficha,sí
+Órganos,,Bronquio lobar medio,Middle lobar bronchus,con ficha,sí
+Órganos,,Bronquio lobar superior derecho,Right superior lobar bronchus,con ficha,sí
+Órganos,,Bronquio lobar superior izquierdo,Left superior lobar bronchus,con ficha,sí
+Órganos,,Bronquio principal derecho,Right main bronchus,con ficha,sí
+Órganos,,Bronquio principal izquierdo,Left main bronchus,con ficha,sí
+Órganos,,Bronquio segm. apicoposterior-pulmón izquierdo (BI + BII),Apicoposterior segmental bronchus of left lung (BI+BII),con ficha,sí
+Órganos,,Bronquio segm. lingular sup. del pulmón izquierdo (BIV),Superior lingular segmental bronchus of left lung (BIV),con ficha,sí
+Órganos,,Bronquio segmentario anterior del pulmón derecho (BIII),Anterior segmental bronchus of right lung (BIII),con ficha,sí
+Órganos,,Bronquio segmentario anterior del pulmón izquierdo (BIII),Anterior segmental bronchus of left lung (BIII),con ficha,sí
+Órganos,,Bronquio segmentario apical del pulmón derecho (BI),Apical segmental bronchus of right lung (BI),con ficha,sí
+Órganos,,Bronquio segmentario basal ant. del pulmón derecho (BVIII),Anterior basal segmental bronchus of right lung (BVIII),con ficha,sí
+Órganos,,Bronquio segmentario basal anterior-pulmón izquierdo (BVIII),Anterior basal segmental bronchus of left lung (BVIII),con ficha,sí
+Órganos,,Bronquio segmentario basal lateral del pulmón derecho (BIX),Lateral basal segmental bronchus of right lung (BIX),con ficha,sí
+Órganos,,Bronquio segmentario basal lateral del pulmón izquierdo (BIX),Lateral basal segmental bronchus of left lung (BIX),con ficha,sí
+Órganos,,Bronquio segmentario basal medial del pulmón derecho (BVII),Medial basal segmental bronchus of right lung (BVII),con ficha,sí
+Órganos,,Bronquio segmentario basal medial del pulmón izquierdo (BVII),Medial basal segmental bronchus of left lung (BVII),con ficha,sí
+Órganos,,Bronquio segmentario basal posterior del pulmón derecho (BX),Posterior basal segmental bronchus of right lung (BX),con ficha,sí
+Órganos,,Bronquio segmentario basal posterior-pulmón izquierdo (BX),Posterior basal segmental bronchus of left lung (BX),con ficha,sí
+Órganos,,Bronquio segmentario lateral del pulmón derecho (BIV),Lateral segmental bronchus of right lung (BIV),con ficha,sí
+Órganos,,Bronquio segmentario lingular inf. del pulmón izquierdo (BV),Inferior lingular segmental bronchus of left lung (BV),con ficha,sí
+Órganos,,Bronquio segmentario medial del pulmón derecho (BV),Medial segmental bronchus of right lung (BV),con ficha,sí
+Órganos,,Bronquio segmentario posterior del pulmón derecho (BII),Posterior segmental bronchus of right lung (BII),con ficha,sí
+Órganos,,Bronquio segmentario superior del pulmón derecho (BVI),Superior segmental bronchus of right lung (BVI),con ficha,sí
+Órganos,,Bronquio segmentario superior del pulmón izquierdo (BVI),Superior segmental bronchus of left lung (BVI),con ficha,sí
+Órganos,,Capa mucosa de la cavidad nasal,Mucosa of nasal cavity,con ficha,sí
+Órganos,,Capa mucosa del estómago,Mucosa of stomach,con ficha,sí
+Órganos,,Colon ascendente,Ascending colon,con ficha,sí
+Órganos,,Colon descendente,Descending colon,con ficha,sí
+Órganos,,Colon sigmoideo,Sigmoid colon,con ficha,sí
+Órganos,,Colon transverso,Transverse colon,con ficha,sí
+Órganos,,Conducto biliar,Bile duct,con ficha,sí
+Órganos,,Conducto deferente,Ductus deferens,oculta (estructura masculina),
+Órganos,,Conducto eyaculador,Ejaculatory duct,oculta (estructura masculina),
+Órganos,,Conducto pancreático,Pancreatic duct,con ficha,sí
+Órganos,,Conducto pancreático accesorio,Accessory pancreatic duct,con ficha,sí
+Órganos,,Conducto parotídeo,Parotid duct,con ficha,sí
+Órganos,,Conducto submandibular,Submandibular duct,con ficha,sí
+Órganos,,Cuerpo cavernoso del pene,Corpus cavernosum of penis,oculta (estructura masculina),
+Órganos,,Cuerpo esponjoso del pene,Corpus spongiosum of penis,oculta (estructura masculina),
+Órganos,,Duodeno,Duodenum,con ficha,sí
+Órganos,,Epidídimo,Epididymis,oculta (estructura masculina),
+Órganos,,Epiglotis,Epiglottis,con ficha,sí
+Órganos,,Estómago,Stomach,con ficha,sí
+Órganos,,Esófago,Oesophagus,con ficha,sí
+Órganos,,Gingiva,Gingiva,con ficha,sí
+Órganos,,Glande del pene,Glans penis,oculta (estructura masculina),
+Órganos,,Glándula paratiroidea inferior,Inferior parathyroid gland,con ficha,sí
+Órganos,,Glándula paratiroidea superior,Superior parathyroid gland,con ficha,sí
+Órganos,,Glándula parótida,Parotid gland,con ficha,sí
+Órganos,,Glándula pineal,Pineal gland,con ficha,sí
+Órganos,,Glándula seminal,Seminal gland,oculta (estructura masculina),
+Órganos,,Glándula sublingual,Sublingual gland,con ficha,sí
+Órganos,,Glándula submandibular,Submandibular gland,con ficha,sí
+Órganos,,Glándula suprarrenal,Suprarenal gland,con ficha,sí
+Órganos,,Glándula tiroides,Thyroid gland,con ficha,sí
+Órganos,,Hígado,Liver,con ficha,sí
+Órganos,,Lengua,Tongue,con ficha,sí
+Órganos,,Lóbulo inferior del pulmón derecho,Inferior lobe of right lung,con ficha,sí
+Órganos,,Lóbulo inferior del pulmón izquierdo,Inferior lobe of left lung,con ficha,sí
+Órganos,,Lóbulo medio del pulmón derecho,Middle lobe of right lung,con ficha,sí
+Órganos,,Lóbulo superior del pulmón derecho,Superior lobe of right lung,con ficha,sí
+Órganos,,Lóbulo superior del pulmón izquierdo,Superior lobe of left lung,con ficha,sí
+Órganos,,Mesoapéndice,Meso-appendix,con ficha,sí
+Órganos,,Mesocolon,Mesocolon,con ficha,sí
+Órganos,,Neurohipófisis,Neurohypophysis,con ficha,sí
+Órganos,,Omento mayor,Greater omentum,con ficha,sí
+Órganos,,Omento menor,Lesser omentum,con ficha,sí
+Órganos,,Paladar blando,Soft palate,con ficha,sí
+Órganos,,Pelvis renal,Renal pelvis,con ficha,sí
+Órganos,,Pleura,Pleura,con ficha,sí
+Órganos,,Porción laríngea de la farínge,Laryngopharynx,con ficha,sí
+Órganos,,Porción nasal de la faringe,Nasopharynx,con ficha,sí
+Órganos,,Porción oral de la faringe,Oropharynx,con ficha,sí
+Órganos,,Próstata,Prostate,oculta (estructura masculina),
+Órganos,,Páncreas,Pancreas,con ficha,sí
+Órganos,,Riñón,Kidney,con ficha,sí
+Órganos,,Segmento anterior lateral del hígado (VI),Anterior lateral segment of liver (VI),con ficha,sí
+Órganos,,Segmento anterior lateral izquierdo del hígado (III),Left anterior lateral segment of liver (III),con ficha,sí
+Órganos,,Segmento anterior medial del hígado (V),Anterior medial segment of liver (V),con ficha,sí
+Órganos,,Segmento medial izquierdo del hígado (IV),Left medial segment of liver (IV),con ficha,sí
+Órganos,,Segmento posterior de hígado (I),Posterior segment of liver (I),con ficha,sí
+Órganos,,Segmento posterior lateral del hígado (VII),Posterior lateral segment of liver (VII),con ficha,sí
+Órganos,,Segmento posterior lateral izquierdo del hígado (II),Left posterior lateral segment of liver (II),con ficha,sí
+Órganos,,Segmento posterior medial derecho del hígado (VIII),Posterior medial segment of liver (VIII),con ficha,sí
+Órganos,,Tenia libre,Free taenia,con ficha,sí
+Órganos,,Tenia mesocólica,Mesocolic taenia,con ficha,sí
+Órganos,,Tenia omental,Omental taenia,con ficha,sí
+Órganos,,Testículo,Testis,oculta (estructura masculina),
+Órganos,,Tráquea,Trachea,con ficha,sí
+Órganos,,Uretra,Urethra,oculta (estructura masculina),
+Órganos,,Uréter,Ureter,con ficha,sí
+Órganos,,Vejiga urinaria,Urinary bladder,con ficha,sí
+Órganos,,Vesícula biliar,Gallbladder,con ficha,sí
+Órganos,,Yeyuno,Jejunum,con ficha,sí
+Órganos,,Úvula palatina,Uvula of palate,con ficha,sí
+Linfático,,,Anterior tibial node,con ficha,sí
+Linfático,,Bazo,Spleen,con ficha,sí
+Linfático,,,Fibular node,con ficha,sí
+Linfático,,,Intermediate deep inguinal node,con ficha,sí
+Linfático,,,Intermediate lacunar node,con ficha,sí
+Linfático,,,Lateral lacunar node,con ficha,sí
+Linfático,,Lóbulo derecho del timo,Right lobe of thymus,con ficha,sí
+Linfático,,Lóbulo izquierdo del timo,Left lobe of thymus,con ficha,sí
+Linfático,,,Medial lacunar node,con ficha,sí
+Linfático,,,Node of arch of azygos vein,con ficha,sí
+Linfático,,,Node of ligamentum arteriosum,con ficha,sí
+Linfático,,Nodi postaortici,Retro-aortic nodes,con ficha,sí
+Linfático,,Nodi prae-aortici,Pre-aortic nodes,con ficha,sí
+Linfático,,Nodo bucinador,Bucinator node,con ficha,sí
+Linfático,,Nodo mandibular,Mandibular node,con ficha,sí
+Linfático,,Nodo nasolabial,Nasolabial node,con ficha,sí
+Linfático,,Nodo quístico,Cystic node,con ficha,sí
+Linfático,,Nodo yugular superolateral,Lateral superior jugular node,con ficha,sí
+Linfático,,Nodo yugulodigástrico,Jugulodigastric node,con ficha,sí
+Linfático,,Nodos anorrectales,Pararectal nodes,con ficha,sí
+Linfático,,Nodos apendiculares,Appendicular nodes,con ficha,sí
+Linfático,,Nodos axilares anteriores,Anterior axillary nodes,con ficha,sí
+Linfático,,Nodos axilares apicales,Apical axillary nodes,con ficha,sí
+Linfático,,Nodos axilares centrales,Central axillary nodes,con ficha,sí
+Linfático,,Nodos axilares laterales,Lateral axillary nodes,con ficha,sí
+Linfático,,Nodos axilares posteriores,Posterior axillary nodes,con ficha,sí
+Linfático,,Nodos aórticos laterales,Lateral aortic nodes,con ficha,sí
+Linfático,,Nodos braquiales,Brachial nodes,con ficha,sí
+Linfático,,Nodos braquiocefálicos,Brachiocephalic nodes,con ficha,sí
+Linfático,,Nodos cavales laterales,Lateral caval nodes,con ficha,sí
+Linfático,,Nodos celiacos,Coeliac nodes,con ficha,sí
+Linfático,,Nodos cervicales anteriores superficiales,Superficial anterior cervical nodes,con ficha,sí
+Linfático,,Nodos cervicales laterales inferiores profundos,Inferior deep lateral cervical nodes,con ficha,sí
+Linfático,,Nodos cervicales laterales superficiales,Superficial lateral cervical nodes,con ficha,sí
+Linfático,,Nodos cervicales paratraqueales,Paratracheal cervical nodes,con ficha,sí
+Linfático,,Nodos cubitales,Cubital nodes,con ficha,sí
+Linfático,,Nodos cólicos derechos,Right colic nodes,con ficha,sí
+Linfático,,Nodos cólicos izquierdos,Left colic nodes,con ficha,sí
+Linfático,,Nodos cólicos medios,Middle colic nodes,con ficha,sí
+Linfático,,Nodos diafragmáticos inferiores,Inferior diaphragmatic nodes,con ficha,sí
+Linfático,,Nodos diafragmáticos superiores,Superior diaphragmatic nodes,con ficha,sí
+Linfático,,Nodos epigástricos inferiores,Inferior epigastric nodes,con ficha,sí
+Linfático,,Nodos gastro-omentales derechos,Right gastro-omental nodes,con ficha,sí
+Linfático,,Nodos glúteos inferiores,Inferior gluteal nodes,con ficha,sí
+Linfático,,Nodos glúteos superiores,Superior gluteal nodes,con ficha,sí
+Linfático,,Nodos gástricos derechos,Right gastric nodes,con ficha,sí
+Linfático,,Nodos ileocólicos,Ileocolic nodes,con ficha,sí
+Linfático,,Nodos iliacos externos mediales,Medial external iliac nodes,con ficha,sí
+Linfático,,Nodos ilíacos comunes intermedios,Intermediate common iliac nodes,con ficha,sí
+Linfático,,Nodos ilíacos comunes laterales,Lateral common iliac nodes,con ficha,sí
+Linfático,,Nodos ilíacos comunes mediales,Medial common iliac nodes,con ficha,sí
+Linfático,,Nodos ilíacos externos intermedios,Intermediate external iliac nodes,con ficha,sí
+Linfático,,Nodos infra-auriculares,Infra-auricular nodes,con ficha,sí
+Linfático,,Nodos infraclaviculares,Infraclavicular nodes,con ficha,sí
+Linfático,,Nodos inguinales superficiales inferiores,Inferior superficial inguinal nodes,con ficha,sí
+Linfático,,Nodos inguinales superficiales superlaterales,Superolateral superficial inguinal nodes,con ficha,sí
+Linfático,,Nodos inguinales superficiales superomediales,Superomedial superficial inguinal nodes,con ficha,sí
+Linfático,,Nodos intercostales,Intercostal nodes,con ficha,sí
+Linfático,,Nodos interpectorales,Interpectoral nodes,con ficha,sí
+Linfático,,Nodos intrapulmonares,Intrapulmonary nodes,con ficha,sí
+Linfático,,Nodos lienales,Splenic nodes,con ficha,sí
+Linfático,,Nodos lumbares intermedios,Intermediate lumbar nodes,con ficha,sí
+Linfático,,Nodos mastoideos,Mastoid nodes,con ficha,sí
+Linfático,,Nodos mesentéricos superiores centrales,Central superior mesenteric nodes,con ficha,sí
+Linfático,,Nodos mesentéricos superiores paracólicos,Paracolic superior mesenteric nodes,con ficha,sí
+Linfático,,Nodos mesentéricos yuxta-intestinales,Juxta-intestinal mesenteric nodes,con ficha,sí
+Linfático,,Nodos obturadores,Obturator nodes,con ficha,sí
+Linfático,,Nodos occipitales,Occipital nodes,con ficha,sí
+Linfático,,Nodos pancreatoduodenales superiores,Superior pancreaticoduodenal nodes,con ficha,sí
+Linfático,,Nodos pancreáticos inferiores,Inferior pancreatic nodes,con ficha,sí
+Linfático,,Nodos pancreáticos superiores,Superior pancreatic nodes,con ficha,sí
+Linfático,,Nodos para-esternales,Parasternal nodes,con ficha,sí
+Linfático,,Nodos parótidos intraglandulares,Intraglandular parotid nodes,con ficha,sí
+Linfático,,Nodos parótidos superficiales,Superficial parotid nodes,con ficha,sí
+Linfático,,Nodos pericárdicos laterales,Lateral pericardial nodes,con ficha,sí
+Linfático,,Nodos poplíteos profundos,Deep popliteal nodes,con ficha,sí
+Linfático,,Nodos poplíteos superficiales,Superficial popliteal nodes,con ficha,sí
+Linfático,,Nodos postcavales,Retrocaval nodes,con ficha,sí
+Linfático,,Nodos praecaecales,Precaecal nodes,con ficha,sí
+Linfático,,Nodos praecavales,Precaval nodes,con ficha,sí
+Linfático,,Nodos praevesicales,Prevesical nodes,con ficha,sí
+Linfático,,Nodos pre-auriculares,Pre-auricular nodes,con ficha,sí
+Linfático,,Nodos prepericadiacos,Prepericardial nodes,con ficha,sí
+Linfático,,Nodos pretraqueales,Pretracheal nodes,con ficha,sí
+Linfático,,Nodos prevertebrales,Prevertebral nodes,con ficha,sí
+Linfático,,Nodos retrocecales,Retrocaecal nodes,con ficha,sí
+Linfático,,Nodos retrofaríngeos,Retropharyngeal nodes,con ficha,sí
+Linfático,,Nodos retrovesicales,Postvesical nodes,con ficha,sí
+Linfático,,Nodos sacros laterales,Lateral sacral nodes,con ficha,sí
+Linfático,,Nodos sacros medianos,Median sacral nodes,con ficha,sí
+Linfático,,Nodos sigmoides,Sigmoid nodes,con ficha,sí
+Linfático,,Nodos subaórticos,Subaortic nodes,con ficha,sí
+Linfático,,Nodos submandibulares,Submandibular nodes,con ficha,sí
+Linfático,,Nodos submentonianos,Submental nodes,con ficha,sí
+Linfático,,Nodos supraclaviculares,Supraclavicular nodes,con ficha,sí
+Linfático,,Nodos supratrocleares,Supratrochlear nodes,con ficha,sí
+Linfático,,Nodos tiroideos,Thyroid nodes,con ficha,sí
+Linfático,,Nodos torácicos paratraqueales,Paratracheal thoracic nodes,con ficha,sí
+Linfático,,Nodos traqueobronquiales inferiores,Inferior tracheobronchial nodes,con ficha,sí
+Linfático,,Nodos traqueobronquiales superiores,Superior tracheobronchial nodes,con ficha,sí
+Linfático,,Nodos vesicales laterales,Lateral vesical nodes,con ficha,sí
+Linfático,,Nodos yugulares antero-inferiores,Anterior inferior jugular nodes,con ficha,sí
+Linfático,,Nodos yuxta-esofágicos,Juxta-oesophageal nodes,con ficha,sí
+Linfático,,,Posterior tibial node,con ficha,sí
+Linfático,,,Proximal deep inguinal node,con ficha,sí
+Linfático,,,Retropyloric nodes,con ficha,sí
+Linfático,,,Subpyloric nodes,con ficha,sí
+Linfático,,,Suprapyloric node,con ficha,sí
+Linfático,,Tonsila palatina,Palatine tonsil,con ficha,sí
