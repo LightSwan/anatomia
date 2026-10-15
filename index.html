@@ -120,6 +120,8 @@ body.study #bt{display:flex!important;opacity:0;transform:translateY(24px);visib
 #qd .seg{display:flex!important;width:100%}#qd .seg button{flex:1;height:48px;font-size:15px;padding:0}
 #qd .op{height:54px;font-size:14px;padding:0 16px}#qd .op select{height:40px;font-size:15px}
 #qd .row{margin-top:14px}#qgo{flex:1;height:54px;font-size:16px;font-weight:700;border-radius:18px}#qcl{height:54px;border-radius:18px;padding:0 22px}
+
+html,body{overscroll-behavior:none}body{touch-action:manipulation}canvas{-webkit-touch-callout:none;-webkit-user-select:none;user-select:none}
 </style></head><body>
 <div class="bgw bgd"></div><div class="bgw bgl"></div>
 <canvas id="c"></canvas>
@@ -180,7 +182,7 @@ body.study #bt{display:flex!important;opacity:0;transform:translateY(24px);visib
   <div id="dn"><div id="dc"><b id="dt"></b><button id="dlst" class="sm">Ver lista</button></div><div id="dd"></div></div></div>
  <div class="sec"><div class="lbl">Apariencia</div><div class="row"><div class="op" style="flex:1">Opacidad <input id="ov" type="range" min="15" max="100" value="100"></div><button id="th" class="ic" aria-label="Cambiar tema">◐ Tema</button></div></div>
  <div class="row sec"><button id="inb">ℹ Información y fuentes</button><button id="rst">Restablecer</button></div>
- <div id="cr">Modelo basado en anatomía de un varón adulto (Z-Anatomy / BodyParts3D, CC BY-SA). Toca una estructura para ver su ficha, arrastra para girar y pellizca para hacer zoom.</div>
+ <div id="cr">Modelo basado en anatomía de un varón adulto (Z-Anatomy / BodyParts3D, CC BY-SA). Gestos: toca una estructura para centrarla y ver su ficha; un dedo gira el modelo; dos dedos acercan o alejan y lo desplazan; doble toque en un espacio vacío reencuadra el cuerpo entero.</div>
 </div></div>
 
 <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/build/three.min.js"></script>
@@ -205,10 +207,11 @@ let dv=7,adv=true,op=1,sel=null,iso=null,fit0=true;const on={huesos:1,musculos:1
 const R=new THREE.WebGLRenderer({canvas:$("c"),antialias:true,alpha:true});R.setPixelRatio(Math.min(devicePixelRatio,3));
 const S=new THREE.Scene(),cam=new THREE.PerspectiveCamera(40,1,.01,30);cam.position.set(0,.9,3.2);
 S.add(new THREE.HemisphereLight(0xffffff,0x556070,.9));const dl=new THREE.DirectionalLight(0xffffff,.8);S.add(dl);
-const ct=new THREE.OrbitControls(cam,R.domElement);ct.enableDamping=true;ct.minDistance=.03;ct.maxDistance=8;ct.target.set(0,.9,0);
+const ct=new THREE.OrbitControls(cam,R.domElement);ct.enableDamping=true;ct.minDistance=.03;ct.maxDistance=8;ct.rotateSpeed=.9;ct.zoomSpeed=1.1;ct.panSpeed=1;ct.dampingFactor=.08;ct.screenSpacePanning=true;ct.touches={ONE:THREE.TOUCH.ROTATE,TWO:THREE.TOUCH.DOLLY_PAN};ct.target.set(0,.9,0);
 const root=new THREE.Group();S.add(root);
 function rs(){R.setSize(innerWidth,innerHeight);cam.aspect=innerWidth/innerHeight;cam.updateProjectionMatrix()}addEventListener("resize",rs);rs();
-(function a(){requestAnimationFrame(a);ct.update();dl.position.copy(cam.position).add(new THREE.Vector3(1,2,1));R.render(S,cam)})();
+const TMIN=new THREE.Vector3(-.7,-.2,-.7),TMAX=new THREE.Vector3(.7,2,.7);
+(function a(){requestAnimationFrame(a);ct.update();ct.target.clamp(TMIN,TMAX);dl.position.copy(cam.position).add(new THREE.Vector3(1,2,1));R.render(S,cam)})();
 const SEL=new THREE.MeshStandardMaterial({color:0xff7a1a,emissive:0x6a2a00,roughness:.5,side:THREE.DoubleSide});
 function mat(l,n){const k=l+(/vein|vena/i.test(n)&&l=="cardiovascular"?"v":"");if(!mats[k]){mats[k]=new THREE.MeshStandardMaterial({color:k.endsWith("v")?"#3f6fd6":LY.find(x=>x[0]==l)[2],roughness:.6,metalness:0,side:THREE.DoubleSide,opacity:op})}return mats[k]}
 const ldr=new THREE.GLTFLoader();ldr.setMeshoptDecoder(MeshoptDecoder);
@@ -235,10 +238,14 @@ $("ov").oninput=e=>{op=e.target.value/100;setOp()};
 function pick(m){if(sel)sel.material=sel.userData.om||sel.material;sel=m;if(m){m.userData.om=m.material;m.material=SEL;const i=M[m.userData.id]||{es:m.userData.id,la:"",en:m.userData.id,gr:"",side:""};
  $("pt").textContent=i.es||i.en;$("pl").textContent=i.la;$("pe").textContent=i.es?"· "+i.en:"";$("pg").innerHTML=[LN[m.userData.l],i.gr,i.side=="l"?"Lado izquierdo":i.side=="r"?"Lado derecho":"",i.im?IMP[i.im]:"",ft(fk(m.userData.id))?"":"Sin ficha todavía"].filter(Boolean).map(t=>"<span>"+t+"</span>").join("");
  $("pf").textContent=ft(fk(m.userData.id));$("bf").style.display=(ft(fk(m.userData.id))||typeof claude=="undefined")?"none":"";disp("pn","block");document.body.classList.remove("pc");$("pc").textContent="▾"}else disp("pn","none");setOp();vo()}
-function focus(m){const b=m.isBox3?m:new THREE.Box3().setFromObject(m),c=b.getCenter(new THREE.Vector3()),d=Math.max(...b.getSize(new THREE.Vector3()).toArray())*2.2+.06;tw(c.clone().add(cam.position.clone().sub(ct.target).normalize().multiplyScalar(d)),c)}
-let dn=null;const cv=$("c");cv.addEventListener("pointerdown",e=>dn=[e.clientX,e.clientY]);
-cv.addEventListener("pointerup",e=>{if(qa||!dn||Math.hypot(e.clientX-dn[0],e.clientY-dn[1])>6)return;const rc=new THREE.Raycaster(),v=new THREE.Vector2(e.clientX/innerWidth*2-1,-(e.clientY/innerHeight)*2+1);rc.setFromCamera(v,cam);
- const h=rc.intersectObjects(meshes.filter(m=>{for(let p=m;p;p=p.parent)if(!p.visible)return false;return true}),false)[0];pick(h?h.object:null)});
+function focus(m){const b=m.isBox3?m:new THREE.Box3().setFromObject(m);if(b.isEmpty())return;const sp=b.getBoundingSphere(new THREE.Sphere()),H=innerHeight,fr=Math.max(.3,(H-$("top").offsetHeight-panH())/H),vf=cam.fov*Math.PI/180,hf=2*Math.atan(Math.tan(vf/2)*cam.aspect),half=Math.min(Math.atan(Math.tan(vf/2)*fr),hf/2),d=Math.max(.09,sp.radius/Math.sin(half)*1.2);tw(sp.center.clone().add(cam.position.clone().sub(ct.target).normalize().multiplyScalar(d)),sp.center.clone())}
+let dn=null,pcnt=0,multi=false,lastTap=null;const cv=$("c");
+cv.addEventListener("pointerdown",e=>{if(e.isPrimary){pcnt=1;multi=false}else{pcnt++;multi=true}dn=[e.clientX,e.clientY,performance.now()]});
+const endp=e=>{pcnt=Math.max(0,pcnt-1);const wm=multi;if(pcnt==0)multi=false;if(wm||qa||!dn||e.type=="pointercancel"||Math.hypot(e.clientX-dn[0],e.clientY-dn[1])>8||performance.now()-dn[2]>450)return;tap(e.clientX,e.clientY)};
+cv.addEventListener("pointerup",endp);cv.addEventListener("pointercancel",endp);
+function hit(x,y){const rc=new THREE.Raycaster();rc.setFromCamera(new THREE.Vector2(x/innerWidth*2-1,-(y/innerHeight)*2+1),cam);return rc.intersectObjects(meshes.filter(m=>{for(let p=m;p;p=p.parent)if(!p.visible)return false;return true}),false)[0]}
+function tap(x,y){const h=hit(x,y),now=performance.now(),dbl=lastTap&&now-lastTap[0]<320&&Math.hypot(x-lastTap[1],y-lastTap[2])<28;lastTap=dbl?null:[now,x,y];
+ if(h){pick(h.object);focus(h.object)}else{pick(null);if(dbl)fit()}}
 $("px").onclick=()=>pick(null);
 $("bi").onclick=()=>{iso=iso?null:sel;$("bi").textContent=iso?"Mostrar todo":"Aislar";setOp();vis()};
 $("bh").onclick=()=>{if(sel){hid.add(sel.userData.id);pick(null);vis()}};
@@ -289,7 +296,7 @@ function setTab(t){document.body.classList.toggle("study",t=="s");$("t_m").class
 $("t_m").onclick=()=>setTab("m");$("t_s").onclick=()=>setTab("s");addEventListener("resize",hh);
 const so=o=>$("set").classList.toggle("o",o);
 $("t_a").onclick=()=>so(true);$("sx").onclick=()=>so(false);$("set").onclick=e=>{if(e.target===$("set"))so(false)};$("mini").onclick=()=>so(true);
-function vo(){const pnO=$("pn").style.display=="block"&&!$("pn").classList.contains("out")&&!document.body.classList.contains("pc"),qzO=$("qz").style.display=="block"&&!$("qz").classList.contains("out"),open=pnO||qzO;if(open)cam.setViewOffset(innerWidth,innerHeight,0,Math.round(innerHeight*.2),innerWidth,innerHeight);else cam.clearViewOffset();cam.updateProjectionMatrix()}
+function vo(){const ph=panH(),hh=$("top").offsetHeight;vsetY(ph?Math.max(0,(ph-hh)/2):0)}
 $("pc").onclick=()=>{document.body.classList.toggle("pc");$("pc").textContent=document.body.classList.contains("pc")?"▴":"▾";vo()};addEventListener("resize",vo);
 const ib0=$("inb").onclick;$("inb").onclick=()=>{so(false);ib0()};const dl0=$("dlst").onclick;$("dlst").onclick=()=>{so(false);dl0()};
 function setTheme(t){document.documentElement.dataset.theme=t;try{localStorage.setItem("th",t)}catch(e){}}
@@ -328,6 +335,13 @@ mo($("qq"),()=>pop($("qq")));
 mo($("qf"),()=>{const t=$("qf").textContent,z=$("qz");if(t)pop($("qf"));z.classList.toggle("ok",t.startsWith("✅"));z.classList.toggle("bad",t.startsWith("❌"));z.classList.toggle("miss",t.startsWith("Era"));
  try{if(navigator.vibrate){if(t.startsWith("✅"))navigator.vibrate(18);else if(t.startsWith("❌"))navigator.vibrate([25,40,25])}}catch(e){}});
 mo($("qs"),()=>{$("qbar").style.width=(qn?qok/qn*100:0)+"%"});
+
+
+let vy=0,vyT=0,vyR=0;
+function vsetY(y){vyT=y;if(!vyR)vyR=requestAnimationFrame(vst)}
+function vst(){vyR=0;const d=vyT-vy;if(Math.abs(d)<.5)vy=vyT;else{vy+=d*.16;vyR=requestAnimationFrame(vst)}
+ if(Math.abs(vy)<.5)cam.clearViewOffset();else cam.setViewOffset(innerWidth,innerHeight,0,Math.round(vy),innerWidth,innerHeight);cam.updateProjectionMatrix()}
+function panH(){const e=[$("pn"),$("qz")].find(x=>x.style.display=="block"&&!x.classList.contains("out"));return e?e.offsetHeight+16:0}
 
 setDv(7);upd();
 
