@@ -12,7 +12,7 @@ anatomia3d/
 ├── .nojekyll               evita el procesado de Jekyll en GitHub Pages
 ├── datos/
 │   ├── estructuras.json    2.913 estructuras: id, nombre ES, latín, EN, lado, capa, modo, grupo, nivel de profundidad, importancia (músculos y huesos), zona del cuerpo
-│   ├── fichas.json         fichas de todas las capas salvo el nervioso y parte de los músculos (225 grupos)
+│   ├── fichas.json         fichas de todas las capas salvo el sistema nervioso (253 grupos)
 │   └── lista-musculos.csv  lista de músculos por importancia
 ├── modelos/                21 archivos .glb comprimidos: 14 de calidad completa (cada capa en parte -s "simple" y -x "extra") y 7 «-lp» de low poly (una por capa)
 ├── README.md
@@ -41,13 +41,15 @@ La web de GitHub no deja subir carpetas desde el móvil. Truco: en el repositori
 
 ## Interfaz y zonas del cuerpo
 
+Todos los paneles entran y salen con animaciones suaves, y la cámara se desplaza con una transición al seleccionar una estructura o cambiar de zona.
+
 La interfaz sigue el estilo de la Biblioteca de la Natación (paleta Costa Esmeralda, fuente Sora, fondo degradado animado y paneles de cristal), con tema oscuro por defecto y botón para cambiar a claro. Tiene tres usos principales:
 
 - **Modelo 3D:** capas, modo Simple/Avanzado, calidad Completa/Low poly y un filtro de **zona del cuerpo** (cabeza, cuello, tórax, columna y espalda, abdomen, pelvis, hombro y brazo, antebrazo y mano, cadera y muslo, pierna y pie) que aísla las estructuras de esa zona y encuadra la cámara.
-- **Estudio:** lista las estructuras agrupadas por zona en acordeones, con filtro por capa y por nombre. Al tocar una, se abre en el modelo 3D.
-- **Quiz:** el pop up permite elegir también la zona.
+- **Estudio:** lista las estructuras agrupadas por zona en acordeones, con buscador y filtro por capa. Al tocar una, se abre en el modelo 3D.
+- **Quiz:** el pop up permite elegir el modo, la profundidad y la zona. Está pensado para el móvil, con botones grandes, barra de progreso y respuestas con color (verde si aciertas, rojo si fallas, ámbar si pides la respuesta).
 
-La barra superior fija solo tiene **Modelo, Estudio, Quiz, Buscar y Ajustes**. Las capas, el modo, la calidad, las zonas, la profundidad, la opacidad, el tema y la información están dentro del popup **Ajustes** (un pequeño indicador al pie de la pantalla lo abre también). La ficha de una estructura es un panel compacto que se puede plegar y que desplaza el modelo hacia arriba para no taparlo.
+La barra superior fija solo tiene **Modelo, Estudio, Quiz y Ajustes**; el Estudio incluye el buscador (por nombre en español, inglés o latín). Las capas, el modo, la calidad, las zonas, la profundidad, la opacidad, el tema y la información están dentro del popup **Ajustes** (un pequeño indicador al pie de la pantalla lo abre también). La ficha de una estructura es un panel compacto que se puede plegar y que desplaza el modelo hacia arriba para no taparlo.
 
 La zona de cada estructura (décimo y undécimo valor de cada fila de `estructuras.json`: importancia y zona, esta última como índice 0 a 9 en el orden anterior) sale de las colecciones del modelo original y, si faltan, de la posición de la estructura. Las estructuras largas (nervios, vasos) figuran en una sola zona. La fuente Sora se carga desde Google Fonts, por lo que la página contacta con ese servicio al abrirse.
 

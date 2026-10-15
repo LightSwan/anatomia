@@ -1,5 +1,5 @@
 <!doctype html><html lang="es"><head><meta charset="utf-8"><title>Anatomía 3D</title>
-<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, interactive-widget=resizes-content">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700&display=swap">
 <style>
 :root{--bg:#07111f;--card2:#13243a;--ac:#4cc9f0;--ac2:#4895ef;--fg:#f1f5f9;--mu:#94a3b8;--bd:rgba(255,255,255,.09);--pn:rgba(16,29,46,.64);--ok:#34d399;--wa:#fbbf24;--bl:#60a5fa;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);--hh:150px}
@@ -76,12 +76,55 @@ body.study #ctl,body.study #bt{display:none!important}
 .sheet #cr{margin-top:16px;font-size:10.5px;line-height:1.4}
 .q #dn,.q #cr{display:block!important}.q #dp{display:flex!important}
 @media(min-width:700px){#set{align-items:center}.sheet{border-radius:22px}}
+
+/* ===== animaciones ===== */
+@keyframes fadeIn{from{opacity:0}to{opacity:1}}
+@keyframes slideUp{from{opacity:0;transform:translateY(22px)}to{opacity:1;transform:none}}
+@keyframes popIn{from{opacity:0;transform:scale(.94) translateY(8px)}to{opacity:1;transform:none}}
+@keyframes dropIn{from{opacity:0;transform:translateY(-18px)}to{opacity:1;transform:none}}
+@keyframes outA{to{opacity:0;transform:translateY(14px) scale(.98)}}
+@keyframes shake{20%,60%{transform:translateX(-6px)}40%,80%{transform:translateX(6px)}}
+#top{animation:dropIn .5s cubic-bezier(.2,.8,.2,1)}
+#pn,#qz,#mini{animation:slideUp .32s cubic-bezier(.2,.8,.2,1)}
+#st{animation:slideUp .35s cubic-bezier(.2,.8,.2,1)}#ml,#inf{animation:slideUp .3s ease}
+#qd{animation:fadeIn .22s ease}#qd .card{animation:popIn .3s cubic-bezier(.2,.8,.2,1)}#ld{animation:fadeIn .25s ease}
+.out{animation:outA .22s ease forwards!important;pointer-events:none}#qd.out .card{animation:none}
+.pop{animation:popIn .3s ease}.it{animation:fadeIn .28s ease}
+button{transition:transform .15s,background .2s,border-color .2s,opacity .2s,color .2s}
+#set{display:flex!important;visibility:hidden;opacity:0;pointer-events:none;transition:opacity .25s ease,visibility 0s linear .25s}
+#set.o{visibility:visible;opacity:1;pointer-events:auto;transition:opacity .25s ease}
+.sheet{transform:translateY(40px);transition:transform .32s cubic-bezier(.2,.8,.2,1)}#set.o .sheet{transform:none}
+#bt{transition:opacity .25s ease,transform .3s ease,visibility 0s linear 0s}
+body.study #bt{display:flex!important;opacity:0;transform:translateY(24px);visibility:hidden;transition:opacity .25s ease,transform .3s ease,visibility 0s linear .3s}
+.ab{display:grid!important;grid-template-rows:0fr;transition:grid-template-rows .32s ease}.acc.open .ab{grid-template-rows:1fr}.abi{overflow:hidden;min-height:0}
+.emp{color:var(--mu);text-align:center;padding:24px 8px;line-height:1.5}
+/* ===== barra y botones más cómodos ===== */
+.tab{padding:11px 2px;font-size:12.5px}#t_a{flex:1 1 0;padding:11px 2px}
+#sf{font-size:16px;height:46px;border-radius:14px}
+.sheet #ly button,.sheet #rg button{padding:8px 14px;font-size:13px}.sheet .seg button{padding:8px 14px;font-size:13px}
+#pn .row button{min-height:40px}
+/* ===== quiz ===== */
+#qz{padding:14px;border-radius:24px;box-shadow:0 10px 40px rgba(0,0,0,.35);max-height:52vh;overflow:auto;transition:border-color .3s,box-shadow .3s,background .3s}
+.qh{display:flex;align-items:center;gap:8px}.qs{flex:1;min-width:0}#qs{font-size:12px;color:var(--mu);font-weight:600;letter-spacing:.3px}
+.qbar{height:6px;border-radius:99px;background:rgba(255,255,255,.12);margin-top:6px;overflow:hidden}.qbar i{display:block;height:100%;width:0;background:linear-gradient(90deg,var(--ac),var(--ac2));border-radius:99px;transition:width .5s cubic-bezier(.2,.8,.2,1)}
+#qz .ic{width:42px;height:42px;padding:0;font-size:16px}
+#qq{font-size:16px;font-weight:600;line-height:1.35;margin:12px 0 10px!important}
+.qin{display:flex;gap:8px}#qi{flex:1;min-width:0;font-size:16px;padding:0 14px;height:52px;border-radius:16px}
+#qc{height:52px;padding:0 20px;border-radius:16px;font-size:15px;font-weight:700}
+.qact{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:8px}.qact button{height:48px;border-radius:14px;font-size:14px;margin:0;padding:0 8px}
+#qf{font-size:13.5px;line-height:1.5;border-radius:14px;padding:10px 12px;background:rgba(255,255,255,.07);margin:10px 0 0!important}#qf:empty{display:none}
+#qz.ok{border-color:var(--ok);box-shadow:0 0 0 1px var(--ok),0 10px 40px rgba(52,211,153,.2)}#qz.ok #qf{background:rgba(52,211,153,.13)}
+#qz.bad{border-color:#f87171;animation:shake .4s ease}#qz.bad #qf{background:rgba(248,113,113,.13)}
+#qz.miss{border-color:var(--wa)}#qz.miss #qf{background:rgba(251,191,36,.12)}
+#qd .card{padding:20px;border-radius:24px;max-width:440px}#qd h2{font-size:20px;margin-bottom:8px}
+#qd .seg{display:flex!important;width:100%}#qd .seg button{flex:1;height:48px;font-size:15px;padding:0}
+#qd .op{height:54px;font-size:14px;padding:0 16px}#qd .op select{height:40px;font-size:15px}
+#qd .row{margin-top:14px}#qgo{flex:1;height:54px;font-size:16px;font-weight:700;border-radius:18px}#qcl{height:54px;border-radius:18px;padding:0 22px}
 </style></head><body>
 <div class="bgw bgd"></div><div class="bgw bgl"></div>
 <canvas id="c"></canvas>
-<div id="top"><div class="hd gl"><div class="tabs"><button id="t_m" class="tab on">Modelo</button><button id="t_s" class="tab">Estudio</button><button id="qb" class="tab">Quiz</button><button id="sb" class="tab">Buscar</button><button id="t_a" class="tab">⚙ Ajustes</button></div></div></div>
-<div id="sp"><input id="q" placeholder="Buscar estructura (bíceps, fémur, hígado…)" autocomplete="off"><div id="rs"></div></div>
-<section id="st"><input id="sf" placeholder="Filtrar por nombre…" autocomplete="off"><div id="sl"></div><div id="sa"></div></section>
+<div id="top"><div class="hd gl"><div class="tabs"><button id="t_m" class="tab on">Modelo</button><button id="t_s" class="tab">Estudio</button><button id="qb" class="tab">Quiz</button><button id="t_a" class="tab">⚙ Ajustes</button></div></div></div>
+<section id="st"><input id="sf" type="search" placeholder="Buscar o filtrar (bíceps, fémur, hígado…)" autocomplete="off" autocapitalize="off" spellcheck="false"><div id="sl"></div><div id="sa"></div></section>
 <div id="inf"><div class="row"><h2 style="flex:1">Información, limitaciones y fuentes</h2><button id="ix">✕</button></div>
 <h3>Por qué no hay un modelo de ambos sexos</h3>
 <p>Todo el modelo procede de Z-Anatomy, que se basa en BodyParts3D. Los dos representan a un varón adulto: la descripción de BodyParts3D habla de un modelo de cuerpo entero de un varón adulto, y el repositorio de Z-Anatomy lo indica como «Human male model».</p>
@@ -122,9 +165,9 @@ body.study #ctl,body.study #bt{display:none!important}
 <div class="op">Zona <select id="qrg"></select></div><p id="qcn"></p><div class="row"><button id="qgo" class="on">Empezar</button><button id="qcl">Cancelar</button></div></div></div>
 <div id="ld">Cargando…</div>
 <div id="bt">
- <div id="qz"><div class="row"><b id="qs" style="flex:1">Quiz · aciertos 0/0</b><button id="qset" class="sm" style="margin:0">Ajustes</button><button id="qx">✕</button></div>
-  <p id="qq"></p><div class="row"><input id="qi" placeholder="Escribe el nombre del músculo…" autocomplete="off" autocapitalize="off" spellcheck="false"><button id="qc" class="on">Comprobar</button></div>
-  <div class="row" style="margin-top:8px"><button id="qh" class="sm" style="margin:0">Pista</button><button id="qn" class="sm" style="margin:0">Ver respuesta</button></div><p id="qf"></p></div>
+ <div id="qz"><div class="qh"><div class="qs"><span id="qs">Quiz · aciertos 0/0</span><div class="qbar"><i id="qbar"></i></div></div><button id="qset" class="ic" aria-label="Ajustes del quiz">⚙</button><button id="qx" class="ic" aria-label="Cerrar el quiz">✕</button></div>
+  <p id="qq"></p><div class="qin"><input id="qi" placeholder="Escribe el músculo…" autocomplete="off" autocapitalize="off" autocorrect="off" spellcheck="false" enterkeyhint="send"><button id="qc" class="on">Comprobar</button></div>
+  <div class="qact"><button id="qh">💡 Pista</button><button id="qn">Ver respuesta</button></div><p id="qf"></p></div>
  <div id="pn"><div class="row"><div style="flex:1;min-width:0"><h2 id="pt"></h2><div class="ln"><em id="pl"></em> <small id="pe"></small></div></div><button id="pc" class="ic" aria-label="Plegar">▾</button><button id="px" class="ic" aria-label="Cerrar">✕</button></div>
   <div class="pb"><div class="tg" id="pg"></div><div class="row"><button id="bi">Aislar</button><button id="bh">Ocultar</button><button id="bf" class="on">Función y uso diario</button></div><p id="pf"></p></div></div>
  <button id="mini">Ajustes</button>
@@ -148,6 +191,8 @@ body.study #ctl,body.study #bt{display:none!important}
 Promise.all([fetch("datos/estructuras.json").then(r=>r.json()),fetch("datos/fichas.json").then(r=>r.json()).catch(()=>({}))]).then(([META,FICHAS])=>{
 
 const $=id=>document.getElementById(id);
+function disp(id,v){const e=$(id);clearTimeout(e._t);if(v=="none"){if(e.style.display=="none"||!e.style.display)return;e.classList.add("out");e._t=setTimeout(()=>{e.style.display="none";e.classList.remove("out")},230)}else{e.classList.remove("out");e.style.display=v}}
+
 const LY=[["huesos","Huesos","#d9d2bd"],["musculos","Músculos","#c2504a"],["articulaciones","Articulaciones","#d6b24a"],["cardiovascular","Circulatorio","#e0383e"],["nervioso","Nervioso","#f0c93c"],["visceras","Órganos","#d98a6b"],["linfatico","Linfático","#6fc27a"]];
 const SAN={};META.forEach(m=>SAN[THREE.PropertyBinding.sanitizeNodeName(m[0])]=m[0]);
 const FULL=["huesos","articulaciones"];const MALE=new Set(["Right testicular artery.r","Deep artery of penis.l","Dorsal artery of penis.r","Dorsal artery of penis.l","Right testicular vein","Deep dorsal vein of penis","Superficial dorsal veins of penis","Deep artery of penis.r","Left testicular artery","Left testicular vein","Urethra","Testis.r","Testis.l","Epididymis.r","Epididymis.l","Ductus deferens.l","Ductus deferens.r","Seminal gland.r","Seminal gland.l","Prostate","Ejaculatory duct.l","Ejaculatory duct.r","Glans penis","Corpus cavernosum of penis","Corpus spongiosum of penis"]);let showM=false;const LN=Object.fromEntries(LY.map(l=>[l[0],l[1]]));
@@ -168,10 +213,10 @@ const SEL=new THREE.MeshStandardMaterial({color:0xff7a1a,emissive:0x6a2a00,rough
 function mat(l,n){const k=l+(/vein|vena/i.test(n)&&l=="cardiovascular"?"v":"");if(!mats[k]){mats[k]=new THREE.MeshStandardMaterial({color:k.endsWith("v")?"#3f6fd6":LY.find(x=>x[0]==l)[2],roughness:.6,metalness:0,side:THREE.DoubleSide,opacity:op})}return mats[k]}
 const ldr=new THREE.GLTFLoader();ldr.setMeshoptDecoder(MeshoptDecoder);
 function b2a(s){const b=atob(s),u=new Uint8Array(b.length);for(let i=0;i<b.length;i++)u[i]=b.charCodeAt(i);return u.buffer}
-function load(l,k){const q=lo,key=q?l+"-lp":l+"-"+k;if(!A[key])return Promise.resolve();if(parts[key])return parts[key];$("ld").style.display="block";
+function load(l,k){const q=lo,key=q?l+"-lp":l+"-"+k;if(!A[key])return Promise.resolve();if(parts[key])return parts[key];disp("ld","block");
  return parts[key]=fetch("modelos/"+key+".glb").then(r=>{if(!r.ok)throw new Error(key);return r.arrayBuffer()}).then(tx=>new Promise(res=>ldr.parse(tx,"",g=>{g.scene.traverse(o=>{if(o.isMesh){const n=SAN[o.parent.name]||SAN[o.name]||o.parent.name;o.geometry.computeVertexNormals();o.material=mat(l,n);o.userData={id:n,l,lv:M[n]?M[n].lv:7,lo:q};o.name=n;by[n]=o;meshes.push(o)}});
-  g.scene.userData={l,k:q?"a":k,lo:q};root.add(g.scene);if(fit0){fit0=false;fit()}$("ld").style.display="none";vis();res(g.scene)},e=>{console.error(e);$("ld").style.display="none";res()}))).catch(e=>{console.error(e);$("ld").style.display="none"})}
-function fit(){const b=new THREE.Box3().setFromObject(root),c=b.getCenter(new THREE.Vector3()),s=b.getSize(new THREE.Vector3());ct.target.copy(c);cam.position.set(c.x,c.y,c.z+Math.max(s.y,s.x)*1.6)}
+  g.scene.userData={l,k:q?"a":k,lo:q};root.add(g.scene);if(fit0){fit0=false;fit()}disp("ld","none");vis();res(g.scene)},e=>{console.error(e);disp("ld","none");res()}))).catch(e=>{console.error(e);disp("ld","none")})}
+function fit(){const b=new THREE.Box3().setFromObject(root),c=b.getCenter(new THREE.Vector3()),s=b.getSize(new THREE.Vector3());tw(new THREE.Vector3(c.x,c.y,c.z+Math.max(s.y,s.x)*1.6),c)}
 function vis(){root.children.forEach(g=>{const u=g.userData;g.visible=u.lo==lo&&!!on[u.l]&&(u.k=="s"||u.k=="a"||adv||FULL.includes(u.l))});meshes.forEach(m=>{m.visible=m.userData.lo==lo&&(rgSel==null||(M[m.userData.id]||{}).rg==rgSel)&&(!lo||adv||FULL.includes(m.userData.l)||(M[m.userData.id]||{}).md!="x")&&!hid.has(m.userData.id)&&(!iso||m===iso)&&m.userData.lv>=8-dv&&(showM||!MALE.has(m.userData.id))});cntUpd()}
 function need(){return Promise.all(LY.filter(l=>on[l[0]]).flatMap(l=>[load(l[0],"s")].concat(adv||FULL.includes(l[0])?[load(l[0],"x")]:[])))}
 function upd(){need().then(vis);vis();info();LY.forEach(l=>$("b_"+l[0]).classList.toggle("on",!!on[l[0]]))}
@@ -189,8 +234,8 @@ $("dv").oninput=e=>setDv(+e.target.value);
 $("ov").oninput=e=>{op=e.target.value/100;setOp()};
 function pick(m){if(sel)sel.material=sel.userData.om||sel.material;sel=m;if(m){m.userData.om=m.material;m.material=SEL;const i=M[m.userData.id]||{es:m.userData.id,la:"",en:m.userData.id,gr:"",side:""};
  $("pt").textContent=i.es||i.en;$("pl").textContent=i.la;$("pe").textContent=i.es?"· "+i.en:"";$("pg").innerHTML=[LN[m.userData.l],i.gr,i.side=="l"?"Lado izquierdo":i.side=="r"?"Lado derecho":"",i.im?IMP[i.im]:"",ft(fk(m.userData.id))?"":"Sin ficha todavía"].filter(Boolean).map(t=>"<span>"+t+"</span>").join("");
- $("pf").textContent=ft(fk(m.userData.id));$("bf").style.display=(ft(fk(m.userData.id))||typeof claude=="undefined")?"none":"";$("pn").style.display="block";document.body.classList.remove("pc");$("pc").textContent="▾"}else $("pn").style.display="none";setOp();vo()}
-function focus(m){const b=m.isBox3?m:new THREE.Box3().setFromObject(m),c=b.getCenter(new THREE.Vector3()),d=Math.max(...b.getSize(new THREE.Vector3()).toArray())*2.2+.06;cam.position.copy(c).add(cam.position.clone().sub(ct.target).normalize().multiplyScalar(d));ct.target.copy(c)}
+ $("pf").textContent=ft(fk(m.userData.id));$("bf").style.display=(ft(fk(m.userData.id))||typeof claude=="undefined")?"none":"";disp("pn","block");document.body.classList.remove("pc");$("pc").textContent="▾"}else disp("pn","none");setOp();vo()}
+function focus(m){const b=m.isBox3?m:new THREE.Box3().setFromObject(m),c=b.getCenter(new THREE.Vector3()),d=Math.max(...b.getSize(new THREE.Vector3()).toArray())*2.2+.06;tw(c.clone().add(cam.position.clone().sub(ct.target).normalize().multiplyScalar(d)),c)}
 let dn=null;const cv=$("c");cv.addEventListener("pointerdown",e=>dn=[e.clientX,e.clientY]);
 cv.addEventListener("pointerup",e=>{if(qa||!dn||Math.hypot(e.clientX-dn[0],e.clientY-dn[1])>6)return;const rc=new THREE.Raycaster(),v=new THREE.Vector2(e.clientX/innerWidth*2-1,-(e.clientY/innerHeight)*2+1);rc.setFromCamera(v,cam);
  const h=rc.intersectObjects(meshes.filter(m=>{for(let p=m;p;p=p.parent)if(!p.visible)return false;return true}),false)[0];pick(h?h.object:null)});
@@ -202,10 +247,6 @@ $("bf").onclick=async()=>{const id=sel.userData.id,i=M[id]||{es:id,en:id,la:""},
  try{const s=await claude.use("sample");if(!s){p.textContent="Las fichas con IA solo están disponibles dentro de Claude.";return}
   const r=await s("Eres anatomista y docente. Estructura: "+(i.es||i.en)+" ("+i.la+"; "+i.en+"), sistema: "+LN[sel.userData.l]+". Responde en español, máximo 90 palabras, con exactamente dos apartados breves: «Qué hace:» y «En la vida diaria:» (ejemplos cotidianos concretos). Sin introducción ni avisos.",{modelTier:"quick"});
   cache[fk(id)]=r.text;if(sel&&sel.userData.id==id){p.textContent=r.text;$("bf").style.display="none"}}catch(e){p.textContent="No se pudo generar la ficha ("+(e.code||"error")+")."}};
-$("sb").onclick=()=>{const q=$("q");q.style.display=q.style.display=="block"?"none":"block";if(q.style.display=="block")q.focus();else $("rs").style.display="none"};
-$("q").oninput=e=>{const t=e.target.value.toLowerCase().trim(),r=$("rs");if(t.length<2){r.style.display="none";return}
- const h=META.filter(m=>(m[1]+" "+m[3]+" "+m[2]).toLowerCase().includes(t)&&(showM||!MALE.has(m[0]))).slice(0,8);r.innerHTML="";h.forEach(m=>{const d=document.createElement("div");d.innerHTML=(m[1]||m[3])+(m[4]?" ("+m[4].toUpperCase()+")":"")+"<br><small>"+LN[m[5]]+(m[6]=="x"?" · avanzado":"")+"</small>";
-  d.onclick=async()=>{setDv(8);on[m[5]]=1;if(m[6]=="x"&&!adv&&!FULL.includes(m[5]))$("m1").click();else upd();await need();r.style.display="none";const o=by[m[0]];if(o){pick(o);focus(o)}};r.appendChild(d)});r.style.display=h.length?"block":"none"};
 const nz=s=>s.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,"").replace(/[^a-z0-9 ]/g," ").replace(/\b(musculo|del|de|la|el|los|las)\b/g," ").replace(/\s+/g," ").trim();
 function lev(a,b){const d=[...Array(b.length+1).keys()];for(let i=1;i<=a.length;i++){let p=d[0];d[0]=i;for(let j=1;j<=b.length;j++){const t=d[j];d[j]=Math.min(d[j]+1,d[j-1]+1,p+(a[i-1]==b[j-1]?0:1));p=t}}return d[b.length]}
 const ALT={"G:gas":["gemelos","gemelo"],"G:gmax":["gluteo maximo"],"G:gmin":["gluteo minimo"],"G:recto":["recto abdominal","abdominal recto"],"G:dors":["latisimo del dorso","dorsal","latisimo"],"G:oc":["orbicular del ojo","orbicular de los parpados"],"G:oo":["orbicular de los labios"],"G:bic":["biceps"],"G:tric":["triceps"],"G:ecm":["ecm"],"G:romb":["romboides"],"G:serr":["serrato","serrato mayor"],"G:addm":["aductor magno"],"G:vl":["vasto externo"],"G:vm":["vasto interno"],"G:vi":["crural"],"G:oblext":["oblicuo mayor"],"G:oblint":["oblicuo menor"],"G:pect":["gran pectoral"],"G:zig":["cigomatico"],"G:ilia":["iliaco"],"G:erect":["erector espinal","erector de la columna","sacroespinal"],"G:tfl":["tensor de la fascia lata"],"G:brr":["supinador largo"],"G:intc":["intercostales"],"G:fib":["peroneos","peroneo largo"],"G:pl":["palmar mayor"],"G:fcr":["palmar mayor"],"G:esc":["escaleno","escalenos"],"G:tmaj":["redondo mayor"],"G:ql":["cuadrado lumbar"]}
@@ -223,12 +264,12 @@ function qNext(){qclear();if(!qbag.length)qbag=qGroups().sort(()=>Math.random()-
 function qEnd(win){if(!qk)return;qdone=true;qn++;if(win)qok++;const g=FICHAS[qk];$("qf").textContent=(win?"✅ ¡Correcto! ":"Era: ")+g.n+"\nQué hace: "+g.fn+"\nEn la vida diaria: "+g.uso+"\nCuriosidad: "+g.cur+(g.les?"\nLesiones o problemas frecuentes: "+g.les:"");$("qn").textContent="Siguiente";$("qs").textContent="Quiz · aciertos "+qok+"/"+qn}
 function qCheck(){if(!qk)return;if(qdone)return qNext();if(!nz($("qi").value))return;if(qok_($("qi").value,qk))qEnd(true);else $("qf").textContent="❌ No es ese. Prueba otra vez, pide una pista o pulsa «Ver respuesta»."}
 function qdUpd(){$("q0").classList.toggle("on",!qcA);$("q1").classList.toggle("on",qcA);$("qdl").textContent=qcD==8?"Todo el cuerpo":"Paso "+qcD+"/8";const n=qGroups().length;$("qcn").textContent=n?"Te preguntaré por "+n+" músculos con esta configuración.":"No hay músculos con ficha con esta configuración. Cambia el modo o la profundidad.";$("qgo").disabled=!n}
-function qOpen(){qcA=adv;qcD=dv;qcR=rgSel==null?-1:rgSel;$("qrg").value=qcR;$("qdv").value=qcD;qdUpd();$("qd").style.display="flex"}
+function qOpen(){qcA=adv;qcD=dv;qcR=rgSel==null?-1:rgSel;$("qrg").value=qcR;$("qdv").value=qcD;qdUpd();disp("qd","flex")}
 $("qb").onclick=qOpen;$("qset").onclick=qOpen;
 $("q0").onclick=()=>{qcA=false;qdUpd()};$("q1").onclick=()=>{qcA=true;qdUpd()};$("qdv").oninput=e=>{qcD=+e.target.value;qdUpd()};
-$("qcl").onclick=()=>{$("qd").style.display="none"};
-$("qgo").onclick=()=>{$("qd").style.display="none";(qcA?$("m1"):$("m0")).click();setDv(qcD);on.musculos=1;upd();qa=true;pick(null);document.body.classList.add("q");$("qz").style.display="block";qok=qn=0;qbag=[];$("qs").textContent="Quiz · aciertos 0/0";qNext()};
-$("qx").onclick=()=>{qa=false;qclear();document.body.classList.remove("q");$("qz").style.display="none"};
+$("qcl").onclick=()=>{disp("qd","none")};
+$("qgo").onclick=()=>{disp("qd","none");(qcA?$("m1"):$("m0")).click();setDv(qcD);on.musculos=1;upd();qa=true;pick(null);document.body.classList.add("q");disp("qz","block");vo();qok=qn=0;qbag=[];$("qs").textContent="Quiz · aciertos 0/0";qNext()};
+$("qx").onclick=()=>{qa=false;qclear();document.body.classList.remove("q");disp("qz","none");vo()};
 $("qc").onclick=qCheck;$("qi").onkeydown=e=>{if(e.key=="Enter")qCheck()};$("qn").onclick=()=>{if(!qk)return;qdone?qNext():qEnd(false)};
 $("qh").onclick=()=>{if(!qk||qdone)return;const g=FICHAS[qk],H=["Qué hace: "+g.fn,"Curiosidad: "+qMask(g.cur,qk),"Empieza por «"+g.n[0]+"» y tiene "+g.n.length+" letras."];$("qf").textContent="Pista: "+H[Math.min(qh++,H.length-1)]};
 
@@ -237,18 +278,18 @@ function setLo(v){if(lo==v)return;pick(null);qclear();lo=v;$("lq1").classList.to
  for(let i=meshes.length-1;i>=0;i--)if(meshes[i].userData.lo!=lo)meshes.splice(i,1);upd()}
 $("lq1").onclick=()=>setLo(true);$("lq0").onclick=()=>setLo(false);
 let ML=[];
-function mlRender(){const q=$("mq").value.toLowerCase().trim(),r=$("mr");r.innerHTML="";ML.filter(x=>!q||x.k.includes(q)).forEach(x=>{const d=document.createElement("div");d.innerHTML=x.n+(x.s?" <small>("+(x.s=="l"?"izq.":"der.")+")</small>":"")+(x.im<9?" <small>· "+IMP[x.im]+"</small>":"")+(x.f?"":" <small>· sin ficha</small>");d.onclick=async()=>{$("ml").style.display="none";await need();const o=by[x.id];if(o){pick(o);focus(o)}};r.appendChild(d)})}
-$("dlst").onclick=()=>{const v=vm();ML=v.map(m=>({id:m[0],n:m[1]||m[3],s:m[4],im:m[9]||9,f:ft(m[3])?1:0,k:((m[1]||"")+" "+m[3]).toLowerCase()})).sort((a,b)=>(a.im-b.im)||a.n.localeCompare(b.n,"es")||a.s.localeCompare(b.s));$("mh").textContent="Músculos visibles: "+v.length+"/"+tmf();$("mn").textContent="Incluye fascias, bolsas sinoviales y vainas tendinosas de la capa Músculos. Ordenados por importancia y luego alfabéticamente. Toca uno para localizarlo en el modelo.";$("mq").value="";mlRender();$("ml").style.display="block";$("ml").scrollTop=0};
-$("mq").oninput=mlRender;$("mx").onclick=()=>{$("ml").style.display="none"};
-$("inb").onclick=()=>{$("inf").style.display="block";$("inf").scrollTop=0};$("ix").onclick=()=>{$("inf").style.display="none"};
+function mlRender(){const q=$("mq").value.toLowerCase().trim(),r=$("mr");r.innerHTML="";ML.filter(x=>!q||x.k.includes(q)).forEach(x=>{const d=document.createElement("div");d.innerHTML=x.n+(x.s?" <small>("+(x.s=="l"?"izq.":"der.")+")</small>":"")+(x.im<9?" <small>· "+IMP[x.im]+"</small>":"")+(x.f?"":" <small>· sin ficha</small>");d.onclick=async()=>{disp("ml","none");await need();const o=by[x.id];if(o){pick(o);focus(o)}};r.appendChild(d)})}
+$("dlst").onclick=()=>{const v=vm();ML=v.map(m=>({id:m[0],n:m[1]||m[3],s:m[4],im:m[9]||9,f:ft(m[3])?1:0,k:((m[1]||"")+" "+m[3]).toLowerCase()})).sort((a,b)=>(a.im-b.im)||a.n.localeCompare(b.n,"es")||a.s.localeCompare(b.s));$("mh").textContent="Músculos visibles: "+v.length+"/"+tmf();$("mn").textContent="Incluye fascias, bolsas sinoviales y vainas tendinosas de la capa Músculos. Ordenados por importancia y luego alfabéticamente. Toca uno para localizarlo en el modelo.";$("mq").value="";mlRender();disp("ml","block");$("ml").scrollTop=0};
+$("mq").oninput=mlRender;$("mx").onclick=()=>{disp("ml","none")};
+$("inb").onclick=()=>{disp("inf","block");$("inf").scrollTop=0};$("ix").onclick=()=>{disp("inf","none")};
 
 const RG=["Cabeza","Cuello","Tórax","Columna y espalda","Abdomen","Pelvis","Hombro y brazo","Antebrazo y mano","Cadera y muslo","Pierna y pie"];
 function hh(){document.documentElement.style.setProperty("--hh",$("top").offsetHeight+"px")}
-function setTab(t){document.body.classList.toggle("study",t=="s");$("t_m").classList.toggle("on",t!="s");$("t_s").classList.toggle("on",t=="s");$("st").style.display=t=="s"?"block":"none";hh();if(t=="s")buildStudy()}
+function setTab(t){document.body.classList.toggle("study",t=="s");$("t_m").classList.toggle("on",t!="s");$("t_s").classList.toggle("on",t=="s");disp("st",t=="s"?"block":"none");hh();if(t=="s")buildStudy()}
 $("t_m").onclick=()=>setTab("m");$("t_s").onclick=()=>setTab("s");addEventListener("resize",hh);
 const so=o=>$("set").classList.toggle("o",o);
 $("t_a").onclick=()=>so(true);$("sx").onclick=()=>so(false);$("set").onclick=e=>{if(e.target===$("set"))so(false)};$("mini").onclick=()=>so(true);
-function vo(){const open=$("pn").style.display=="block"&&!document.body.classList.contains("pc");if(open)cam.setViewOffset(innerWidth,innerHeight,0,Math.round(innerHeight*.2),innerWidth,innerHeight);else cam.clearViewOffset();cam.updateProjectionMatrix()}
+function vo(){const pnO=$("pn").style.display=="block"&&!$("pn").classList.contains("out")&&!document.body.classList.contains("pc"),qzO=$("qz").style.display=="block"&&!$("qz").classList.contains("out"),open=pnO||qzO;if(open)cam.setViewOffset(innerWidth,innerHeight,0,Math.round(innerHeight*.2),innerWidth,innerHeight);else cam.clearViewOffset();cam.updateProjectionMatrix()}
 $("pc").onclick=()=>{document.body.classList.toggle("pc");$("pc").textContent=document.body.classList.contains("pc")?"▴":"▾";vo()};addEventListener("resize",vo);
 const ib0=$("inb").onclick;$("inb").onclick=()=>{so(false);ib0()};const dl0=$("dlst").onclick;$("dlst").onclick=()=>{so(false);dl0()};
 function setTheme(t){document.documentElement.dataset.theme=t;try{localStorage.setItem("th",t)}catch(e){}}
@@ -259,25 +300,34 @@ function setRegion(i,nf){rgSel=i;[...$("rg").children].forEach((b,j)=>b.classLis
  if(!nf)need().then(()=>{vis();if(i==null)fit();else{const b=new THREE.Box3();let n=0;meshes.forEach(m=>{if(m.visible){b.union(new THREE.Box3().setFromObject(m));n++}});if(n)focus(b)}})}
 (function(){const s=$("qrg");[[-1,"Todo el cuerpo"]].concat(RG.map((n,i)=>[i,n])).forEach(x=>{const o=document.createElement("option");o.value=x[0];o.textContent=x[1];s.appendChild(o)});s.onchange=e=>{qcR=+e.target.value;qdUpd()}})();
 let sLy=null;
-const sb0=$("sb").onclick;$("sb").onclick=()=>{setTab("m");sb0()};
 const qg0=$("qgo").onclick;$("qgo").onclick=()=>{setTab("m");setRegion(qcR<0?null:qcR,true);qg0()};
 async function goTo(m){setTab("m");setRegion(null,true);on[m[5]]=1;if(m[6]=="x"&&!adv&&!FULL.includes(m[5]))$("m1").click();setDv(8);upd();await need();const o=by[m[0]];if(o){pick(o);focus(o)}}
 function buildStudy(){const root=$("sa");root.innerHTML="";const q=nz($("sf").value||"");
  const sl=$("sl");if(!sl.children.length){[[null,"Todas"]].concat(LY.map(l=>[l[0],l[1]])).forEach(x=>{const b=document.createElement("button");b.textContent=x[1];if(!x[0])b.className="on";b.onclick=()=>{sLy=x[0];[...sl.children].forEach(c=>c.classList.toggle("on",c===b));buildStudy()};sl.appendChild(b)})}
  const LO=LY.map(l=>l[0]);
  RG.forEach((n,ri)=>{const seen=new Map();
-  META.forEach(m=>{if(m[10]!=ri||MALE.has(m[0])||(sLy&&m[5]!=sLy)||(q&&!nz((m[1]||"")+" "+m[3]).includes(q)))return;const k=m[5]+"|"+m[3];if(!seen.has(k))seen.set(k,{m,s:new Set()});seen.get(k).s.add(m[4])});
+  META.forEach(m=>{if(m[10]!=ri||MALE.has(m[0])||(sLy&&m[5]!=sLy)||(q&&!nz((m[1]||"")+" "+m[3]+" "+(m[2]||"")).includes(q)))return;const k=m[5]+"|"+m[3];if(!seen.has(k))seen.set(k,{m,s:new Set()});seen.get(k).s.add(m[4])});
   const items=[...seen.values()].sort((a,b)=>LO.indexOf(a.m[5])-LO.indexOf(b.m[5])||((a.m[9]||9)-(b.m[9]||9))||((a.m[1]||a.m[3]).localeCompare(b.m[1]||b.m[3],"es")));
   if(!items.length&&(q||sLy))return;
   const nf=items.filter(x=>ft(x.m[3])).length,a=document.createElement("div");a.className="acc"+(q?" open":"");
-  a.innerHTML='<div class="ah"><b>'+n+'</b><span class="ct">'+items.length+' estructuras · '+nf+' con ficha</span><span class="ar">▼</span></div><div class="ab"></div>';
-  const body=a.querySelector(".ab");let built=false;
+  a.innerHTML='<div class="ah"><b>'+n+'</b><span class="ct">'+items.length+' estructuras · '+nf+' con ficha</span><span class="ar">▼</span></div><div class="ab"><div class="abi"></div></div>';
+  const body=a.querySelector(".abi");let built=false;
   const fill=()=>{if(built)return;built=true;const fr=document.createDocumentFragment();items.forEach(x=>{const m=x.m,d=document.createElement("div"),f=ft(m[3]),sd=x.s.has("l")&&x.s.has("r")?" (izq. y der.)":x.s.has("l")?" (izq.)":x.s.has("r")?" (der.)":"";
    d.className="it";d.innerHTML='<div class="nm">'+(m[1]||m[3])+sd+'<small>'+(m[2]||m[3])+'</small></div><span class="tag">'+LN[m[5]]+'</span>'+(m[9]&&m[5]=="musculos"?'<span class="tag t'+Math.min(m[9],3)+'">'+IMP[m[9]]+'</span>':"")+(f?"":'<span class="tag nf">sin ficha</span>');
    d.onclick=()=>goTo(m);fr.appendChild(d)});body.appendChild(fr)};
-  a.querySelector(".ah").onclick=()=>{a.classList.toggle("open");fill()};if(q)fill();root.appendChild(a)})}
+  a.querySelector(".ah").onclick=()=>{a.classList.toggle("open");fill()};if(q)fill();root.appendChild(a)});if(!root.children.length)root.innerHTML='<p class="emp">No hay resultados. Prueba con otro nombre o cambia el filtro de capa.</p>'}
 $("sf").oninput=()=>buildStudy();
 hh();
+
+
+let twid=0;function tw(p,t){const id=++twid,p0=cam.position.clone(),t0=ct.target.clone(),s=performance.now();(function f(n){if(id!=twid)return;const k=Math.min(1,(n-s)/550),e=1-Math.pow(1-k,3);cam.position.lerpVectors(p0,p,e);ct.target.lerpVectors(t0,t,e);if(k<1)requestAnimationFrame(f)})(s)}
+ct.addEventListener("start",()=>{twid++});
+const pop=e=>{e.classList.remove("pop");void e.offsetWidth;e.classList.add("pop")};
+const mo=(el,fn)=>new MutationObserver(fn).observe(el,{childList:true,characterData:true,subtree:true});
+mo($("qq"),()=>pop($("qq")));
+mo($("qf"),()=>{const t=$("qf").textContent,z=$("qz");if(t)pop($("qf"));z.classList.toggle("ok",t.startsWith("✅"));z.classList.toggle("bad",t.startsWith("❌"));z.classList.toggle("miss",t.startsWith("Era"));
+ try{if(navigator.vibrate){if(t.startsWith("✅"))navigator.vibrate(18);else if(t.startsWith("❌"))navigator.vibrate([25,40,25])}}catch(e){}});
+mo($("qs"),()=>{$("qbar").style.width=(qn?qok/qn*100:0)+"%"});
 
 setDv(7);upd();
 
