@@ -122,6 +122,10 @@ body.study #bt{display:flex!important;opacity:0;transform:translateY(24px);visib
 #qd .row{margin-top:14px}#qgo{flex:1;height:54px;font-size:16px;font-weight:700;border-radius:18px}#qcl{height:54px;border-radius:18px;padding:0 22px}
 
 html,body{overscroll-behavior:none}body{touch-action:manipulation}canvas{-webkit-touch-callout:none;-webkit-user-select:none;user-select:none}
+
+#vr{display:flex;justify-content:flex-end;order:-1;pointer-events:none!important}
+#vw{pointer-events:auto;width:46px;height:46px;padding:0;border-radius:50%;display:grid;place-items:center;background:var(--pn);-webkit-backdrop-filter:blur(14px);backdrop-filter:blur(14px);border:1px solid var(--bd);box-shadow:0 6px 20px rgba(0,0,0,.28);animation:slideUp .4s cubic-bezier(.2,.8,.2,1)}
+#vw:active{transform:scale(.92) rotate(-40deg)}
 </style></head><body>
 <div class="bgw bgd"></div><div class="bgw bgl"></div>
 <canvas id="c"></canvas>
@@ -167,6 +171,7 @@ html,body{overscroll-behavior:none}body{touch-action:manipulation}canvas{-webkit
 <div class="op">Zona <select id="qrg"></select></div><p id="qcn"></p><div class="row"><button id="qgo" class="on">Empezar</button><button id="qcl">Cancelar</button></div></div></div>
 <div id="ld">Cargando…</div>
 <div id="bt">
+ <div id="vr"><button id="vw" aria-label="Restaurar la vista" title="Restaurar la vista"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 12a9 9 0 1 0 3-6.7"/><path d="M3 4v5h5"/><circle cx="12" cy="12" r="2.2"/></svg></button></div>
  <div id="qz"><div class="qh"><div class="qs"><span id="qs">Quiz · aciertos 0/0</span><div class="qbar"><i id="qbar"></i></div></div><button id="qset" class="ic" aria-label="Ajustes del quiz">⚙</button><button id="qx" class="ic" aria-label="Cerrar el quiz">✕</button></div>
   <p id="qq"></p><div class="qin"><input id="qi" placeholder="Escribe el músculo…" autocomplete="off" autocapitalize="off" autocorrect="off" spellcheck="false" enterkeyhint="send"><button id="qc" class="on">Comprobar</button></div>
   <div class="qact"><button id="qh">💡 Pista</button><button id="qn">Ver respuesta</button></div><p id="qf"></p></div>
@@ -219,7 +224,7 @@ function b2a(s){const b=atob(s),u=new Uint8Array(b.length);for(let i=0;i<b.lengt
 function load(l,k){const q=lo,key=q?l+"-lp":l+"-"+k;if(!A[key])return Promise.resolve();if(parts[key])return parts[key];disp("ld","block");
  return parts[key]=fetch("modelos/"+key+".glb").then(r=>{if(!r.ok)throw new Error(key);return r.arrayBuffer()}).then(tx=>new Promise(res=>ldr.parse(tx,"",g=>{g.scene.traverse(o=>{if(o.isMesh){const n=SAN[o.parent.name]||SAN[o.name]||o.parent.name;o.geometry.computeVertexNormals();o.material=mat(l,n);o.userData={id:n,l,lv:M[n]?M[n].lv:7,lo:q};o.name=n;by[n]=o;meshes.push(o)}});
   g.scene.userData={l,k:q?"a":k,lo:q};root.add(g.scene);if(fit0){fit0=false;fit()}disp("ld","none");vis();res(g.scene)},e=>{console.error(e);disp("ld","none");res()}))).catch(e=>{console.error(e);disp("ld","none")})}
-function fit(){const b=new THREE.Box3().setFromObject(root),c=b.getCenter(new THREE.Vector3()),s=b.getSize(new THREE.Vector3());tw(new THREE.Vector3(c.x,c.y,c.z+Math.max(s.y,s.x)*1.6),c)}
+function fit(){const b=new THREE.Box3().setFromObject(root),c=b.getCenter(new THREE.Vector3()),s=b.getSize(new THREE.Vector3()),H=innerHeight,fr=Math.max(.3,(H-$("top").offsetHeight-panH())/H),vf=cam.fov*Math.PI/180,hf=2*Math.atan(Math.tan(vf/2)*cam.aspect),dy=s.y*.56/Math.tan(Math.atan(Math.tan(vf/2)*fr)),dx=s.x*.56/Math.tan(hf/2);tw(new THREE.Vector3(c.x,c.y,c.z+Math.max(dy,dx,.5)+s.z/2),c)}
 function vis(){root.children.forEach(g=>{const u=g.userData;g.visible=u.lo==lo&&!!on[u.l]&&(u.k=="s"||u.k=="a"||adv||FULL.includes(u.l))});meshes.forEach(m=>{m.visible=m.userData.lo==lo&&(rgSel==null||(M[m.userData.id]||{}).rg==rgSel)&&(!lo||adv||FULL.includes(m.userData.l)||(M[m.userData.id]||{}).md!="x")&&!hid.has(m.userData.id)&&(!iso||m===iso)&&m.userData.lv>=8-dv&&(showM||!MALE.has(m.userData.id))});cntUpd()}
 function need(){return Promise.all(LY.filter(l=>on[l[0]]).flatMap(l=>[load(l[0],"s")].concat(adv||FULL.includes(l[0])?[load(l[0],"x")]:[])))}
 function upd(){need().then(vis);vis();info();LY.forEach(l=>$("b_"+l[0]).classList.toggle("on",!!on[l[0]]))}
@@ -343,6 +348,7 @@ function vst(){vyR=0;const d=vyT-vy;if(Math.abs(d)<.5)vy=vyT;else{vy+=d*.16;vyR=
  if(Math.abs(vy)<.5)cam.clearViewOffset();else cam.setViewOffset(innerWidth,innerHeight,0,Math.round(vy),innerWidth,innerHeight);cam.updateProjectionMatrix()}
 function panH(){const e=[$("pn"),$("qz")].find(x=>x.style.display=="block"&&!x.classList.contains("out"));return e?e.offsetHeight+16:0}
 
+$("vw").onclick=()=>fit();
 setDv(7);upd();
 
 }).catch(e=>{document.body.insertAdjacentHTML("beforeend","<p style='position:fixed;top:40%;left:0;right:0;text-align:center'>No se pudieron cargar los datos. Abre la página desde GitHub Pages o un servidor local, no haciendo doble clic en el archivo.</p>");console.error(e)});</script></body></html>
