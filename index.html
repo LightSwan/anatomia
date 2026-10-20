@@ -194,8 +194,9 @@ html,body{overscroll-behavior:none}body{touch-action:manipulation}canvas{-webkit
 <div id="qd"><div class="card"><h2>Quiz de músculos</h2><p>Se resalta un músculo en naranja y tú dices cuál es.</p>
 <div class="lbl">Tipo de respuesta</div><div class="seg"><button id="qt0" class="on">Escribir</button><button id="qt1">Test (3 opciones)</button></div>
 <div class="lbl">Número de preguntas</div><div class="seg"><button id="qn5">5</button><button id="qn10" class="on">10</button><button id="qn20">20</button><button id="qnA">Todas</button></div>
-<div class="lbl">Músculos</div><div class="seg"><button id="q0">Simple</button><button id="q1">Avanzado</button></div>
-<div class="op">Capas <input id="qdv" type="range" min="1" max="8" step="1"><span id="qdl"></span></div>
+<div class="lbl">Qué estudiar</div><div class="seg"><button id="qc0" class="on">Músculos</button><button id="qc1">Huesos</button></div>
+<div id="qmus"><div class="lbl">Músculos</div><div class="seg"><button id="q0">Simple</button><button id="q1">Avanzado</button></div>
+<div class="op">Capas <input id="qdv" type="range" min="1" max="8" step="1"><span id="qdl"></span></div></div>
 <div class="op">Zona <select id="qrg"></select></div>
 <p id="qcn"></p><div class="row"><button id="qgo" class="on">Empezar</button><button id="qcl">Cancelar</button></div></div></div>
 <div id="ld">Cargando…</div>
@@ -293,27 +294,29 @@ $("bf").onclick=async()=>{const id=sel.userData.id,i=M[id]||{es:id,en:id,la:""},
  try{const s=await claude.use("sample");if(!s){p.textContent="Las fichas con IA solo están disponibles dentro de Claude.";return}
   const r=await s("Eres anatomista y docente. Estructura: "+(i.es||i.en)+" ("+i.la+"; "+i.en+"), sistema: "+LN[sel.userData.l]+". Responde en español, máximo 90 palabras, con exactamente dos apartados breves: «Qué hace:» y «En la vida diaria:» (ejemplos cotidianos concretos). Sin introducción ni avisos.",{modelTier:"quick"});
   cache[fk(id)]=r.text;if(sel&&sel.userData.id==id){p.textContent=r.text;$("bf").style.display="none"}}catch(e){p.textContent="No se pudo generar la ficha ("+(e.code||"error")+")."}};
-const nz=s=>s.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,"").replace(/[^a-z0-9 ]/g," ").replace(/\b(musculo|del|de|la|el|los|las)\b/g," ").replace(/\s+/g," ").trim();
+const nz=s=>s.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,"").replace(/[^a-z0-9 ]/g," ").replace(/\b(musculo|hueso|huesos|del|de|la|el|los|las)\b/g," ").replace(/\s+/g," ").trim();
 function lev(a,b){const d=[...Array(b.length+1).keys()];for(let i=1;i<=a.length;i++){let p=d[0];d[0]=i;for(let j=1;j<=b.length;j++){const t=d[j];d[j]=Math.min(d[j]+1,d[j-1]+1,p+(a[i-1]==b[j-1]?0:1));p=t}}return d[b.length]}
-const ALT={"G:gas":["gemelos","gemelo"],"G:gmax":["gluteo maximo"],"G:gmin":["gluteo minimo"],"G:recto":["recto abdominal","abdominal recto"],"G:dors":["latisimo del dorso","dorsal","latisimo"],"G:oc":["orbicular del ojo","orbicular de los parpados"],"G:oo":["orbicular de los labios"],"G:bic":["biceps"],"G:tric":["triceps"],"G:ecm":["ecm"],"G:romb":["romboides"],"G:serr":["serrato","serrato mayor"],"G:addm":["aductor magno"],"G:vl":["vasto externo"],"G:vm":["vasto interno"],"G:vi":["crural"],"G:oblext":["oblicuo mayor"],"G:oblint":["oblicuo menor"],"G:pect":["gran pectoral"],"G:zig":["cigomatico"],"G:ilia":["iliaco"],"G:erect":["erector espinal","erector de la columna","sacroespinal"],"G:tfl":["tensor de la fascia lata"],"G:brr":["supinador largo"],"G:intc":["intercostales"],"G:fib":["peroneos","peroneo largo"],"G:pl":["palmar mayor"],"G:fcr":["palmar mayor"],"G:esc":["escaleno","escalenos"],"G:tmaj":["redondo mayor"],"G:ql":["cuadrado lumbar"]}
-let qk=null,qList=[],qIdx=0,qTot=0,qdone=false,qhi=-1,qMode="type",qN=10,qcA=true,qcD=7,qcR=-1,qRes={ok:[],bad:[],skip:[]};
+const ALT={"G:gas":["gemelos","gemelo"],"G:gmax":["gluteo maximo"],"G:gmin":["gluteo minimo"],"G:recto":["recto abdominal","abdominal recto"],"G:dors":["latisimo del dorso","dorsal","latisimo"],"G:oc":["orbicular del ojo","orbicular de los parpados"],"G:oo":["orbicular de los labios"],"G:bic":["biceps"],"G:tric":["triceps"],"G:ecm":["ecm"],"G:romb":["romboides"],"G:serr":["serrato","serrato mayor"],"G:addm":["aductor magno"],"G:vl":["vasto externo"],"G:vm":["vasto interno"],"G:vi":["crural"],"G:oblext":["oblicuo mayor"],"G:oblint":["oblicuo menor"],"G:pect":["gran pectoral"],"G:zig":["cigomatico"],"G:ilia":["iliaco"],"G:erect":["erector espinal","erector de la columna","sacroespinal"],"G:tfl":["tensor de la fascia lata"],"G:brr":["supinador largo"],"G:intc":["intercostales"],"G:fib":["peroneos","peroneo largo"],"G:pl":["palmar mayor"],"G:fcr":["palmar mayor"],"G:esc":["escaleno","escalenos"],"G:tmaj":["redondo mayor"],"G:ql":["cuadrado lumbar"],"G:fro":["frontal"],"G:cerv":["vertebras cervicales","cervicales"],"G:tor":["vertebras toracicas","toracicas","dorsales","vertebras dorsales"],"G:lum":["vertebras lumbares","lumbares"],"G:rib":["costillas","costilla"],"G:frib":["costillas flotantes","flotantes"],"G:atl":["atlas","c1"],"G:axi":["axis","c2"],"G:hip":["coxal","cadera","hueso de la cadera","hueso coxal"],"G:fibu":["fibula","perone"],"G:uln":["ulna","cubito"],"G:pat":["patela","rotula"],"G:tal":["astragalo","talus"],"G:fhand":["falanges","falanges de la mano"],"G:ffoot":["falanges","falanges del pie"],"G:carp":["carpo","huesos del carpo","carpianos"],"G:tars":["tarso","huesos del tarso","tarsianos"],"G:mcarp":["metacarpo","metacarpianos"],"G:mtars":["metatarso","metatarsianos"],"G:zyg":["malar","pomulo","cigomatico"],"G:mand":["mandibula","maxilar inferior"],"G:max":["maxilar","maxilar superior"],"G:occ":["occipital"],"G:ster":["esternon"],"G:oss":["huesecillos","huesecillos del oido","osiculos"]}
+let qk=null,qList=[],qIdx=0,qTot=0,qdone=false,qhi=-1,qMode="type",qN=10,qcA=true,qcD=7,qcR=-1,qRes={ok:[],bad:[],skip:[]},qCat="m",qPrev=null;
 const GM={};Object.keys(FICHAS).forEach(x=>{const a=FICHAS[x].a;if(a)(GM[a]=GM[a]||[]).push(x)});
-const qElig=()=>META.filter(m=>m[5]=="musculos"&&m[9]<=4&&(qcA||m[6]=="s")&&(qcR<0||m[10]==qcR)&&m[8]>=8-qcD);
-const qGroups=()=>{const s=new Set(qElig().map(m=>m[3]));return Object.keys(GM).filter(k=>FICHAS[k].fn&&GM[k].some(x=>s.has(x)))};
+const BONEX=new Set(["G:inc","G:can","G:pre","G:mol","G:ccos","G:clar","G:cnar","G:sin","G:facs"]),qLay=()=>qCat=="h"?"huesos":"musculos";
+const qElig=()=>qCat=="h"?META.filter(m=>m[5]=="huesos"&&(qcR<0||m[10]==qcR)):META.filter(m=>m[5]=="musculos"&&m[9]<=4&&(qcA||m[6]=="s")&&(qcR<0||m[10]==qcR)&&m[8]>=8-qcD);
+const qGroups=()=>{const s=new Set(qElig().map(m=>m[3]));return Object.keys(GM).filter(k=>FICHAS[k].fn&&!(qCat=="h"&&BONEX.has(k))&&GM[k].some(x=>s.has(x)))};
 const MUSG=new Set();META.forEach(m=>{if(m[5]=="musculos"&&m[9]<=4&&FICHAS[m[3]]&&FICHAS[m[3]].a)MUSG.add(FICHAS[m[3]].a)});
-const grpRg=k=>{const m=META.find(x=>x[5]=="musculos"&&GM[k]&&GM[k].includes(x[3]));return m?m[10]:-1};
+const BONG=new Set();META.forEach(m=>{if(m[5]=="huesos"&&FICHAS[m[3]]&&FICHAS[m[3]].a&&!BONEX.has(FICHAS[m[3]].a))BONG.add(FICHAS[m[3]].a)});const POOL=()=>qCat=="h"?BONG:MUSG;
+const grpRg=k=>{const m=META.find(x=>x[5]==qLay()&&GM[k]&&GM[k].includes(x[3]));return m?m[10]:-1};
 const shuf=a=>{for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]]}return a};
 const qok_=(v,k)=>{const a=nz(v);if(!a)return false;return [FICHAS[k].n].concat(ALT[k]||[]).some(t=>{t=nz(t);return a==t||(t.length>=6&&lev(a,t)<=(t.length>=12?2:1))})};
 function qMask(txt,k){const w=new Set([FICHAS[k].n].concat(ALT[k]||[]).flatMap(t=>nz(t).split(" ")).filter(x=>x.length>=4));return txt.split(/(\s+)/).map(t=>w.has(nz(t))?"▒▒▒":t).join("")}
 function qclear(){if(qs){qs.forEach(o=>{if(o.userData.om)o.material=o.userData.om});qs=null;setOp()}}
-async function qShow(k){const el=qElig().filter(m=>GM[k].includes(m[3])).map(m=>m[0]);on.musculos=1;upd();await need();if(k!=qk)return;
+async function qShow(k){const el=qElig().filter(m=>GM[k].includes(m[3])).map(m=>m[0]);on[qLay()]=1;upd();await need();if(k!=qk)return;
  const ms=el.map(i=>by[i]).filter(Boolean);qs=new Set(ms);ms.forEach(o=>{o.userData.om=o.userData.om||o.material;o.material=SEL});setOp();const b=new THREE.Box3();ms.forEach(o=>b.union(new THREE.Box3().setFromObject(o)));if(!b.isEmpty())focus(b)}
-function qOptions(){const g=FICHAS[qk],rg=grpRg(qk),pool=qGroups().filter(k=>k!=qk&&MUSG.has(k)),same=shuf(pool.filter(k=>grpRg(k)==rg)),rest=shuf(pool.filter(k=>grpRg(k)!=rg)),more=shuf([...MUSG].filter(k=>k!=qk&&!pool.includes(k))),names=new Set([g.n]),o=[qk];
+function qOptions(){const g=FICHAS[qk],rg=grpRg(qk),pool=qGroups().filter(k=>k!=qk&&POOL().has(k)),same=shuf(pool.filter(k=>grpRg(k)==rg)),rest=shuf(pool.filter(k=>grpRg(k)!=rg)),more=shuf([...POOL()].filter(k=>k!=qk&&!pool.includes(k))),names=new Set([g.n]),o=[qk];
  for(const k of same.concat(rest,more)){if(o.length>=3)break;const n=FICHAS[k].n;if(!names.has(n)){names.add(n);o.push(k)}}return shuf(o)}
 function qHeader(){$("qs").textContent="Pregunta "+(qIdx+1)+"/"+qTot+" · acertadas "+qRes.ok.length;$("qbar").style.width=((qIdx+(qdone?1:0))/qTot*100)+"%"}
 function qStart(keys){const all=keys||shuf(qGroups());qTot=keys?keys.length:Math.min(qN>0?qN:all.length,all.length);qList=all.slice(0,qTot);qIdx=0;qRes={ok:[],bad:[],skip:[]};$("qz").classList.remove("fin");qShowQ()}
 function qShowQ(){qclear();qk=qList[qIdx];qdone=false;qhi=-1;const z=$("qz");z.classList.remove("ok","bad","miss","done");z.classList.toggle("tst",qMode=="test");
- $("qi").value="";$("qf").textContent="";$("qhint").textContent="";$("qq").textContent="¿Qué músculo está resaltado en naranja? Gira el modelo para verlo desde distintos lados.";pop($("qq"));
+ $("qi").value="";$("qi").placeholder=qCat=="h"?"Escribe el hueso…":"Escribe el músculo…";$("qf").textContent="";$("qhint").textContent="";$("qq").textContent="¿Qué "+(qCat=="h"?"hueso":"músculo")+" está resaltado en naranja? Gira el modelo para verlo desde distintos lados.";pop($("qq"));
  $("qnx").textContent=qIdx==qTot-1?"Ver resultado":"Siguiente →";qHeader();
  const o=$("qopts");o.innerHTML="";if(qMode=="test")qOptions().forEach(k=>{const b=document.createElement("button");b.className="qo";b.textContent=FICHAS[k].n;b.dataset.k=k;b.onclick=()=>qPick(k,b);o.appendChild(b)});
  qShow(qk)}
@@ -330,18 +333,19 @@ function qFinish(){qclear();const z=$("qz");z.classList.remove("ok","bad","miss"
  $("qr1").textContent=ok+"/"+t;$("qr2").textContent=Math.round(ok/t*100)+" % de acierto · "+qRes.bad.length+" fallos · "+qRes.skip.length+" omitidas";
  const rv=[...qRes.bad,...qRes.skip],l=$("qr3");l.innerHTML="";rv.forEach(k=>{const s=document.createElement("span");s.textContent=FICHAS[k].n;l.appendChild(s)});
  $("qr3l").style.display=l.style.display=rv.length?"":"none";$("qrr").style.display=rv.length?"":"none";$("qs").textContent="Resultado";$("qbar").style.width="100%"}
-function qExit(){qa=false;qclear();document.body.classList.remove("q");$("qz").classList.remove("fin");disp("qz","none");vo()}
+function qExit(){if(qPrev){const p=qPrev;qPrev=null;if(qCat=="h"){Object.keys(on).forEach(k=>delete on[k]);Object.assign(on,p.on);setDv(p.dv);upd()}}qa=false;qclear();document.body.classList.remove("q");$("qz").classList.remove("fin");disp("qz","none");vo()}
 function qdUpd(){$("qt0").classList.toggle("on",qMode=="type");$("qt1").classList.toggle("on",qMode=="test");
  [["qn5",5],["qn10",10],["qn20",20],["qnA",0]].forEach(x=>$(x[0]).classList.toggle("on",qN==x[1]));
  $("q0").classList.toggle("on",!qcA);$("q1").classList.toggle("on",qcA);$("qdl").textContent=qcD==8?"Todo el cuerpo":"Paso "+qcD+"/8";
- const n=qGroups().length;$("qcn").textContent=n?"Hay "+n+" músculos con esta configuración"+(qN&&qN<n?"; te preguntaré "+qN+".":"; te preguntaré todos."):"No hay músculos con ficha con esta configuración. Cambia el modo, la zona o la profundidad.";$("qgo").disabled=!n}
+ $("qc0").classList.toggle("on",qCat=="m");$("qc1").classList.toggle("on",qCat=="h");$("qmus").style.display=qCat=="h"?"none":"";const nn=qCat=="h"?"huesos":"músculos",n=qGroups().length;$("qcn").textContent=n?"Hay "+n+" "+nn+" con esta configuración"+(qN&&qN<n?"; te preguntaré "+qN+".":"; te preguntaré todos."):"No hay "+nn+" con ficha con esta configuración. Cambia la zona"+(qCat=="h"?".":", el modo o la profundidad.");$("qgo").disabled=!n}
 function qOpen(){qcA=adv;qcD=dv;qcR=rgSel==null?-1:rgSel;$("qdv").value=qcD;$("qrg").value=qcR;qdUpd();disp("qd","flex")}
 $("qb").onclick=qOpen;$("qset").onclick=qOpen;
+$("qc0").onclick=()=>{qCat="m";qdUpd()};$("qc1").onclick=()=>{qCat="h";qdUpd()};
 $("qt0").onclick=()=>{qMode="type";qdUpd()};$("qt1").onclick=()=>{qMode="test";qdUpd()};
 [["qn5",5],["qn10",10],["qn20",20],["qnA",0]].forEach(x=>$(x[0]).onclick=()=>{qN=x[1];qdUpd()});
 $("q0").onclick=()=>{qcA=false;qdUpd()};$("q1").onclick=()=>{qcA=true;qdUpd()};$("qdv").oninput=e=>{qcD=+e.target.value;qdUpd()};
 $("qcl").onclick=()=>{disp("qd","none")};
-$("qgo").onclick=()=>{disp("qd","none");(qcA?$("m1"):$("m0")).click();setDv(qcD);on.musculos=1;upd();qa=true;pick(null);document.body.classList.add("q");disp("qz","block");vo();qStart()};
+$("qgo").onclick=()=>{disp("qd","none");qPrev={on:{...on},dv:dv};if(qCat=="h"){Object.keys(on).forEach(k=>on[k]=0);on.huesos=1;setDv(8)}else{(qcA?$("m1"):$("m0")).click();setDv(qcD);on.musculos=1}upd();qa=true;pick(null);document.body.classList.add("q");disp("qz","block");vo();qStart()};
 $("qx").onclick=qExit;$("qex").onclick=qExit;$("qrep").onclick=()=>qStart();$("qrr").onclick=()=>qStart(shuf([...qRes.bad,...qRes.skip]));
 $("qc").onclick=qCheck;$("qi").onkeydown=e=>{if(e.key=="Enter")qCheck()};
 $("qn").onclick=()=>{if(qk&&!qdone)qAnswer("bad","miss")};$("qk").onclick=qSkip;$("qnx").onclick=qNextQ;
